@@ -1,0 +1,18 @@
+baseURL = 'http://example.org/'
+languageCode = 'el'
+title = 'PSDMockups'
+paginate = "16"
+paginatePath = ""
+removePathAccents = false
+assetDir = "static"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  orofos = "orofos"
+  promo = "promo"
+  gencat= "gencat"
+  publication_type = "publication_types"
+  author = "authors"
+  layout = ""
+

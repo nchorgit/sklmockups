@@ -1,0 +1,69 @@
+<head> {{ partial "head" . }}</head>
+<body>
+    {{ partial "header" . }}
+    {{ partial "left" . }} 
+    <div class="main">
+        <div class="post">
+            <div class="pimg">{{if isset .Params "image-high" }}<img alt="{{.Title}}" title="{{.Title}}"
+                src="{{ index .Params "image-high" }}"></div>
+        {{ end }}
+        <div class="post-right">
+            <h1 class="title">{{.Title}}</h1>
+            <div class="post-info">
+                <div class="pinfo1"><span class= "picon material-symbols-rounded">cameraswitch</span><span>Όψεις: <b>{{.Content}}</b></span></div>
+                <div class="pinfo2"><img width="24px" src="/media/icons/svg32/ps.svg" alt=""><span>PSD Photoshop 2017 +</span></div>
+            </div>
+            <div class="post-body">{{ partial "post-body" . }}</div>
+            <div class="plabels">
+          {{ if .Params.tags }}{{range .Params.tags}}<a
+                    href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><span class= "picon material-symbols-rounded">sell</span>{{ . }}</a> {{end}}{{end}}
+          {{ if .Params.categories }}{{range .Params.categories}}<a
+                        href="{{ "/categories/" | relLangURL }}{{ . | urlize }}"><span class= "picon material-symbols-rounded"> content_copy </span>{{ . }}</a> {{end}}{{end}}
+                        <a href="{{ .Params.download }}" class="downl"><span class="picon material-symbols-rounded">download</span><span>Download PSD</span></a>
+                    </div>
+        </div>
+        <div class="pimg2bg">
+            <div class="fclose">
+                <div style="
+        width: 40px;
+        height: 4px;
+        background: white;
+        position: absolute;
+        "></div>
+                <div style="
+        width: 4px;
+        height: 40px;
+        background: white;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        "></div>
+            </div>
+            <div class="pimg2">
+                <p class="imgcaption">{{.Title}}</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        $(".pimg2, .fclose").click(function () {
+        $(".pimg2bg").fadeOut();
+        $('.pimg2').animate({
+            top: '-100%'
+        }, '5000', function () {});
+        $(".imgcaption").fadeOut();
+    });
+    
+   
+    $(".pimg").click(function () {
+        $(".pimg2bg").fadeIn();
+        $(".pimg2").animate({
+            top: '50px'
+        }, '5000', function () {});
+        $(".imgcaption").show();
+    });
+    $(".pimg").clone().appendTo(".pimg2");
+    </script>
+</body>
+</html>
