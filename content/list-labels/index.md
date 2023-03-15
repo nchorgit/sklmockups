@@ -1,4 +1,4 @@
 ---
-layout: list-tags
+layout: list-labels
 title: Ετικέτες
 ---

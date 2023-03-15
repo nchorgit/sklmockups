@@ -6,7 +6,15 @@
     {{ partial "left" . }}
     <div class="main">
         <div class="main-top">
-            <div class="mtop-left"><img height="32px" src="/media/icons/svg32/trofima.svg" alt=""><span><b>{{.Title}}</b></span></div>
+            <div class="mtop-left"><span class="material-symbols-rounded" style="
+                background: #343434;
+                height: 48px;
+                width: 48px;
+                text-align: center;
+                line-height: 48px;
+                border-radius: 6px;
+                font-size: 30px;
+            "> sell </span><b>{{.Title}}</b></span></div>
             <div class="mtop-right">
                 <div class="order" style="display: none;"><span>Ταξινόμηση</span><a class="lorder" href="#"></a></div>
                 <div class="view"><span>Προβολή: </span><a class="list" href="#"><img src="/media/icons/svg32/list.svg" alt=""></a><a class="grid" href="#"><img src="/media/icons/svg32/grid.svg" alt=""></a></div>
@@ -14,7 +22,7 @@
            </div>
 <div class="main-in">
                <div class="index-labels">
-               {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+               {{range ($.Site.GetPage "taxonomyTerm" "labels").Pages }}
               
                <a class="mockup" href="{{.Permalink}}">
                 <div class="lilabel">

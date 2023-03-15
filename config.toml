@@ -7,6 +7,7 @@ removePathAccents = false
 assetDir = "static"
 
 [taxonomies]
+  label = "labels"
   tag = "tags"
   category = "categories"
   orofos = "orofos"
