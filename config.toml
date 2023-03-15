@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://sklpsdmockups.onrender.com/'
 languageCode = 'el'
 title = 'PSDMockups'
 paginate = "16"

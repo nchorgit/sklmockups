@@ -63,10 +63,10 @@ a:hover {
 }
 
 .logo-img {
-    padding: 12px;
+    padding: 10px;
     background: #333;
     display: flex;
-    border-radius: 50%;
+    border-radius: 8px;
     zoom: 120%;
 }
 
@@ -237,7 +237,7 @@ button.sbutton {
 }
 
 .main {
-    padding: 130px 30px 0 390px;
+    padding: 130px 30px 30px 390px;
 }
 
 
@@ -253,7 +253,7 @@ button.sbutton {
 
 .index-labels a {
     position: relative;
-    padding: 15px;
+    padding: 10px;
     border-radius: 8px;
     background: #222;
     flex-basis: 200px;
@@ -352,15 +352,10 @@ a.grid:hover {
     display: flex;
     align-items: center;
     height: 80px;
+    padding: 10px;
 }
 
-.listv .index-labels img {
-    width: auto;
-    height: 80px;
-    border-radius: 8px 0 0 8px;
-    margin-right: 15px;
 
-}
 
 .listv .index-labels a {
     padding: 0;
@@ -396,6 +391,8 @@ a.grid:hover {
 /*POST*/
 .post {
     display: flex;
+    max-width: 1150px;
+    position: relative;
 }
 
 .post-right {
@@ -426,13 +423,13 @@ h1.title {
 }
 
 .pinfo1 {
-    background: #ffc107;
+    background: #e39506;
     display: flex;
     align-items: center;
     gap: 10px;
-    height: 40px;
+    height: 42px;
     padding: 0 15px;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .pinfo1 .picon {
@@ -445,11 +442,12 @@ h1.title {
     display: flex;
     align-items: center;
     gap: 10px;
-    height: 40px;
+    height: 42px;
     padding: 0 15px;
-    border-radius: 6px;
+    border-radius: 4px;
     color: #eee;
-    background: #313169;
+    background: #003c6b;
+    border: 0px solid #064f89;
 }
 
 .p-post {
@@ -470,12 +468,12 @@ h1.title {
     display: flex;
     align-items: center;
     height: 44px;
-    padding: 0 15px;
-    border-radius: 8px;
+    padding: 0 20px;
+    border-radius: 4px;
     background: #333;
     color: #eee;
     gap: 5px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -491,6 +489,10 @@ h1.title {
 a.downl {
     background: green;
     font-weight: bold;
+    border-radius: 30px;
+    padding: 0 25px;
+    position: absolute;
+    right: 30px;
 }
 
 a.downl .picon {
@@ -618,7 +620,7 @@ a.downl .picon {
 }
 a.mockup {
     position: relative;
-    padding: 15px;
+    padding: 10px;
     border-radius: 8px;
     background: #222;
     max-width: 250px;
@@ -645,8 +647,8 @@ h1.p-title {
     align-items: center;
     gap: 10px;
     height: 44px;
-    padding: 0 17px;
-    border-radius: 6px;
+    padding: 0 20px;
+    border-radius: 30px;
     border: 2px solid #333;
 }
 .mtop-left .picon {
@@ -676,27 +678,21 @@ width: 48px;
     display: flex;
     align-items: center;
     height: 80px;
-    padding: 0;
+    padding: 10px;
     max-width: 450px;
-    border: 2px solid #333
+    
 }
-.listv .fimg img {
+.listv .fimg img, .listv .index-labels img {
     width: auto;
     height: 80px;
-    border-radius: 7px 0 0 7px;
-    margin-right: 15px;
+    border-radius: 5px;
+    margin: 0 15px 0 0;
 }
 .listv h1.p-title {
     text-align: left;
     padding: 15px 0;
 }
-.listv .index-labels img {
-    width: auto;
-    height: 80px;
-    border-radius: 8px 0 0 8px;
-   
-    margin: 0 15px 0 0;
-}
+
 /*LISTS GENERATED*/
 p.gnum {
     width: 48px;
