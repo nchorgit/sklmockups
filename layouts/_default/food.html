@@ -1,5 +1,12 @@
 <head> {{ partial "head" . }}
- 
+    <style>
+        a.llink1 {
+            background: black;
+        margin: 0-30px;
+        padding: 15px 26px;
+        border-left: solid 4px orange;
+        }
+    </style>
 </head>
 <body>
     {{ partial "header" . }} 
@@ -21,20 +28,59 @@
             </div>
            </div>
 <div class="main-in">
-               <div class="index-labels">
-               {{range ($.Site.GetPage "taxonomyTerm" "labels").Pages }}
-              
-               <a class="mockup" href="{{.Permalink}}">
-                <div class="lilabel">
-                <p class="env-title">{{.Title}}</p>
-               <p class="gnum">
-                {{ len (where .Pages "Section" "!=" "") }}</p>
-                </div>
-            </a>
-            {{end}}
-        </div>
+    <div class="index-labels">
+    <!--ΣΚΛΑΒΕΝΙΤΗΣ-->
+    
+        {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" "==" "Σκλαβενίτης" }}
+          <a class="mockup" href="{{.Permalink}}">
+            <div class="lilabel">
+              <p class="env-title">{{.Title}}</p>
+              <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+            </div>
+          </a>
+        {{ end }}
+     
+      
+      <!--ΜΑΡΑΤΑ-->
+    
+        {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" "==" "Μαράτα" }}
+          <a class="mockup" href="{{.Permalink}}">
+            <div class="lilabel">
+              <p class="env-title">{{.Title}}</p>
+              <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+            </div>
+          </a>
+        {{ end }}
+      
+   
+      <!--BONORA-->
+    
+        {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" "==" "Bonora" }}
+          <a class="mockup" href="{{.Permalink}}">
+            <div class="lilabel">
+              <p class="env-title">{{.Title}}</p>
+              <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+            </div>
+          </a>
+        {{ end }}
+      
+
+            <!--BUENAS-->
+   
+        {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" "==" "Buenas" }}
+          <a class="mockup" href="{{.Permalink}}">
+            <div class="lilabel">
+              <p class="env-title">{{.Title}}</p>
+              <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+            </div>
+          </a>
+        {{ end }}
+      </div>
+
+
 </div >
 
+    
     </div>
 </body>
 <script>

@@ -6,8 +6,16 @@ paginatePath = ""
 removePathAccents = false
 assetDir = "static"
 
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+
+[params]
+  food = true
+
 [taxonomies]
   label = "labels"
+ 
   tag = "tags"
   category = "categories"
   orofos = "orofos"
@@ -17,3 +25,15 @@ assetDir = "static"
   author = "authors"
   layout = ""
 
+[related]
+  includeNewer = false
+  threshold = 85
+  toLower = false
+
+  [[related.indices]]
+  name = "categories"
+  weight = 50
+
+   [[related.indices]]
+  name = "labels"
+  weight = 45

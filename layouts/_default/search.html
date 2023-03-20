@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    {{ partial "head" . }}
+
+</head>
+
+<body>
+    {{ partial "header" . }}
+    {{ partial "left" . }}
+
+
+    <div class="main">
+
+        
+        <div class="main-top" style="display: none;">
+            <div class="mtop-left">
+
+                <b class="nmoc"> </b> PSD Mockups στην αναζήτηση: <strong><span
+                        class="picon material-symbols-rounded"> sell </span> <span class="skey"></span></strong>
+            </div>
+
+            <div class="mtop-right">
+                <div class="order" style="display: none;"><span>Ταξινόμηση</span><a class="lorder" href="#"></a></div>
+                <div class="view"><span>Προβολή: </span><a class="list" href="#"><img src="/media/icons/svg32/list.svg"
+                            alt=""></a><a class="grid" href="#"><img src="/media/icons/svg32/grid.svg" alt=""></a></div>
+            </div>
+        </div>
+        <div class="mockups-list" id="filter-list" style="visibility: hidden;">
+            {{range .Site.RegularPages}}
+            <a href="{{.Permalink}}" class="mockup">
+
+                    <div class="fimg">{{if isset .Params "image-high" }}<img src="{{ index .Params "image-high" }}">
+                    </div>
+                    {{ end }}
+                    <h1 class="p-title">{{ .Title }}</h1>
+                </a>
+            {{ end }}
+        </ul>
+    </div>
+        <script>
+            $("a.list").click(function () {
+                $(".mockups-list").addClass("listv");
+                $(this).addClass("lpointer");
+                $('a.grid').removeClass('lpointer');
+
+            });
+            $("a.grid").click(function () {
+                $(".mockups-list").removeClass("listv");
+                $(this).addClass("lpointer");
+                $('a.list').removeClass('lpointer');
+
+            });
+            $(".sinput").click(function () {
+                $(".main-top").hide()
+
+            });
+
+
+
+            $('a.grid').addClass('lpointer');
+           
+                // Clear the default value of the input field when user clicks on it
+                $(document).ready(function () {
+                    // Clear the default value of the input field when user clicks on it
+                    $("#filter-input").on("focus", function () {
+                        $(".main-top").hide()
+                        $(this).val("");
+                    });
+
+                    $("#filter-input").on("input", function () {
+                        // Hide the results list until the submit button is pressed
+                        $("#filter-list").css("visibility", "hidden");
+                        $(".main-top").hide()
+                    });
+
+                    $("#filter-input").on("keydown", function (event) {
+                        // If the user presses backspace, clear the input and hide the results
+                        if (event.keyCode === 8) {
+                            $("#filter-input").val("");
+                            $("#filter-list").css("visibility", "hidden");
+                            $(".main-top").hide()
+                        }
+                    });
+
+                    $("#filter-submit").on("click", function () {
+                        $(".main-top").show()
+                        // Get the value of the input field
+                        var filterText = $("#filter-input").val().toLowerCase();
+
+                        // Filter the list items based on the input text
+                        $("a.mockup").filter(function () {
+                            $(this).toggle($(this).text().toLowerCase().indexOf(filterText) > -1);
+                        });
+
+                        // Show the results list
+                        $("#filter-list").css("visibility", "visible");
+                    });
+
+                    $("#filter-input").on("click", function () {
+                        // Clear the input and hide the results when the user clicks on the input field
+                        $("#filter-input").val("");
+                        $("#filter-list").css("visibility", "hidden");
+                    });
+
+                    $("#filter-input").on("keypress", function (event) {
+                        $(".main-top").show()
+                        // If the user presses enter, show the results
+                        if (event.keyCode === 13) {
+                            $("#filter-submit").trigger("click");
+                            return false; // prevent the default action of submitting a form
+                        }
+                      
+                    });
+                });
+               
+                $(document).ready(function () {
+            $("input").keyup(function () {
+                var value = $(this).val();
+                $(".skey").text(value);
+            }).keyup();
+        });
+        $('.nmoc').html($('a.mockup').length);
+        </script>
+<style>
+    .search2 {
+        display: flex;
+    }
+    .search1 {
+        display: none;
+    }
+    .sbutton img {
+    position: relative;
+    top: 1px;
+}
+</style>
+</body>
+</html>
