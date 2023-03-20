@@ -19,7 +19,7 @@
 <div class="search-container" style="display: none;">
     <div class="search-results">
       <div class="search-header">
-        <p class="spar"><span class="num-results nmoc"><b>0</b></span>PSD Mockups στην Αναζήτηση <span class="search-query"></span> <span class="sclose grid material-icons">close</span></p>
+        <p class="spar"><span class="num-results nmoc"><b>0</b></span>PSD Mockups στην Αναζήτηση <span class="search-query"><img src="/media/icons/mglass.svg" alt=""> </span> <span class="sclose grid material-icons">close</span></p>
       </div></div>
      <ul class="search-list">
       {{range .Site.RegularPages}}
@@ -71,7 +71,7 @@
         clearTimeout(searchTimeout);
       }
     
-      if (searchInput.value.length >= 2) {
+      if (searchInput.value.length >= 3) {
         searchTimeout = setTimeout(() => {
           searchContainer.style.display = '';
           searchList.style.display = '';
@@ -142,7 +142,7 @@ ul.search-list {
     
     min-height: 0;
     max-height: 735px;
-    overflow: auto;
+    overflow-y: auto;
 }
 .search-list li {
     display: block;
@@ -184,8 +184,10 @@ span.search-query {
     gap: 10px;
     height: 44px;
     padding: 0 20px;
-    border-radius: 30px;
-    border: 2px solid #333;
+    border-radius: 0px;
+    border-left: 2px solid #333;
+    font-size: 24px;
+    font-weight: bold;
 }
 .search-results {
     position: relative;

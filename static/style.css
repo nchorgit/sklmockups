@@ -32,6 +32,32 @@
     font-weight: 700;
     font-style: normal;
 }
+
+ 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 20px; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #333; 
+    border-radius: 20px;
+    transition: all .3s;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #444; 
+    border-radius: 20px;
+    transition: all .3s;
+  }
 .form-control:focus, .form-control:active {
     background: transparent;
 }
@@ -40,6 +66,7 @@ body {
     font-family: csans;
     background: #000;
     zoom: 85%;
+    overflow-y: overlay;
 
 }
 title {
