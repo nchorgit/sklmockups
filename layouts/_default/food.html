@@ -28,7 +28,7 @@
             </div>
            </div>
 <div class="main-in">
-  <div class="index-labels">
+  <!--div class="index-labels">
     {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" "in" (slice "Σκλαβενίτης" "Bonora" "Barron") }}
       <a class="mockup" href="{{.Permalink}}">
         <div class="lilabel">
@@ -37,8 +37,123 @@
         </div>
       </a>
     {{ end }}
+  </div-->
+  <div class="index-labels">
+    {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Σκλαβενίτης") }}
+      <a class="mockup" href="{{.Permalink}}">
+        <div class="lilabel">
+          <p class="env-title">{{.Title}}</p>
+          <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+        </div>
+      </a>
+    {{ end }}
+
+
+    {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Μαράτα") }}
+      <a class="mockup" href="{{.Permalink}}">
+        <div class="lilabel">
+          <p class="env-title">{{.Title}}</p>
+          <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+        </div>
+      </a>
+    {{ end }}
+
+
+    {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Bonora") }}
+      <a class="mockup" href="{{.Permalink}}">
+        <div class="lilabel">
+          <p class="env-title">{{.Title}}</p>
+          <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+        </div>
+      </a>
+    {{ end }}
+
+    {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Buenas") }}
+    <a class="mockup" href="{{.Permalink}}">
+      <div class="lilabel">
+        <p class="env-title">{{.Title}}</p>
+        <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+      </div>
+    </a>
+  {{ end }}
+
+
+
+  {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Πιέστο") }}
+    <a class="mockup" href="{{.Permalink}}">
+      <div class="lilabel">
+        <p class="env-title">{{.Title}}</p>
+        <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+      </div>
+    </a>
+  {{ end }}
+
+
+
+  {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Ανθέλα") }}
+    <a class="mockup" href="{{.Permalink}}">
+      <div class="lilabel">
+        <p class="env-title">{{.Title}}</p>
+        <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+      </div>
+    </a>
+  {{ end }}
+
+
+
+  {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Toni") }}
+    <a class="mockup" href="{{.Permalink}}">
+      <div class="lilabel">
+        <p class="env-title">{{.Title}}</p>
+        <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+      </div>
+    </a>
+  {{ end }}
+
+
+
+  {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Fisherman's Boat") }}
+    <a class="mockup" href="{{.Permalink}}">
+      <div class="lilabel">
+        <p class="env-title">{{.Title}}</p>
+        <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+      </div>
+    </a>
+  {{ end }}
+
+
+
+  {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Baker Master") }}
+    <a class="mockup" href="{{.Permalink}}">
+      <div class="lilabel">
+        <p class="env-title">{{.Title}}</p>
+        <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+      </div>
+    </a>
+  {{ end }}
+
+
+
+  {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Meat House") }}
+    <a class="mockup" href="{{.Permalink}}">
+      <div class="lilabel">
+        <p class="env-title">{{.Title}}</p>
+        <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+      </div>
+    </a>
+  {{ end }}
+
+
+
+  {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Ρόμβος") }}
+    <a class="mockup" href="{{.Permalink}}">
+      <div class="lilabel">
+        <p class="env-title">{{.Title}}</p>
+        <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+      </div>
+    </a>
+  {{ end }}
   </div>
-  
       </div>
 
 
