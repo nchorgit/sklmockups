@@ -3,21 +3,13 @@
 {{ with $related }}
 <div class="related">
     <div class="main-top">
-        <div class="mtop-left"><span class="material-symbols-rounded" style="
-            background: #343434;
-            height: 48px;
-            width: 48px;
-            text-align: center;
-            line-height: 48px;
-            border-radius: 6px;
-            font-size: 30px;
-        "> sell </span><b>Δείτε ακόμα</b></span></div>
+        <div class="mtop-left"><span class="mtop-left-span material-symbols-rounded"> sell </span><b>Δείτε ακόμα</b></span></div>
         <div class="mtop-right">
             <div class="order" style="display: none;"><span>Ταξινόμηση</span><a class="lorder" href="#"></a></div>
             <div class="view"><span>Προβολή: </span><a class="list" href="#"><img src="/media/icons/svg32/list.svg" alt=""></a><a class="grid" href="#"><img src="/media/icons/svg32/grid.svg" alt=""></a></div>
         </div>
        </div>
-    <div class="mockups-list">
+    <div class="list-related">
     	
     	{{ range . }}
     	
@@ -44,7 +36,7 @@
     height: 2px;
     background: #222;
     border-radius: 10px;
-    margin: 30px 0 30px 0;
+    margin: 20px 0 30px 0;
 }
 .mockups-list.listv {
     margin: 0 auto;
@@ -62,16 +54,34 @@
     flex-basis: 400px;
     flex-grow: 1;
 }
+.main-top {
+    display: flex;
+    justify-content: space-between;
+    margin: -10px 0 0px;
+}
+.list-related {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 15px;
+    margin-top: -10px;
+}
+span.mtop-left-span.material-symbols-rounded {
+    height: 48px;
+    line-height: 48px;
+    width: 48px;
+    background: #373636;
+    text-align: center;
+    border-radius: 6px;
+}
 </style>
 <script>
     $("a.list").click(function () {
-       $(".mockups-list").addClass("listv");
+       $(".list-related").addClass("listv");
        $(this).addClass("lpointer");
        $('a.grid').removeClass('lpointer');
 
    });
    $("a.grid").click(function () {
-       $(".mockups-list").removeClass("listv");
+       $(".list-related").removeClass("listv");
        $(this).addClass("lpointer");
        $('a.list').removeClass('lpointer');
 
