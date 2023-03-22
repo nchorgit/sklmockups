@@ -110,7 +110,12 @@ a:hover {
     width: 30px;
     height: 30px;
 }
-
+.logo-text {
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -1px;
+      color: #888;
+    }
 ul.left-top {
     list-style-type: none;
     margin: 50px 0;
@@ -528,7 +533,7 @@ a.downl .picon {
     border-radius: 6px;
     margin-bottom: 0px;
     background: unset;
-    max-width: 750px;
+    max-width: 75vh;
     margin: 0 auto;
 }
 
@@ -627,6 +632,7 @@ a.downl .picon {
 .index-labels {
     gap: 30px;
     grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    margin-top: 19px;
 }
 
 .mockups-list {
@@ -710,7 +716,7 @@ h1.p-title {
     display: flex;
     align-items: center;
     height: 80px;
-    padding: 10px;
+    padding: 10px 8px;
     max-width: unset;
 }
 .listv .fimg img {
@@ -741,6 +747,7 @@ border: solid 1.5px #333;
 .listv .index-labels a {
     border-radius: 8px;
     background: #222;
+    padding: 10px;
 }
 
 .listv .index-labels a:hover {
@@ -753,8 +760,7 @@ border: solid 1.5px #333;
 }
 
 .listv .index-labels {
-    margin: 0 auto;
-    margin-top: 0px;
+    margin: 19px auto;
     display: grid;
     flex-wrap: wrap;
     gap: 15px;
@@ -792,4 +798,77 @@ p.gnum {
         zoom: 130%;
    
 }
+}
+@media screen and (max-width: 1500px) {
+    .left-side {
+        width: 30px;
+        padding: 15px 30px
+    }
+    .logo-text {
+        display: none;
+    }
+    .logo {
+        justify-content: center;
+    }
+    a.llink1 span:nth-child(2) {
+        display: none;
+    }
+    a.llink2 span:nth-child(2) {
+        display: none;
+    }
+    a.llink3 span:nth-child(2) {
+        display: none;
+    }
+    a.llink4 span:nth-child(2) {
+        display: none;
+    }
+    ul.left-top {
+        margin: 50px 0;
+    }
+    .left-center {
+        display: grid;
+        justify-content: center;
+    }
+    .left-center a span:nth-child(2) {
+        display: none;
+    }
+    .left-bottom {
+        display: none;
+    }
+    .search {
+        left: 80px;
+    }
+    .main {
+        padding: 110px 30px 30px 110px;
+    }
+    .index-labels {
+        margin-top: 4px;
+    }
+    
+
+.listv .index-labels {
+    margin-top: 0;
+}
+    .search-container {
+        left: 110px;
+    }
+    ul.left-top a, .left-center a {
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .sbef {
+        display: none;
+    }
+    .search {
+        max-width: 50%;
+    }
+    .post {
+        display: block;
+    }
+}
+@media screen and (max-width: 1090px) {
+    .search {
+        max-width: 40%;
+    }
 }

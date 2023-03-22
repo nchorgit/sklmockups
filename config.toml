@@ -1,6 +1,6 @@
 baseURL = 'https://sklpsdmockups.onrender.com/'
 languageCode = 'el'
-title = 'PSDMockups'
+title = 'Home'
 paginate = "16"
 paginatePath = ""
 removePathAccents = false
