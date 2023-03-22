@@ -8,7 +8,11 @@
     <button class="sbutton" id="filter-submit" type="button"><img src="/media/icons/mglass.svg" alt=""></button>
   </div>
   <div class="top-right-menu">
-
+    <div>
+      <button class="plus"></button>
+      <button class="minus"></button>
+      <button class="reset"></button>
+    </div>
     <!--a href="#"><img style="margin-right:10px" width="32px" src="/media/icons/svg32/onedrive.svg" alt=""><span> OneDrive</span></a-->
     <a href="#"><img style="margin-right:10px" width="24px" src="/media/icons/svg32/help.svg"
         alt=""><span>Βοήθεια</span></a>
@@ -21,8 +25,9 @@
 <div class="search-container" style="display: none;">
   <div class="search-results">
     <div class="search-header">
-      <p class="spar"><span class="num-results nmoc"><b>0</b></span>PSD Mockups στην Αναζήτηση <span
-          class="search-query"><img src="/media/icons/mglass.svg" alt=""> </span> <span
+      <p class="spar"><span class="num-results nmoc"><b>0</b></span>PSD Mockups στην Αναζήτηση 
+        <span class="smglass"><img width="24px" src="/media/icons/mglass.svg" alt=""><span class="search-query"> </span> </span>
+        <span
           class="sclose grid material-icons">close</span></p>
     </div>
   </div>
@@ -124,7 +129,41 @@
       /*.replace(/[^\w\s]/gi, " ")*/
     );
   });
-</script>
+
+  
+  let zoomLevels = [1, 0.9, 0.8, 0.75];
+		let currentZoomLevel = 0;
+		
+		function zoomIn() {
+			currentZoomLevel = Math.min(currentZoomLevel + 1, zoomLevels.length - 1);
+			setZoom(zoomLevels[currentZoomLevel]);
+		}
+		
+		function zoomOut() {
+			currentZoomLevel = Math.max(currentZoomLevel - 1, 0);
+			setZoom(zoomLevels[currentZoomLevel]);
+		}
+		
+		function resetZoom() {
+			currentZoomLevel = 0;
+			setZoom(zoomLevels[currentZoomLevel]);
+		}
+		
+		function setZoom(zoomLevel) {
+			document.body.style.zoom = zoomLevel;
+		}
+		
+		document.querySelector(".plus").addEventListener("click", zoomIn);
+		document.querySelector(".minus").addEventListener("click", zoomOut);
+		document.querySelector(".reset").addEventListener("click", resetZoom);
+	</script>
+
+
+
+
+
+
+
 
 <style>
   /*.search-container {
@@ -224,10 +263,10 @@ span.sclose:hover {
     z-index: 20;
     top: 50;
     background: #111;
-    border: 2px solid #333;
+    border: 0px solid #333;
     left: 390px;
     right: 30px;
-    top: 120px;
+    top: 110px;
     border-radius: 8px;
     padding: 0 0px;
     filter: drop-shadow(2px 10px 20px black)
@@ -238,7 +277,7 @@ span.sclose:hover {
     display: grid;
     padding: 0;
     min-height: 0;
-    max-height:63vh;
+    max-height:57.5vh;
     overflow-y: auto
   }
 
@@ -259,7 +298,7 @@ span.sclose:hover {
     padding: 10px;
     background: #1e1e1e;
     border-radius: 6px;
-    margin: 15px 15px 0;
+    margin: 15px 20px 0;
     font-size: 20px;
     text-transform: capitalize
   }
@@ -283,18 +322,18 @@ span.sclose:hover {
     margin: 10px 0;
   }
 
-  span.search-query {
+  .smglass {
     display: flex;
     align-items: center;
     gap: 10px;
     height: 44px;
     padding: 0 20px;
-    border-radius: 0;
-    border-left: 2px solid #333;
+    border-radius: 30px;
+    border: 2px solid #333;
     font-size: 24px;
     font-weight: 700
   }
-
+  
   .search-results {
     position: relative;
     top: 0;
@@ -319,5 +358,13 @@ span.sclose:hover {
   span.sclose:hover {
     background: #aa0101;
     transition: all .3s
+  }
+
+  @media screen and (min-width: 1925px) {
+    ul.search-list {
+ 
+  max-height: 61.0vh;
+  
+}
   }
 </style>

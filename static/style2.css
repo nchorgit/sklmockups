@@ -65,7 +65,7 @@ body {
     margin: 0 auto;
     font-family: csans;
     background: #000;
-    zoom: 100%;
+    
     overflow-y: overlay;
 
 }
@@ -83,7 +83,7 @@ a:hover {
     padding: 30px;
     position: fixed;
     height: 100%;
-    width: 300px;
+    width: 200px;
     z-index: 3;
     top: 0;
 }
@@ -100,7 +100,7 @@ a:hover {
     background: #333;
     display: flex;
     border-radius: 8px;
-    zoom: 120%;
+    zoom: 100%;
 }
 
 .logo img {
@@ -123,7 +123,7 @@ ul.left-top a,
     align-items: center;
     gap: 20px;
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 16px;
     opacity: .8;
     font-weight: 700;
 
@@ -157,7 +157,7 @@ ul.left-top a:hover {
 }
 
 .material-symbols-rounded {
-    font-size: 34px;
+    font-size: 28px;
     color: #888;
 }
 
@@ -168,7 +168,7 @@ ul.left-top a:hover {
 
 .top-menu {
     background: #1e1e1e;
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
     position: fixed;
@@ -184,7 +184,7 @@ ul.left-top a:hover {
     align-items: center;
     padding: 0 15px;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: -.3px;
     flex: 1;
     position: relative;
@@ -243,7 +243,7 @@ button.sbutton {
 
 .top-right-menu a {
     color: #eee;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -261,7 +261,7 @@ button.sbutton {
     text-align: center;
     line-height: 50px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 50px;
     padding: 0 30px;
     letter-spacing: -.6px;
@@ -286,8 +286,8 @@ button.sbutton {
     margin-top: 0px;
     display: grid;
     flex-wrap: wrap;
-    gap: 45.5px;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
 }
 
 .index-labels a {
@@ -306,7 +306,7 @@ button.sbutton {
 
 p.env-title {
     color: #ddd;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     padding: 15px;
     margin: 0;
@@ -334,7 +334,7 @@ p.pcat {
 }
 
 .mtop-left {
-    font-size: 24px;
+    font-size: 20px;
     color: #ccc;
     margin-bottom: 30px;
     display: flex;
@@ -355,7 +355,7 @@ p.pcat {
 .order,
 .view {
     color: #eee;
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -369,7 +369,7 @@ a.grid {
     opacity: .7;
     background: #4e4d4d;
     padding: 4px;
-    border-radius: 6px;
+    border-radius: 4px;
     display: flex;
 }
 
@@ -379,7 +379,7 @@ a.grid:hover {
 }
 
 .mtop-right img {
-    width: 40px;
+    width: 30px;
 }
 
 .main-line {
@@ -394,7 +394,7 @@ a.grid:hover {
 .listv .lilabel {
     display: flex;
     align-items: center;
-    height: 80px;
+    height: 60px;
     padding: 10px;
 }
 
@@ -402,7 +402,7 @@ a.grid:hover {
 
 .listv .index-labels a {
     padding: 0;
-    border-radius: 8px;
+    border-radius: 6px;
     background: #222;
 }
 
@@ -444,7 +444,7 @@ a.grid:hover {
 }
 
 .pimg {
-    max-width: 350px;
+   width: 300px;
     margin-right: 35px;
     cursor: pointer;
 }
@@ -452,7 +452,7 @@ a.grid:hover {
 .pimg img {
     width: 100%;
     height: auto;
-    border-radius: 12px;
+    border-radius: 9px;
     border: 4px solid #3f3f3f;
 }
 
@@ -473,14 +473,14 @@ h1.title {
     display: flex;
     align-items: center;
     gap: 10px;
-    height: 42px;
+    height: 38px;
     padding: 0 15px;
-    border-radius: 6px;
+    border-radius: 4px;
     color: #eee;
 }
 
 .pinfo1 .picon {
-    font-size: 24px;
+    font-size: 20px;
     color: #eee;
 }
 
@@ -489,9 +489,9 @@ h1.title {
     display: flex;
     align-items: center;
     gap: 10px;
-    height: 42px;
+    height: 38px;
     padding: 0 15px;
-    border-radius: 6px;
+    border-radius: 4px;
     color: #eee;
     background: #003c6b;
     border: 0px solid #064f89;
@@ -499,9 +499,9 @@ h1.title {
 
 .p-post {
     color: #eee;
-    font-size: 20px;
-    line-height: 28px;
-    max-width: 1150px;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 1000px;
 }
 .p-title {
     text-transform: capitalize;
@@ -515,13 +515,13 @@ h1.title {
 .plabels a {
     display: flex;
     align-items: center;
-    height: 44px;
+    height: 38px;
     padding: 0 25px;
     border-radius: 30px;
     border: 2px solid #333;
     color: #eee;
     gap: 5px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -530,7 +530,7 @@ h1.title {
 }
 
 .plabels a .picon {
-    font-size: 24px;
+    font-size: 22px;
     color: #888;
 }
 
@@ -541,7 +541,7 @@ a.downl {
     padding: 0 25px;
    
     border: 0;
-    height: 46px;
+    height: 40px;
 }
 a.downl:hover { 
     
@@ -549,7 +549,7 @@ a.downl:hover {
 }
 
 a.downl .picon {
-    font-size: 24px;
+    font-size: 22px;
     color: #eee;
 }
 
@@ -668,15 +668,15 @@ a.downl .picon {
     margin-top: 0px;
     display: grid;
     flex-wrap: wrap;
-    gap: 45.5px;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
 }
 a.mockup {
     position: relative;
     padding: 0px;
     border-radius: 8px;
     background: #111;
-    max-width: 250px;
+    
     border: 2px solid #333;
 }
 a.mockup:hover {
@@ -690,7 +690,7 @@ a.mockup:hover {
 }
 h1.p-title {
     color: #ddd;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     padding: 15px;
     margin: 0;
@@ -700,7 +700,7 @@ h1.p-title {
     display: flex;
     align-items: center;
     gap: 10px;
-    height: 44px;
+    height: 38px;
     padding: 0 20px;
     border-radius: 30px;
     border: 2px solid #333;
@@ -708,15 +708,15 @@ h1.p-title {
 .mtop-left .picon {
   
  
-    font-size: 30px;
+    font-size: 24px;
 }
 .nmoc {
-width: 48px;
-    height: 48px;
+width: 38px;
+    height: 38px;
     padding: 0;
     background: #8e2222;
     text-align: center;
-    line-height: 48px;
+    line-height: 38px;
     color: #eee;
     border-radius: 50%;
 }
@@ -731,15 +731,15 @@ width: 48px;
 .listv a.mockup {
     display: flex;
     align-items: center;
-    height: 80px;
+    height: 60px;
     padding: 10px;
     max-width: unset;
     
 }
 .listv .fimg img, .listv .index-labels img {
     width: auto;
-    height: 80px;
-    border-radius: 5px;
+    height: 60px;
+    border-radius: 4px;
     margin: 0 15px 0 0;
 }
 .listv h1.p-title {
@@ -754,10 +754,10 @@ p.gnum {
     padding: 0;
     background: #333;
     text-align: center;
-    line-height: 48px;
+    line-height: 38px;
     color: #eee;
     border-radius: 50%;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     position: absolute;
     top: -30px;
