@@ -86,7 +86,7 @@ a:hover {
     padding: 30px;
     position: fixed;
     height: 100%;
-    width: 215px;
+    width: 230px;
     z-index: 3;
     top: 0;
 }
@@ -195,7 +195,7 @@ ul.left-top a:hover {
     flex: 1;
     position: relative;
     max-width: 700px;
-    left: 275px;
+    left: 290px;
     border: 2px solid #444;
 }
 
@@ -282,7 +282,7 @@ button.sbutton {
 }
 
 .main {
-    padding: 110px 30px 30px 305px;
+    padding: 110px 30px 30px 320px;
 }
 
 
