@@ -1,0 +1,6 @@
+source: public/mockups
+exclude_selectors:
+  - ".post-info"
+  - ".post-body"
+  - ".plabels"
+  - ".related"

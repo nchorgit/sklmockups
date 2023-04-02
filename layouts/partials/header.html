@@ -1,12 +1,20 @@
 <div class="top-menu">
 
-
-
   <div class="search">
     <div class="sbef">Mockup:</div>
     <input autocomplete="off" class="sinput" id="filter-input" type="text" value="Αναζήτηση" />
     <button class="sbutton" id="filter-submit" type="button"><img src="/media/icons/mglass.svg" alt=""></button>
   </div>
+
+  <!--link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+  
+  <div id="search" style="margin-left: 300px;"></div>
+  <script>
+      window.addEventListener('DOMContentLoaded', (event) => {
+          new PagefindUI({ element: "#search" });
+      });
+  </script-->
   <div class="top-right-menu">
     <div>
      
@@ -58,7 +66,7 @@
 
     <li>
       <a href="{{.Permalink}}" class="smockup">
-        {{if isset .Params "image-high" }}<img src="{{ index .Params "image-high" }}" class="sfimg" alt="">
+        {{if isset .Params "image-low" }}<img src="{{ index .Params "image-low" }}" class="sfimg" alt="">
         {{ end }}
         <span class="stitle">{{ .Title }}<span style="display: none;">{{.File.LogicalName}}</span><span class="smeta"
             style="display: none;">{{ .Title }}</span></span>
@@ -311,7 +319,7 @@ span.sclose:hover {
     display: grid;
     padding: 0;
     min-height: 0;
-    max-height:79vh;
+    max-height:67vh;
     overflow-y: auto
   }
 

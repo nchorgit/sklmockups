@@ -1,7 +1,9 @@
+<html>
 <head> {{ partial "head" . }}</head>
 <body>
     {{ partial "header" . }}
     {{ partial "left" . }} 
+   
     <div class="main">
         <div class="post">
             <div class="pimg">{{if isset .Params "image-high" }}<img alt="{{.Title}}" title="{{.Title}}"
@@ -9,7 +11,7 @@
         {{ end }}
         <div class="post-right">
             <h1 class="title">{{.Title}}</h1>
-            <div class="post-info">
+            <div data-pagefind-ignore="all" class="post-info">
                 <div class="pinfo1"><span class= "picon material-symbols-rounded">cameraswitch</span><span>Όψεις: <b>{{.Content}}</b></span></div>
                 <div class="pinfo2"><img width="24px" src="/media/icons/svg32/ps.svg" alt=""><span>PSD Photoshop 2017 +</span></div>
             </div>
@@ -49,7 +51,7 @@
     <div class="main-line"></div>
     {{ partial "related" . }}
     </div>
-    
+
     <script>
         $(".pimg2, .fclose").click(function () {
         $(".pimg2bg").fadeOut();
