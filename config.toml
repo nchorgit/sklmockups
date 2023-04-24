@@ -37,3 +37,4 @@ assetDir = "static"
    [[related.indices]]
   name = "labels"
   weight = 45
+

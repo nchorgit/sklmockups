@@ -482,7 +482,9 @@ h1.title {
     font-size: 18px;
     font-weight: 700;
 }
-
+.plabels a:last-child {
+    display: none;
+}
 .plabels a:hover {
     background: #333;
 }
