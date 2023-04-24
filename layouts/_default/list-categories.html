@@ -1,0 +1,126 @@
+<head> {{ partial "head" . }}
+ 
+</head>
+<body>
+    {{ partial "header" . }} 
+    {{ partial "left" . }}
+    <div class="main">
+        <div class="main-top">
+            <div class="mtop-left"><span class="mtop-left-span material-symbols-rounded">content_copy  </span><b>{{.Title}}</b></span></div>
+            <div class="mtop-right">
+                <div class="order" style="display: none;"><span>Ταξινόμηση</span><a class="lorder" href="#"></a></div>
+                <div class="view"><span>Προβολή: </span><a class="list" href="#"><img src="/media/icons/svg32/list.svg" alt=""></a><a class="grid" href="#"><img src="/media/icons/svg32/grid.svg" alt=""></a></div>
+            </div>
+           </div>
+<div class="main-in">
+               <div class="index-labels">
+               {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+              
+               <a class="mockup" href="{{.Permalink}}">
+                <div class="lilabel">
+                <p class="env-title">{{.Title}}</p>
+               <p class="gnum">
+                {{ len (where .Pages "Section" "!=" "") }}</p>
+                </div>
+            </a>
+            {{end}}
+        </div>
+</div >
+
+    </div>
+</body>
+<script>
+
+$('a:contains("Αλεύρι")').prepend('<img class=fimg" src="/media/images/high/marata-alevri-1kg.jpg">');
+$('a:contains("Αλλαντικά")').prepend('<img class=fimg" src="/media/images/high/buenas-galopoula-edam-360g.jpg">');
+$('a:contains("Αποξηραμένα Φρούτα")').prepend('<img class=fimg" src="/media/images/high/marata-apokriramena-frouta-sakoula-250g.jpg">');
+$('a:contains("Απορρυπαντικά Ρούχων")').prepend('<img class=fimg" src="/media/images/high/drolio-ygro-aporrypantiko-rouxwn-44-mezoures.jpg">');
+$('a:contains("Αρτοσκευάσματα")').prepend('<img class=fimg" src="/media/images/high/marata-psomi-starenio-tost-340g.jpg">');
+$('a:contains("Αφεψήματα")').prepend('<img class=fimg" src="/media/images/high/sklavenitis-afepshmata-15-25g.jpg">');
+$('a:contains("Αφρόλουτρα")').prepend('<img class=fimg" src="/media/images/high/sette-afroloutro-500ml.jpg">');
+$('a:contains("Βαμβάκι")').prepend('<img class=fimg" src="/media/images/high/sette-bambaki-emprosthia-opsh-100-&-200g.jpg">');
+$('a:contains("Γάλατα")').prepend('<img class=fimg" src="/media/images/high/marata-fresko-gala-kai-makras-diarkeias-front-1l.jpg">');
+$('a:contains("Γιαούρτια")').prepend('<img class=fimg" src="/media/images/high/marata-giaourti-1x200g.jpg">');
+$('a:contains("Γκοφρέτες")').prepend('<img class=fimg" src="/media/images/high/bonora-gkofreta-33g.jpg">');
+$('a:contains("Γλυκά")').prepend('<img class=fimg" src="/media/images/high/baker-master-glyka-front.jpg">');
+$('a:contains("Δημητριακά")').prepend('<img class=fimg" src="/media/images/high/bonora-dimitriaka-375g-size-1-mockup.jpg">');
+$('a:contains("Είδη Γραφείου")').prepend('<img class=fimg" src="/media/images/high/stampa-syndethres-kai-loipa.jpg">');
+$('a:contains("Έιδη Ψησίματος")').prepend('<img class=fimg" src="/media/images/high/frogo-skevos-d19.jpg">');
+$('a:contains("Έτοιμα Φαγητά")').prepend('<img class=fimg" src="/media/images/high/sklavenitis-etoima-faghta-front.jpg">');
+$('a:contains("Ζυμαρικά")').prepend('<img class=fimg" src="/media/images/high/marata-tortelini-250g.jpg">');
+$('a:contains("Ζύμες")').prepend('<img class=fimg" src="/media/images/high/baker-master-zymes.jpg">');
+$('a:contains("Θυμιάματα")').prepend('<img class=fimg" src="/media/images/high/sklavenitis-thimiamata.jpg">');
+$('a:contains("Καθαριστικά")').prepend('<img class=fimg" src="/media/images/high/drolio-katharistiko-gia-oles-tis-epifaneies-1l.jpg">');
+$('a:contains("Κακάο")').prepend('<img class=fimg" src="/media/images/high/bonora-kakao-125g.jpg">');
+$('a:contains("Καφέδες")').prepend('<img class=fimg" src="/media/images/high/bonora-kapsoules-espresso-53g.jpg">');
+$('a:contains("Κλιπ")').prepend('<img class=fimg" src="/media/images/high/stampa-klip-metallika-19mm-40tem.jpg">');
+$('a:contains("Κουραμπιέδες")').prepend('<img class=fimg" src="/media/images/high/sklavenitis-kourampiedes-330g.jpg">');
+$('a:contains("Κρέας")').prepend('<img class=fimg" src="/media/images/high/sklavenitis-fresko-kreas-mosxou.jpg">');
+$('a:contains("Κρέμες Γάλακτος")').prepend('<img class=fimg" src="/media/images/high/marata-krema-galaktos-front-500g.jpg">');
+$('a:contains("Κρεμοσάπουνα")').prepend('<img class=fimg" src="/media/images/high/sette-kremosapouno-1000ml.jpg">');
+$('a:contains("Κριτσίνια")').prepend('<img class=fimg" src="/media/images/high/marata-kritsinia-sitou-me-iliosporo-front-400g.jpg">');
+$('a:contains("Κρουασάν")').prepend('<img class=fimg" src="/media/images/high/marata-krouasan-front-85g.jpg">');
+$('a:contains("Κρουασανάκια")').prepend('<img class=fimg" src="/media/images/high/baker-master-krouasanakia-288g.jpg">');
+$('a:contains("Λάδια")').prepend('<img class=fimg" src="/media/images/high/marata-elaiolado-1l.jpg">');
+$('a:contains("Λαχανικά")').prepend('<img class=fimg" src="/media/images/high/marata-fasolakia-1kg.jpg">');
+$('a:contains("Λουκάνικα")').prepend('<img class=fimg" src="/media/images/high/marata-loukanika-360g.jpg">');
+$('a:contains("Μαλακτικά Ρούχων")').prepend('<img class=fimg" src="/media/images/high/drolio-ygro-malaktiko-rouxwn-sympyknwmeno-1400ml.jpg">');
+$('a:contains("Μαρκαδόροι")').prepend('<img class=fimg" src="/media/images/high/stampa-markadoroi-ypogrammishs-4tem.jpg">');
+$('a:contains("Μαρμελάδες")').prepend('<img class=fimg" src="/media/images/high/bonora-marmelada-450g.jpg">');
+$('a:contains("Μείγματα")').prepend('<img class=fimg" src="/media/images/high/marata-poures-&-mpesamel-250g.jpg">');
+$('a:contains("Μπάρες Δημητριακών")').prepend('<img class=fimg" src="/media/images/high/bonora-mpares-me-mpiskoto-digestive-140g-perspective.jpg">');
+$('a:contains("Μπατονέτες")').prepend('<img class=fimg" src="/media/images/high/sette-mpatonetes-100-temaxiwn.jpg">');
+$('a:contains("Μπαχαρικά")').prepend('<img class=fimg" src="/media/images/high/sklavenitis-mpaxarika-size1.jpg">');
+$('a:contains("Μπισκότα")').prepend('<img class=fimg" src="/media/images/high/bonora-mpiskota-vromis-265g.jpg">');
+$('a:contains("Μπουγάτσες")').prepend('<img class=fimg" src="/media/images/high/baker-master-mpougatsa-front.jpg">');
+$('a:contains("Νερά")').prepend('<img class=fimg" src="/media/images/high/marata-nero-6x1.5l.jpg">');
+$('a:contains("Ντεμακιγιάζ")').prepend('<img class=fimg" src="/media/images/high/sette-ygra-manthlakia-ntemakigiaz-30-temaxiwn.jpg">');
+$('a:contains("Ξηροί Καρποί")').prepend('<img class=fimg" src="/media/images/high/sklavenitis-ksiroi-karpoi-200g.jpg">');
+$('a:contains("Όσπρια")').prepend('<img class=fimg" src="/media/images/high/sklavenitis-ospria-size2-500g.jpg">');
+$('a:contains("Παγωτά")').prepend('<img class=fimg" src="/media/images/high/bonora-pagoto-1l-front.jpg">');
+$('a:contains("Πάνες")').prepend('<img class=fimg" src="/media/images/high/sette-pants-no2-14-temaxiwn.jpg">');
+$('a:contains("Παξιμάδια")').prepend('<img class=fimg" src="/media/images/high/marata-krhtikh-kritharokouloura-front-&-back-pge-600g.jpg">');
+$('a:contains("Περφορατέρ")').prepend('<img class=fimg" src="/media/images/high/stampa-perforater-30mm.jpg">');
+$('a:contains("Πιτάκια")').prepend('<img class=fimg" src="/media/images/high/marata-sfoliatoeidi-750g-1kg.jpg">');
+$('a:contains("Πίτες")').prepend('<img class=fimg" src="/media/images/high/baker-master-striftes-pites-front-850g.jpg">');
+$('a:contains("Πίτσες")').prepend('<img class=fimg" src="/media/images/high/baker-master-pitsa-540g.jpg">');
+$('a:contains("Πραλίνες")').prepend('<img class=fimg" src="/media/images/high/bonora-pralina-400g.jpg">');
+$('a:contains("Πρόσθετα Φαγητών")').prepend('<img class=fimg" src="/media/images/high/marata-soda-400g.jpg">');
+$('a:contains("Ρύζι")').prepend('<img class=fimg" src="/media/images/high/sklavenitis-ryzia-500g.jpg">');
+$('a:contains("Σάλτσες")').prepend('<img class=fimg" src="/media/images/high/marata-moustarda-500g.jpg">');
+$('a:contains("Σαρδέλες")').prepend('<img class=fimg" src="/media/images/high/marata-sardeles-marokou-125g.jpg">');
+$('a:contains("Σερβιέτες")').prepend('<img class=fimg" src="/media/images/high/sette-lady-serbietes-super.jpg">');
+$('a:contains("Σετ Γεωμετρίας")').prepend('<img class=fimg" src="/media/images/high/stampa-set-geometrias-4tem.jpg">');
+$('a:contains("Σνακ")').prepend('<img class=fimg" src="/media/images/high/bonora-chips-120g.jpg">');
+$('a:contains("Στυλό")').prepend('<img class=fimg" src="/media/images/high/stampa-stylo-diarkeias-10tem-mix.jpg">');
+$('a:contains("Συλλέκτες Υγρασίας")').prepend('<img class=fimg" src="/media/images/high/drolio-syllekths-ygrasias-kremastos.jpg">');
+$('a:contains("Συντήρηση Τροφίμων")').prepend('<img class=fimg" src="/media/images/high/frogo-sakoules-mikres.jpg">');
+$('a:contains("Συρραπτικά")').prepend('<img class=fimg" src="/media/images/high/stampa-syrraptiko-no8865.jpg">');
+$('a:contains("Συσκευασμένα Κρέατα")').prepend('<img class=fimg" src="/media/images/high/meat-house-kotompoukies-snitsel-330g.jpg">');
+$('a:contains("Ταχίνι")').prepend('<img class=fimg" src="/media/images/high/marata-taxini-300g.jpg">');
+$('a:contains("Τοματοειδή")').prepend('<img class=fimg" src="/media/images/high/marata-tomatika-metalliko-koyti-400g.jpg">');
+$('a:contains("Τόνοι")').prepend('<img class=fimg" src="/media/images/high/marata-tonoi-2x170-185g-top.jpg">');
+$('a:contains("Τροφές Ζώων")').prepend('<img class=fimg" src="/media/images/high/barron-pate-100g.jpg">');
+$('a:contains("Τσίπουρο")').prepend('<img class=fimg" src="/media/images/high/romvos-tsipouro-200ml.jpg">');
+$('a:contains("Υγρά Πιάτων")').prepend('<img class=fimg" src="/media/images/high/drolio-ygro-piatwn-1000g.jpg">');
+$('a:contains("Χυμοί")').prepend('<img class=fimg" src="/media/images/high/marata-xymos-aspida-front-1l.jpg">');
+$('a:contains("Ψαλίδια")').prepend('<img class=fimg" src="/media/images/high/stampa-psalidi-21cm.jpg">');
+$('a:contains("Σοκολάτες")').prepend('<img class=fimg" src="/media/images/high/bonora-sokolates-front-100g.jpg">');
+
+$("a.list").click(function () {
+           $(".main-in").addClass("listv");
+           $(this).addClass("lpointer");
+           $('a.grid').removeClass('lpointer');
+   
+       });
+       $("a.grid").click(function () {
+           $(".main-in").removeClass("listv");
+           $(this).addClass("lpointer");
+           $('a.list').removeClass('lpointer');
+   
+       });
+      
+    
+       $('a.grid').addClass('lpointer');
+</script>
+</html>
