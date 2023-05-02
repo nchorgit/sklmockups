@@ -16,194 +16,302 @@
          </div>
         </div>
         <div class="main-in trofima">
-          <div class="index-labels">
-              <a href="#">
+            <div class="index-labels">
+                {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Σκλαβενίτης") }}
+                  <a class="mockup" href="{{.Permalink}}">
+                    <div class="lilabel">
+                      <p class="env-title">{{.Title}}</p>
+                      <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                    </div>
+                  </a>
+                {{ end }}
+            
+            
+                {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Μαράτα") }}
+                  <a class="mockup" href="{{.Permalink}}">
+                    <div class="lilabel">
+                      <p class="env-title">{{.Title}}</p>
+                      <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                    </div>
+                  </a>
+                {{ end }}
+            
+            
+                {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Bonora") }}
+                  <a class="mockup" href="{{.Permalink}}">
+                    <div class="lilabel">
+                      <p class="env-title">{{.Title}}</p>
+                      <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                    </div>
+                  </a>
+                {{ end }}
+            
+                {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Buenas") }}
+                <a class="mockup" href="{{.Permalink}}">
                   <div class="lilabel">
-                      <div class="top-env"></div>
-                      <div class="env-paper"></div>
-                      <div class="main-env"><img src="/media/icons/sklavenitis.png" alt=""></div>
-                      <p class="env-title">Σκλαβενίτης</p>
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
                   </div>
-              </a>
-              <a href="#">
+                </a>
+              {{ end }}
+            
+            
+            
+              {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Πιέστο") }}
+                <a class="mockup" href="{{.Permalink}}">
                   <div class="lilabel">
-                      <div class="top-env"></div>
-                      <div class="env-paper"></div>
-                      <div class="main-env">
-                          <img src="/media/icons/marata.png" alt="">
-                      </div>
-                      <p class="env-title">Μαράτα</p>
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
                   </div>
-              </a>
-              <a href="#">
+                </a>
+              {{ end }}
+            
+            
+            
+              {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Ανθέλα") }}
+                <a class="mockup" href="{{.Permalink}}">
                   <div class="lilabel">
-                      <div class="top-env"></div>
-                      <div class="env-paper"></div>
-                      <div class="main-env">
-                          <img src="/media/icons/bonora.png" alt="">
-                      </div>
-                      <p class="env-title">Bonora</p>
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
                   </div>
-              </a>
-              <a href="#">
+                </a>
+              {{ end }}
+            
+            
+            
+              {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Toni") }}
+                <a class="mockup" href="{{.Permalink}}">
                   <div class="lilabel">
-                      <div class="top-env"></div>
-                      <div class="env-paper"></div>
-                      <div class="main-env">
-                          <img src="/media/icons/buenas.png" alt="">
-                      </div>
-                      <p class="env-title">Buenas</p>
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
                   </div>
-              </a>
-              <a href="#">
+                </a>
+              {{ end }}
+            
+            
+            
+              {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Fisherman's Boat") }}
+                <a class="mockup" href="{{.Permalink}}">
                   <div class="lilabel">
-                      <div class="top-env"></div>
-                      <div class="env-paper"></div>
-                      <div class="main-env">
-                          <img src="/media/icons/piesto.png" alt="">
-                      </div>
-                      <p class="env-title">Piesto</p>
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
                   </div>
-              </a>
-              <a href="#">
+                </a>
+              {{ end }}
+            
+            
+            
+              {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Baker Master") }}
+                <a class="mockup" href="{{.Permalink}}">
                   <div class="lilabel">
-                      <div class="top-env"></div>
-                      <div class="env-paper"></div>
-                      <div class="main-env">
-                          <img src="/media/icons/anthela.png" alt="">
-                      </div>
-                      <p class="env-title">Ανθέλα</p>
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
                   </div>
-              </a>
-              <a href="#">
+                </a>
+              {{ end }}
+            
+            
+            
+              {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Meat House") }}
+                <a class="mockup" href="{{.Permalink}}">
                   <div class="lilabel">
-                      <div class="top-env"></div>
-                      <div class="env-paper"></div>
-                      <div class="main-env">
-                          <img src="/media/icons/toni.png" alt="" style="
-      object-position: 0;
-      ">
-                      </div>
-                      <p class="env-title">Toni</p>
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
                   </div>
-              </a>
-              <a href="#">
+                </a>
+              {{ end }}
+            
+            
+            
+              {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Ρόμβος") }}
+                <a class="mockup" href="{{.Permalink}}">
                   <div class="lilabel">
-                      <div class="top-env"></div>
-                      <div class="env-paper"></div>
-                      <div class="main-env">
-                          <img src="/media/icons/fisherman.png" alt="" style="
-      object-position: 0;
-      ">
-                      </div>
-                      <p class="env-title">Fisharman's Boat</p>
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
                   </div>
-              </a>
-              <a href="#">
-                  <div class="lilabel">
-                      <div class="top-env"></div>
-                      <div class="env-paper"></div>
-                      <div class="main-env">
-                          <img src="/media/icons/bakermaster.png" alt="">
-                      </div>
-                      <p class="env-title">Baker Master</p>
-                  </div>
-              </a>
-              <a href="#">
-                  <div class="lilabel">
-                      <div class="top-env"></div>
-                      <div class="env-paper"></div>
-                      <div class="main-env">
-                          <img src="/media/icons/meathouse.png" alt="">
-                      </div>
-                      <p class="env-title">Meat House</p>
-                  </div>
-              </a>
-              <a href="#">
-                  <div class="lilabel">
-                      <div class="top-env"></div>
-                      <div class="env-paper"></div>
-                      <div class="main-env">
-                          <img src="/media/icons/romvos.png" alt="">
-                      </div>
-                      <p class="env-title">Ρόμβος</p>
-                  </div></a>
-      
-          </div></div>
+                </a>
+              {{ end }}
+              </div></div>
           <div class="main-line"></div>
           <div class="main-top">
             <div class="mtop-left"><img height="32px" src="/media/icons/svg32/mhtrofima.svg" alt=""><span><b>Μη Τρόφιμα</b></span></div>
            </div>
            <div class="main-in mh-trofima">
             <div class="index-labels">
-            <a href="#">
-            <div class="lilabel">
-                <div class="top-env"></div>
-                <div class="env-paper"></div>
-                <div class="main-env"><img src="/media/icons/sklavenitis.png" alt=""></div>
-                <p class="env-title">Σκλαβενίτης</p>
-            </div></a>
-            <a href="#">
-            <div class="lilabel">
-                <div class="top-env"></div>
-                <div class="env-paper"></div>
-                <div class="main-env"><img src="/media/icons/barron.png" alt=""></div>
-                <p class="env-title">Barron</p>
-            </div></a>
-            <a href="#">
-            <div class="lilabel">
-                <div class="top-env"></div>
-                <div class="env-paper"></div>
-                <div class="main-env"><img src="/media/icons/sette.png" alt=""></div>
-                <p class="env-title">Sette</p>
-            </div></a>
-            <a href="#">
-            <div class="lilabel">
-                <div class="top-env"></div>
-                <div class="env-paper"></div>
-                <div class="main-env"><img src="/media/icons/kitten.png" alt=""></div>
-                <p class="env-title">Kitten</p>
-            </div></a>
-            <a href="#">
-            <div class="lilabel">
-                <div class="top-env"></div>
-                <div class="env-paper"></div>
-                <div class="main-env"><img src="/media/icons/drolio.png" alt=""></div>
-                <p class="env-title">Drolio</p>
-            </div></a>
-            <a href="#">
-            <div class="lilabel">
-                <div class="top-env"></div>
-                <div class="env-paper"></div>
-                <div class="main-env"><img src="/media/icons/frogo.png" alt=""></div>
-                <p class="env-title">Frogo</p>
-            </div></a>
-            <a href="#">
-            <div class="lilabel">
-                <div class="top-env"></div>
-                <div class="env-paper"></div>
-                <div class="main-env"><img src="/media/icons/glaros.png" alt=""></div>
-                <p class="env-title">Γλάρος</p>
-            </div></a>
-            <a href="#">
-            <div class="lilabel">
-                <div class="top-env"></div>
-                <div class="env-paper"></div>
-                <div class="main-env"><img src="/media/icons/masterlight.png" alt=""></div>
-                <p class="env-title">Master Light</p>
-            </div></a>
-            <a href="#">
-            <div class="lilabel">
-                <div class="top-env"></div>
-                <div class="env-paper"></div>
-                <div class="main-env"><img src="/media/icons/masterenergy.png" alt=""></div>
-                <p class="env-title">Master Energy</p>
-            </div></a>
-        </div>
+                {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Σκλαβενίτης") }}
+                  <a class="mockup" href="{{.Permalink}}">
+                    <div class="lilabel">
+                      <p class="env-title">{{.Title}}</p>
+                      <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                    </div>
+                  </a>
+                {{ end }}
+            
+            <!---->
+                {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Barron") }}
+                  <a class="mockup" href="{{.Permalink}}">
+                    <div class="lilabel">
+                      <p class="env-title">{{.Title}}</p>
+                      <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                    </div>
+                  </a>
+                {{ end }}
+            
+            
+                {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Sette") }}
+                  <a class="mockup" href="{{.Permalink}}">
+                    <div class="lilabel">
+                      <p class="env-title">{{.Title}}</p>
+                      <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                    </div>
+                  </a>
+                {{ end }}
+            
+                {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Kitten") }}
+                <a class="mockup" href="{{.Permalink}}">
+                  <div class="lilabel">
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                  </div>
+                </a>
+              {{ end }}
+            
+            
+            
+              {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Drolio") }}
+                <a class="mockup" href="{{.Permalink}}">
+                  <div class="lilabel">
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                  </div>
+                </a>
+              {{ end }}
+            
+            
+            
+              {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Frogo") }}
+                <a class="mockup" href="{{.Permalink}}">
+                  <div class="lilabel">
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                  </div>
+                </a>
+              {{ end }}
+            
+            
+            
+              {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Γλάρος") }}
+                <a class="mockup" href="{{.Permalink}}">
+                  <div class="lilabel">
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                  </div>
+                </a>
+              {{ end }}
+            
+            
+            
+              {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Master Light") }}
+                <a class="mockup" href="{{.Permalink}}">
+                  <div class="lilabel">
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                  </div>
+                </a>
+              {{ end }}
+            
+            
+            
+              {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Master Energy") }}
+                <a class="mockup" href="{{.Permalink}}">
+                  <div class="lilabel">
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                  </div>
+                </a>
+              {{ end }}
+            
+            
+            
+              
+              </div>   
         </div>
         <div class="main-line"></div>
+        <div class="main-top">
+            <div class="mtop-left"><img height="32px" src="/media/icons/svg32/orofos.svg" alt=""><span><b>Όροφος</b></span></div>
+     
+           </div>
+           <div class="main-in orofos">
+            <div class="index-labels">
+                {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Stampa") }}
+                  <a class="mockup" href="{{.Permalink}}">
+                    <div class="lilabel">
+                      <p class="env-title">{{.Title}}</p>
+                      <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                    </div>
+                  </a>
+                {{ end }}
+            
+                {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Tickit") }}
+                <a class="mockup" href="{{.Permalink}}">
+                  <div class="lilabel">
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                  </div>
+                </a>
+              {{ end }}
+            
+            
+            {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Master Light") }}
+                <a class="mockup" href="{{.Permalink}}">
+                  <div class="lilabel">
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                  </div>
+                </a>
+              {{ end }}
+            
+            
+            
+              {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Master Energy") }}
+                <a class="mockup" href="{{.Permalink}}">
+                  <div class="lilabel">
+                    <p class="env-title">{{.Title}}</p>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                  </div>
+                </a>
+              {{ end }}
+            
+            
+            
+              
+              </div>
+        </div>
       </div>
     <script>
+
+$('a:contains("Baker Master")').prepend('<img class="fimg" src="/media/icons/bakermaster.png">');
+$('a:contains("Barron")').prepend('<img class="fimg" src="/media/icons/barron.png">');
+$('a:contains("Bonora")').prepend('<img class="fimg" src="/media/icons/bonora.png">');
+$('a:contains("Buenas")').prepend('<img class="fimg" src="/media/icons/buenas.png">');
+$('a:contains("Drolio")').prepend('<img class="fimg" src="/media/icons/drolio.png">');
+$('a:contains("Fisherman")').prepend('<img class="fimg" src="/media/icons/fisherman.png">');
+$('a:contains("Frogo")').prepend('<img class="fimg" src="/media/icons/frogo.png">');
+$('a:contains("Kitten")').prepend('<img class="fimg" src="/media/icons/kitten.png">');
+$('a:contains("Margarit")').prepend('<img class="fimg" src="/media/icons/margarit.png">');
+$('a:contains("Master Energy")').prepend('<img class="fimg" src="/media/icons/masterenergy.png">');
+$('a:contains("Master Light")').prepend('<img class="fimg" src="/media/icons/masterlight.png">');
+$('a:contains("Meat House")').prepend('<img class="fimg" src="/media/icons/meathouse.png">');
+$('a:contains("Sette")').prepend('<img class="fimg" src="/media/icons/sette.png">');
+$('a:contains("Stampa")').prepend('<img class="fimg" src="/media/icons/stampa.png">');
+$('a:contains("Tickit")').prepend('<img class="fimg" src="/media/icons/tickit.png">');
+$('a:contains("Toni")').prepend('<img class="fimg" src="/media/icons/toni.png">');
+$('a:contains("Ανθέλα")').prepend('<img class="fimg" src="/media/icons/anthela.png">');
+$('a:contains("Γλάρος")').prepend('<img class="fimg" src="/media/icons/glaros.png">');
+$('a:contains("Μαράτα")').prepend('<img class="fimg" src="/media/icons/marata.png">');
+$('a:contains("Πιέστο")').prepend('<img class="fimg" src="/media/icons/piesto.png">');
+$('a:contains("Ρόμβος")').prepend('<img class="fimg" src="/media/icons/romvos.png">');
+$('a:contains("Σκλαβενίτης")').prepend('<img class="fimg" src="/media/icons/sklavenitis.png">');
         $("a.list").click(function () {
            $(".main-in").addClass("listv");
            $(this).addClass("lpointer");
