@@ -1,0 +1,89 @@
+<head> {{ partial "head" . }}
+    <style>
+     .list-all {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(413px, 1fr)); gap: 0 15px;
+     }
+    </style> 
+ </head>
+ <body>
+     {{ partial "header" . }} 
+     {{ partial "left" . }} 
+     <div class="main">
+         <div class="main-top">
+          <div class="mtop-left"><img height="32px" src="/media/icons/svg32/trofima.svg" alt=""><span><b>Τρόφιμα</b></span>
+           
+          </div>
+          {{ range where ($.Site.GetPage "taxonomyTerm" "gencat").Pages "Title" ("Τρόφιμα") }}
+          <div class="nmoc"><b>{{ len (where .Pages "Section" "!=" "") }}</b></div>
+    {{ end }}
+         </div>
+            <div class="list-all">
+              {{ range where .Site.RegularPages ".Params.gencat" "intersect" (slice "Τρόφιμα")}}
+           <div style="margin: 0 -20px;">
+                  <a href="{{.Permalink}}" class="smockup">
+                    {{if isset .Params "image-low" }}<img src="{{ index .Params "image-low" }}" class="sfimg" alt="">
+                    {{ end }}
+                    <span class="stitle">{{ .Title }}<span style="display: none;">{{.File.LogicalName}}</span><span class="smeta"
+                        style="display: none;">{{ .Title }}</span></span>
+                  </a>
+                </div>
+         {{end}}
+              </div>
+           <div class="main-line"></div>
+           <div class="main-top">
+             <div class="mtop-left"><img height="32px" src="/media/icons/svg32/mhtrofima.svg" alt=""><span><b>Μη Τρόφιμα</b></span>
+            
+            </div>
+            {{ range where ($.Site.GetPage "taxonomyTerm" "gencat").Pages "Title" ("Μη Τρόφιμα") }}
+            <div class="nmoc"><b>{{ len (where .Pages "Section" "!=" "") }}</b></div>
+      {{ end }}
+            </div>
+           }
+              <div class="list-all">
+                {{ range where .Site.RegularPages ".Params.gencat" "intersect" (slice "Μη Τρόφιμα")}}
+             <div style="margin: 0 -20px;">
+                    <a href="{{.Permalink}}" class="smockup">
+                      {{if isset .Params "image-low" }}<img src="{{ index .Params "image-low" }}" class="sfimg" alt="">
+                      {{ end }}
+                      <span class="stitle">{{ .Title }}<span style="display: none;">{{.File.LogicalName}}</span><span class="smeta"
+                          style="display: none;">{{ .Title }}</span></span>
+                    </a>
+                  </div>
+           {{end}}
+                </div>
+         <div class="main-line"></div>
+         <div class="main-top">
+             <div class="mtop-left"><img height="32px" src="/media/icons/svg32/orofos.svg" alt=""><span><b>Όροφος</b></span>
+              
+            </div>
+            {{ range where ($.Site.GetPage "taxonomyTerm" "gencat").Pages "Title" ("Όροφος") }}
+              <div class="nmoc"><b>{{ len (where .Pages "Section" "!=" "") }}</b></div>
+        {{ end }}
+            </div>
+            <div class="list-all">
+              {{ range where .Site.RegularPages ".Params.gencat" "intersect" (slice "Όροφος")}}
+           <div style="margin: 0 -20px;">
+                  <a href="{{.Permalink}}" class="smockup">
+                    {{if isset .Params "image-low" }}<img src="{{ index .Params "image-low" }}" class="sfimg" alt="">
+                    {{ end }}
+                    <span class="stitle">{{ .Title }}<span style="display: none;">{{.File.LogicalName}}</span><span class="smeta"
+                        style="display: none;">{{ .Title }}</span></span>
+                  </a>
+                </div>
+         {{end}}
+              </div>
+       </div>
+     <script>
+         $("a.list").click(function () {
+            $(".main-in").addClass("listv");
+            $(this).addClass("lpointer");
+            $('a.grid').removeClass('lpointer');
+        });
+        $("a.grid").click(function () {
+            $(".main-in").removeClass("listv");
+            $(this).addClass("lpointer");
+            $('a.list').removeClass('lpointer');
+        });
+        $('a.grid').addClass('lpointer');
+     </script>
+ </body>
