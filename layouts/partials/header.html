@@ -1,3 +1,12 @@
+<div class="totop">
+  <svg style="transform: rotate(180deg); position:absolute; width:30px; margin:auto; top:0;bottom:0;left:0;right:0;"
+      viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1 1L6.0651 6" stroke="#fff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+          stroke-linejoin="round"></path>
+      <path d="M6.06445 6L11.1296 1" stroke="#fff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+          stroke-linejoin="round"></path>
+  </svg>
+</div>
 <div class="top-menu">
 
   <div class="search">
@@ -21,8 +30,9 @@
 
     </div>
     <!--a href="#"><img style="margin-right:10px" width="32px" src="/media/icons/svg32/onedrive.svg" alt=""><span> OneDrive</span></a-->
-    <a href="#"><img style="margin-right:10px" width="24px" src="/media/icons/svg32/help.svg"
-        alt=""><span>Βοήθεια</span></a>
+    <a class="options" href="#"><span style="font-size: 34px; margin-right:10px;" class="material-symbols-rounded">
+      settings
+      </span><span>Επιλογές</span></a>
     <div class="plsite"><a href="https://sklavenitis-pl.onrender.com/" target="_blank"><span class="material-icons" style="color:#eee;margin-right: 5px;">
           launch
         </span><span style="color:orange">Private</span> <span
@@ -76,7 +86,13 @@
     {{ end }}
   </ul>
 </div>
+<div class="settings">
+  <h2 id="ανάλυση-οθόνης">Ανάλυση Οθόνης</h2>
+<p>Χρησιμοποιήστε το συνδυασμό <strong>CONTROL + (PC)</strong> ή <strong>COMMAND + (MAC)</strong> για να μεγενθύνετε τη διεπαφή.<br><br>
+Χρησιμοποιήστε το συνδυασμό <strong>CONTROL - (PC)</strong> ή <strong>COMMAND - (MAC)</strong> για να μικρύνετε τη διεπαφή.</p>
 
+
+</div>
 <script>
   const searchContainer = document.querySelector('.search-container');
   const searchList = document.querySelector('.search-list');
@@ -160,7 +176,12 @@
     );
   });
 
-  
+  $("a.options").click(function () {
+           $(".settings").slideToggle('slow');
+          
+   
+       });
+      
   let zoomLevels = [1, 0.9, 0.8, 0.75];
 		let currentZoomLevel = 0;
 		
@@ -186,6 +207,18 @@
 		document.querySelector(".plus").addEventListener("click", zoomIn);
 		document.querySelector(".minus").addEventListener("click", zoomOut);
 		document.querySelector(".reset").addEventListener("click", resetZoom);
+
+    $(document).scroll(function () {
+      var y = $(this).scrollTop();
+      if (y > 20) {
+          $('.totop').fadeIn();
+      } else {
+          $('.totop').fadeOut();
+      }
+  });
+  $('.totop').click(function () {
+      $('html, body').scrollTop(0);
+  });
 	</script>
 
 
@@ -287,6 +320,32 @@ span.sclose:hover {
 }*/
 </style>
 <style>
+.settings {
+    position: absolute;
+    width: 70%;
+    background: #151515;
+    right: 0;
+    top: 80;
+    z-index: 500;
+    padding: 20px;
+    max-width: 600px;
+    color: #eee;
+    margin: auto;
+    display: none;
+    left: 0;
+    bottom: auto;
+    border-radius: 0 0 8px 8px;
+    border: 2px solid #555;
+    border-top: 0;
+}
+h2#ανάλυση-οθόνης {
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    background: #888;
+}
   .zbuttons {
     display: flex;
     gap: 5px;
@@ -434,4 +493,33 @@ button.minus:hover, button.plus:hover, button.reset:hover {
     }
     
 }
+</style>
+
+
+
+<style>
+  html {
+      scroll-behavior: smooth;
+  }
+  .totop {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      width: 60px;
+      height: 60px;
+      background: #f47920;
+      z-index: 1;
+      cursor: pointer;
+      right: 30px;
+      border-radius: 50%;
+      font: bold 18px ssans;
+      text-align: center;
+      line-height: 60px;
+      letter-spacing: -.9px;
+      color: white;
+  }
+  .totop:hover {
+      background: #cd651b;
+      transition: all .3s;
+  }
 </style>
