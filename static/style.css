@@ -128,7 +128,7 @@ ul.left-top a,
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     margin-bottom: 30px;
     font-size: 20px;
     opacity: .8;
@@ -168,7 +168,7 @@ ul.left-top a:hover {
 }
 
 .left-center .material-symbols-rounded {
-    font-size: 24px;
+    font-size: 28px;
     color: #eee;
 }
 
@@ -249,7 +249,7 @@ button.sbutton {
 
 .top-right-menu a {
     color: #eee;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -348,7 +348,20 @@ p.pcat {
     text-align: center;
     border-radius: 6px;
 }
-
+p.queans {
+    font-size: 30px;
+    color: #eee;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding: 20px 0;
+    max-width: 1100px;
+    margin: 15px auto 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
 .order,
 .view {
     color: #eee;
@@ -452,7 +465,18 @@ h1.title {
     background: #003c6b;
     border: 0px solid #064f89;
 }
-
+a.report {
+    background: #da1f33;
+    padding: 0px 10px;
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 42px;
+}
+a:hover.report {
+   opacity: .8;
+}
 .p-post {
     color: #eee;
     font-size: 20px;

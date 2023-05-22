@@ -1,0 +1,118 @@
+<head> {{ partial "head" . }}
+  
+</head>
+<body>
+    {{ partial "header" . }}
+    {{ partial "left" . }} 
+<div class="main">
+  <p class="queans"><span class="material-symbols-rounded" style="color: #57a7e6;;
+    background: #2d2d2d;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;"> mail </span><span>Επικοινωνήστε μαζί μας</span></p>
+  <form action="mailto:nchortis@sklavenitis.com" method="get" enctype="text/plain">
+    <p style="
+    background: #5b2d2d;
+    padding: 15px;
+    color: #eee;
+    border-bottom: 2px solid #da1f33;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto 40px;
+">*Υποχρεωτικά πεδία</p>
+   <div class="ginput">
+     <div class="linput">Όνομα</div>
+      <input class="finput" type="text" name="subject" placeholder="Ονοματεπώνυμο">
+   </div>
+    <div class="ginput">
+      <div class="linput">email*</div>
+      <input class="finput" type="email" name="email" placeholder="Το εταιρικό σας email" required>
+    </div>
+   <div class="ginput">
+      <div class="linput">Μήνυμα</div>
+      <textarea name="body" placeholder="Το κείμενό σας"></textarea>
+   </div>
+    <input type="submit" value="Αποστολή">
+  </form>
+</div>
+<style>
+  a.llink7 {
+    background: black;
+    margin: 10px -30px;
+    padding: 15px 26px;
+    border-left: solid 4px orange;
+    border-radius: 0;
+
+}
+form {
+  max-width: 1100px;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  background: #151515;
+  border-radius: 6px;
+  margin: auto;
+}
+.ginput {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.linput {
+    color: #eee;
+    font-size: 20px;
+    padding: 15px;
+    width: 150px;
+    font-weight: bold;
+}
+input.finput, textarea {
+    padding: 15;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    font-family: inherit;
+    border-radius: 6px;
+    color: #eee;
+    width: 100%;
+    border: 2px solid #333;
+}
+input[type="submit"] {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    color: #eee;
+    background: green;
+    border: 0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin: 30px auto;
+    cursor: pointer;
+    transition: all .3s;
+}
+textarea {
+  resize: vertical;
+  min-height: 180px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 0px solid green;
+  -webkit-text-fill-color: #eee;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+  outline: none;
+  font-size: 20px;
+}
+</style>
+</body>
+</html>
