@@ -1,5 +1,5 @@
 <div class="totop">
-  <svg style="transform: rotate(180deg); position:absolute; width:30px; margin:auto; top:0;bottom:0;left:0;right:0;"
+  <svg style="transform: rotate(180deg); position:absolute; width:20px; margin:auto; top:0;bottom:0;left:0;right:0;"
       viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M1 1L6.0651 6" stroke="#fff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
           stroke-linejoin="round"></path>
@@ -30,9 +30,11 @@
 
     </div>
     <!--a href="#"><img style="margin-right:10px" width="32px" src="/media/icons/svg32/onedrive.svg" alt=""><span> OneDrive</span></a-->
-    <a class="options" href="#"><span style="font-size: 34px; margin-right:10px;" class="material-symbols-rounded">
-      settings
-      </span><span>Επιλογές</span></a>
+    <a class="options" href="/faq"><span style="font-size: 34px; margin-right:10px;" class="material-symbols-rounded">
+      <span style="color: #ddd;" class="material-symbols-rounded">
+        unknown_document
+        </span>
+      </span><span>Βοήθεια</span></a>
     <div class="plsite"><a href="https://sklavenitis-pl.onrender.com/" target="_blank"><span class="material-icons" style="color:#eee;margin-right: 5px;">
           launch
         </span><span style="color:orange">Private</span> <span
@@ -86,13 +88,7 @@
     {{ end }}
   </ul>
 </div>
-<div class="settings">
-  <h2 id="ανάλυση-οθόνης">Ανάλυση Οθόνης</h2>
-<p>Χρησιμοποιήστε το συνδυασμό <strong>CONTROL + (PC)</strong> ή <strong>COMMAND + (MAC)</strong> για να μεγενθύνετε τη διεπαφή.<br><br>
-Χρησιμοποιήστε το συνδυασμό <strong>CONTROL - (PC)</strong> ή <strong>COMMAND - (MAC)</strong> για να μικρύνετε τη διεπαφή.</p>
 
-
-</div>
 <script>
   const searchContainer = document.querySelector('.search-container');
   const searchList = document.querySelector('.search-list');
@@ -176,11 +172,7 @@
     );
   });
 
-  $("a.options").click(function () {
-           $(".settings").slideToggle('slow');
-          
-   
-       });
+  
       
   let zoomLevels = [1, 0.9, 0.8, 0.75];
 		let currentZoomLevel = 0;
@@ -505,8 +497,8 @@ button.minus:hover, button.plus:hover, button.reset:hover {
       display: none;
       position: fixed;
       bottom: 20px;
-      width: 60px;
-      height: 60px;
+      width: 40px;
+      height: 40px;
       background: #f47920;
       z-index: 1;
       cursor: pointer;

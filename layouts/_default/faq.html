@@ -1,0 +1,116 @@
+<head> {{ partial "head" . }}
+  
+</head>
+<body>
+    {{ partial "header" . }}
+    {{ partial "left" . }} 
+   <div class="main">
+      <p class="queans">Βοήθεια: Απαντήσεις σε Συχνές Ερωτήσεις</p>
+      <div class="faq">
+        <div class="question que1">
+          <div>Πως μπορώ να αλλάξω το μέγεθος της εφαρμογής;</div>
+          <div class="plus">+</div>
+        </div>
+        <div class="answer ans1">Αλλάξτε το μέγεθος του προγράμματος περιήγησής σας για βελτιωμένη εμπειρία.<br>
+           Στο Google Chrome, κάντε κλικ στο εικονίδιο με τρεις κάθετες τελείες και επιλέξτε 'Μεγέθυνση' ή 'Σμίκρυνση'. <br>
+           Στο Mozilla Firefox, κρατήστε πατημένο το πλήκτρο 'Ctrl' και πατήστε '+' ή '-'.<br> Στο Microsoft Edge, κάντε κλικ στο εικονίδιο με τρεις κάθετες τελείες και επιλέξτε 'Μεγέθυνση' ή 'Σμίκρυνση'.<br>
+            Βρείτε περισσότερες οδηγίες στο διαδίκτυο ή επικοινωνήστε μαζί μας για υποστήριξη.</div>
+  
+        <div class="question que2">Οι μακέτες που απεικονίζονται στα mockups είναι οι τελικές; <span class="plus">+</span></div>
+        <div class="answer ans2">Οι μακέτες που απεικονίζονται στα PSD mockups δεν είναι στο σύνολο τους ενημερωμένες και δεν πρέπει να χρησιμοποιούνται για οποιαδήποτε ενέργεια, παρουσίαση ή ανάρτηση στον ιστότοπό μας (www.sklavenitis.gr). Οι μακέτες αυτές αποτελούν δείγματα σχεδίασης και δεν αντιπροσωπεύουν πάντα το τελικό αποτέλεσμα. Παρακαλούμε να εφαρμόζετε ανανεωμένο και εγκεκριμένο περιεχόμενο για την παρουσίαση των προϊόντων.</div>
+  
+        <div class="question que3">Παρουσιάζεται μήνυμα σφάλματος στο κατέβασμα αρχείου. Τι πρέπει να κάνω; <span class="plus">+</span></div>
+        <div class="answer ans3">Σε περίπτωση που αντιμετωπίσετε ένα σφάλμα κατά το κατέβασμα ενός αρχείου, αυτό υποδηλώνει ότι ο σύνδεσμος είναι εσφαλμένος, ανενεργός ή έχει αλλάξει. Παρακαλούμε ενημερώστε μας χρησιμοποιώντας τη φόρμα <b>Υποβολής Αναφορας</b>, ώστε να μπορέσουμε να διορθώσουμε το πρόβλημα άμεσα. θα καταβάλουμε προσπάθειες να εξασφαλίσουμε τη σωστή λειτουργία των συνδέσμων για την απρόσκοπτη πρόσβασή σας στα αρχεία που παρέχουμε.</div>
+  
+        <div class="question que4">Ερώτηση 4 <span class="plus">+</span></div>
+        <div class="answer ans4">Απάντηση 4</div>
+  
+        <div class="question">Ερώτηση 5 <span class="plus">+</span></div>
+        <div class="answer ans5">Απάντηση 5</div>
+      </div>
+   </div>
+<style>
+  .faq {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+p.queans {
+    font-size: 30px;
+    color: #eee;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #444;
+    padding: 0 0 20px;
+    max-width: 1100px;
+    margin: auto auto 30px;
+}
+      .question {
+        cursor: pointer;
+        font-weight: bold;
+        margin-bottom: 15px;
+        display: flex;
+        background: #151515;
+        padding: 15px;
+        color: #eee;
+        border-radius: 4px;
+        position: relative;
+        font-size: 20px;
+      }
+
+      .answer {
+        display: none;
+        padding: 18px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    color: #eee;
+    font-size: 18px;
+    border: 2px solid #151515;
+      }
+      .plus {
+    transition: all 0.3s;
+    position: absolute;
+    right: 15px;
+    font-size: 28px;
+    font-weight: normal;
+    background: green;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    line-height: 31px;
+    top: 11px;
+    color: #fff;
+}
+      .rotate {
+        transform: rotate(135deg);
+        display: block;
+        transition: all 0.3s;
+        background: red;
+      }
+    </style>
+    <script>
+      $(document).ready(function () {
+        $(".que1").click(function () {
+          $(".que1 .plus").toggleClass("rotate");
+          $(this).next(".answer").slideToggle();
+        });
+        $(".que2").click(function () {
+          $(".que2 .plus").toggleClass("rotate");
+          $(this).next(".answer").slideToggle();
+        });
+        $(".que3").click(function () {
+          $(".que3 .plus").toggleClass("rotate");
+          $(this).next(".answer").slideToggle();
+        });
+        $(".que4").click(function () {
+          $(".que4 .plus").toggleClass("rotate");
+          $(this).next(".answer").slideToggle();
+        });
+        $(".que5").click(function () {
+          $(".que5 .plus").toggleClass("rotate");
+          $(this).next(".answer").slideToggle();
+        });
+      });
+    </script>
+</body>
+</html>
