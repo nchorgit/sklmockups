@@ -1,0 +1,218 @@
+<head> {{ partial "head" . }}
+  
+</head>
+<body>
+    {{ partial "header" . }}
+    {{ partial "left" . }} 
+<div class="main">
+  <p class="queans"><span class="material-symbols-rounded" style="color: #da1f33;
+    background: #2d2d2d;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;"> report </span><span>Αναφορά σφάλματος</span></p>
+  <form style="display: none;" action="mailto:nchortis@sklavenitis.com" method="post" enctype="text/plain">
+    <p style="
+    background: #5b2d2d;
+    padding: 15px;
+    color: #eee;
+    border-bottom: 2px solid #da1f33;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto 40px;
+">*Υποχρεωτικά πεδία</p>
+   <div class="ginput">
+     <div class="linput">Όνομα</div>
+      <input class="finput" type="text" name="subject" placeholder="Ονοματεπώνυμο">
+   </div>
+    <div class="ginput">
+      <div class="linput">email*</div>
+      <input class="finput" type="text" name="email" placeholder="Το εταιρικό σας email" required>
+    </div>
+   <div class="ginput">
+      <div class="linput">Μήνυμα</div>
+      <textarea name="body" placeholder="Το κείμενό σας"></textarea>
+   </div>
+    <input type="submit" value="Αποστολή">
+  </form>
+
+  <form class="jotform-form" action="https://eu-submit.jotform.com/submit/231416673921355" method="post" name="form_231416673921355" id="231416673921355" accept-charset="utf-8" autocomplete="on" novalidate="true"><input type="hidden" name="formID" value="231416673921355"><input type="hidden" id="JWTContainer" value=""><input type="hidden" id="cardinalOrderNumber" value="">
+    <p style="
+    background: #5b2d2d;
+    padding: 15px;
+    color: #eee;
+    border-bottom: 2px solid #da1f33;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto 40px;
+">*Υποχρεωτικά πεδία</p>
+    <div role="main" class="form-all">
+      <ul class="form-section page-section">
+        <li class="form-line" data-type="control_textbox" id="id_1"><label class="form-label form-label-left form-label-auto" id="label_1" for="input_1"> Όνομα </label>
+          <div id="cid_1" class="form-input" data-layout="half"> <input type="text" id="input_1" name="q1_ONOM" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:20px" size="20" value="" placeholder="Ονοματεπώνυμο" data-component="textbox" aria-labelledby="label_1"> </div>
+        </li>
+        <li class="form-line jf-required" data-type="control_textbox" id="id_2"><label class="form-label form-label-left form-label-auto" id="label_2" for="input_2"> email<span class="form-required">*</span> </label>
+          <div id="cid_2" class="form-input jf-required" data-layout="half"> <input type="text" id="input_2" name="q2_email" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:20px" size="20" value="" placeholder="Το email σας" data-component="textbox" aria-labelledby="label_2" required> </div>
+        </li>
+        <li class="form-line" data-type="control_textarea" id="id_3"><label class="form-label form-label-left form-label-auto" id="label_3" for="input_3"> Μήνυμα </label>
+          <div id="cid_3" class="form-input" data-layout="full"> <textarea id="input_3" class="form-textarea custom-hint-group form-custom-hint" name="q3_input3" data-component="textarea" aria-labelledby="label_3" data-customhint="Το μήνυμα σας" customhinted="true" placeholder="Το μήνυμα σας" spellcheck="false"></textarea> </div>
+        </li>
+        <li class="form-line" data-type="control_button" id="id_4">
+          <div id="cid_4" class="form-input-wide" data-layout="full">
+            <button id="input_4" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">Αποστολή</button>
+          </div>
+        </li>
+        <li style="display:none">Should be Empty: <input type="text" name="website" value=""></li>
+      </ul>
+    </div>
+    <script>
+      JotForm.showJotFormPowered = "new_footer";
+    </script>
+    <script>
+      JotForm.poweredByText = "Powered by Jotform";
+    </script><input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="231416673921355-231416673921355">
+    <script type="text/javascript">
+      var all_spc = document.querySelectorAll("form[id='231416673921355'] .si" + "mple" + "_spc");
+      for (var i = 0; i < all_spc.length; i++)
+      {
+        all_spc[i].value = "231416673921355-231416673921355";
+      }
+      $('#input_4').click(function(){
+  window.location = '/thanks/index.html';
+});
+    </script>
+    
+  <input type="hidden" name="embedUrl" value="https://eu.jotform.com/"><input type="hidden" name="preview" value="true"></form>
+</div>
+<style>
+  a.llink8 {
+    background: black;
+    margin: 10px -30px;
+    padding: 15px 26px;
+    border-left: solid 4px orange;
+    border-radius: 0;
+
+}
+ul.form-section.page-section {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+.form-line {
+    display: flex;
+    gap: 20px;
+    color: #eee;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-label {
+    width: 130px;
+    padding: 15px;
+}
+.form-input {
+  display: flex;
+  width: 100%;
+}
+.form-input input {
+    padding: 15;
+    background: transparent;
+    font-size: 20px;
+    font-family: inherit;
+    border-radius: 6px;
+    color: #eee;
+    width: 100% !important;
+    border: 2px solid #333;
+}
+div#cid_4 {
+    display: block;
+    margin: 30px auto;
+}
+button#input_4 {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    color: #eee;
+    background: green;
+    border: 0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s;
+}
+form {
+  max-width: 1100px;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  background: #151515;
+  border-radius: 6px;
+  margin: auto;
+}
+.ginput {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.linput {
+    color: #eee;
+    font-size: 20px;
+    padding: 15px;
+    width: 150px;
+    font-weight: bold;
+}
+input.finput, textarea {
+    padding: 15;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    font-family: inherit;
+    border-radius: 6px;
+    color: #eee;
+    width: 100%;
+    border: 2px solid #333;
+}
+input[type="submit"] {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    color: #eee;
+    background: green;
+    border: 0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin: 30px auto;
+    cursor: pointer;
+    transition: all .3s;
+}
+textarea {
+  resize: vertical;
+  min-height: 180px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 0px solid green;
+  -webkit-text-fill-color: #eee;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+  outline: none;
+  font-size: 20px;
+}
+</style>
+<!--JOTFORM-->
+
+</body>
+</html>
