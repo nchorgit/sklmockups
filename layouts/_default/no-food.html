@@ -32,7 +32,7 @@
   </div-->
   <div class="index-labels">
     {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Σκλαβενίτης") }}
-      <a class="mockup" href="{{.Permalink}}">
+      <a class="mockup" style="display: none;" href="{{.Permalink}}">
         <div class="lilabel">
           <p class="env-title">{{.Title}}</p>
           <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
