@@ -1,4 +1,6 @@
-<div id="loader-wrapper"><img width="200" src="/media/icons/loadlogo.svg" alt=""></div>
+<div id="loader-wrapper"><img width="300" src="/media/icons/loadlogo.svg" alt="">
+  <div class="loader2"></div>
+</div>
 <div class="totop">
   <svg style="transform: rotate(180deg); position:absolute; width:20px; margin:auto; top:0;bottom:0;left:0;right:0;"
       viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -231,7 +233,28 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  scale: 0;
+  scale: 1;
+}
+.loader2 {
+    border: 10px solid #1b1a1a;
+    border-radius: 50%;
+    border-top: 10px solid #f47920;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+    scale: .6;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
   /*.search-container {
     display: grid;
@@ -529,6 +552,7 @@ button.minus:hover, button.plus:hover, button.reset:hover {
 </style>
 <script>
   $(window).on('load', function () {
+   
     $('#loader-wrapper').fadeOut('fast');
   }) 
 </script>
