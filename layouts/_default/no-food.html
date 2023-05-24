@@ -31,8 +31,9 @@
     {{ end }}
   </div-->
   <div class="index-labels">
-    {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Σκλαβενίτης") }}
-      <a class="mockup" style="display: none;" href="{{.Permalink}}">
+    {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Σκλαβενίτης ΜΤ") }}
+      <a class="mockup" href="{{.Permalink}}">
+        <img class="fimg" src="/media/icons/sklavenitis-nofood.png">
         <div class="lilabel">
           <p class="env-title">{{.Title}}</p>
           <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
@@ -159,7 +160,8 @@ $('a:contains("Γλάρος")').prepend('<img class="fimg" src="/media/icons/gla
 $('a:contains("Μαράτα")').prepend('<img class="fimg" src="/media/icons/marata.png">');
 $('a:contains("Πιέστο")').prepend('<img class="fimg" src="/media/icons/piesto.png">');
 $('a:contains("Ρόμβος")').prepend('<img class="fimg" src="/media/icons/romvos.png">');
-$('a:contains("Σκλαβενίτης")').prepend('<img class="fimg" src="/media/icons/sklavenitis.png">');
+
+
 $("a.list").click(function () {
            $(".main-in").addClass("listv");
            $(this).addClass("lpointer");
@@ -175,6 +177,12 @@ $("a.list").click(function () {
       
     
        $('a.grid').addClass('lpointer');
+       $('#mainn').text(function (_,txt) {
+    return txt.slice(0, -1);
+});
+$('p.env-title:frist-child').text(function (_,txt) {
+    return txt.slice(0, -1);
+});
 </script>
 <style>
   .main-top {

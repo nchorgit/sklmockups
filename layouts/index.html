@@ -22,7 +22,7 @@
                 {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Σκλαβενίτης") }}
                   <a class="mockup" href="{{.Permalink}}">
                     <div class="lilabel">
-                      <p class="env-title">{{.Title}}</p>
+                      <p class="env-title">{{.Title}} <span style="display: none;">trskl1</span></p>
                       <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
                     </div>
                   </a>
@@ -140,10 +140,10 @@
            </div>
            <div class="main-in mh-trofima">
             <div class="index-labels">
-                {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Σκλαβενίτης") }}
-                  <a class="mockup" style="display: none;" href="{{.Permalink}}">
+                {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Σκλαβενίτης ΜΤ") }}
+                  <a class="mockup" href="{{.Permalink}}">
                     <div class="lilabel">
-                      <p class="env-title">{{.Title}}</p>
+                      <p class="env-title">{{.Title}} <span style="display: none;">mtskl2</span></p>
                       <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
                     </div>
                   </a>
@@ -245,6 +245,7 @@
            </div>
            <div class="main-in orofos">
             <div class="index-labels">
+              
                 {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Stampa") }}
                   <a class="mockup" href="{{.Permalink}}">
                     <div class="lilabel">
@@ -313,7 +314,8 @@ $('a:contains("Γλάρος")').prepend('<img class="fimg" src="/media/icons/gla
 $('a:contains("Μαράτα")').prepend('<img class="fimg" src="/media/icons/marata.png">');
 $('a:contains("Πιέστο")').prepend('<img class="fimg" src="/media/icons/piesto.png">');
 $('a:contains("Ρόμβος")').prepend('<img class="fimg" src="/media/icons/romvos.png">');
-$('a:contains("Σκλαβενίτης")').prepend('<img class="fimg" src="/media/icons/sklavenitis.png">');
+$('a:contains("trskl1")').prepend('<img class="fimg" src="/media/icons/sklavenitis.png">');
+$('a:contains("mtskl2")').prepend('<img class="fimg" src="/media/icons/sklavenitis-nofood.png">');
         $("a.list").click(function () {
            $(".main-in").addClass("listv");
            $(this).addClass("lpointer");
