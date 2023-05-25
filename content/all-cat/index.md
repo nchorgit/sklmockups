@@ -1,4 +1,4 @@
 ---
-layout: list-categories
+layout: all-cat
 title: Κατηγορίες
 ---

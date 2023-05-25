@@ -2,7 +2,7 @@
 
 
 {{ $pag := $.Paginator }}
-{{ if gt $pag.TotalPages 0 }}
+{{ if gt $pag.TotalPages 1 }}
 {{ $.Scratch.Set "dot_rendered" false }}
 <nav class="spages spages2" aria-label="page navigation">
     <ul class="pagination">
@@ -40,3 +40,63 @@
     <p class="pnum">ΣΕΛΙΔΑ <span style="font-weight: bold;">{{ $pag.PageNumber }}</span> ΑΠΟ <span style="font-weight: bold;">{{ $pag.TotalPages }}</span></p>
 </nav>
 {{ end }}
+<style>
+  
+    a.page-link {
+    width: 25px;
+    display: block;
+    height: 25px;
+    background: #252525;
+    
+    text-align: center;
+    padding: 10px;
+    color: #eee;
+    border: 0px solid #444;
+    border-radius: 4px;
+}
+
+ul.pagination {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0;
+
+}
+nav.spages.spages2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+li.page-item {
+    margin-right: 10px;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #ff5500;
+    border-color: #ff5500;
+    font-weight: bold;
+}
+
+.page-item.disabled .page-link {
+    
+    pointer-events: none;
+    cursor: auto;
+    background-color: transparent;
+    border-color: transparent;
+}
+p.pnum {
+    padding: 0 30px;
+    margin: 0;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 50px;
+    font-size: 17px;
+    color: #ccc;
+    border: 2px solid #333;
+}
+</style>
+

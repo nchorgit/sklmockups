@@ -5,25 +5,33 @@
     <div class="main">
     <div class="main-top">
     <div class="mtop-left">
-        
+      
         <b class="nmoc">{{ len (where .Pages "Section" "!=" "") }}</b> PSD Mockups στην ετικέτα: <strong><span class="picon material-symbols-rounded"> sell </span> <span class="ctitle">{{ .Title }}</span></strong></div>
-  
+        
             <div class="mtop-right">
                 <div class="order" style="display: none;"><span>Ταξινόμηση</span><a class="lorder" href="#"></a></div>
                 <div class="view"><span>Προβολή: </span><a class="list" href="#"><img src="/media/icons/svg32/list.svg" alt=""></a><a class="grid" href="#"><img src="/media/icons/svg32/grid.svg" alt=""></a></div>
             </div>
            </div>
-           <div class="mockups-list">
-            {{ range .Pages }}
-               <a href="{{.Permalink}}" class="mockup">
 
-<div class="fimg">{{if isset .Params "image-high" }}<img
-    src="{{ index .Params "image-high" }}"></div>
-{{ end }}
-<h1 class="p-title">{{ .Title }}</h1>
-               </a>
-               {{ end }}
-           </div>
+           <div class="mockups-list">
+            {{ $paginator := .Paginate .Pages 24 }}
+            
+            {{ range $paginator.Pages }}
+                <a href="{{ .Permalink }}" class="mockup">
+                    <div class="fimg">
+                        {{ if isset .Params "image-high" }}
+                            <img src="{{ index .Params "image-high" }}">
+                        {{ end }}
+                    </div>
+                    <h1 class="p-title">{{ .Title }}</h1>
+                </a>
+            {{ end }}
+        </div>
+        
+       
+        {{partial "pagination.html" .}}
+
     </div>
     <script>
         $("a.list").click(function () {
