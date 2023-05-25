@@ -1,7 +1,7 @@
 baseURL = 'https://sklpsdmockups.onrender.com/'
 languageCode = 'el'
 title = 'Home'
-paginate = "16"
+paginate = "21"
 paginatePath = ""
 removePathAccents = false
 assetDir = "static"

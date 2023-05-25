@@ -147,12 +147,12 @@ ul.left-top a,
     opacity: 1;
 }
 
-.active {
+/*.active {
     background: black;
     margin: 0-30px;
     padding: 15px 26px;
     border-left: solid 4px orange;
-}
+}*/
 
 ul.left-top .left-center a {
     margin: 0;

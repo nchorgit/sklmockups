@@ -16,17 +16,23 @@
 <body>
     {{ partial "header" . }} 
     {{ partial "left" . }}
+    
     <div class="main">
         <div class="main-top">
             <div class="mtop-left"><span class="mtop-left-span material-symbols-rounded">content_copy  </span><b>{{.Title}}</b></span></div>
+            
             <div class="mtop-right">
                 <div class="order" style="display: none;"><span>Ταξινόμηση</span><a class="lorder" href="#"></a></div>
                 <div class="view"><span>Προβολή: </span><a class="list" href="#"><img src="/media/icons/svg32/list.svg" alt=""></a><a class="grid" href="#"><img src="/media/icons/svg32/grid.svg" alt=""></a></div>
             </div>
            </div>
+           
 <div class="main-in">
+    {{ $paginator := ($.Site.GetPage "taxonomyTerm" "categories").Paginator }}
+    {{range $paginator.Pages }}
                <div class="index-labels">
-               {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+                
+               
               
                <a class="mockup" href="{{.Permalink}}">
                 <div class="lilabel">
@@ -35,8 +41,15 @@
                 {{ len (where .Pages "Section" "!=" "") }}</p>
                 </div>
             </a>
-            {{end}}
+            
         </div>
+        {{end}}
+        {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}">Previous</a>
+{{ end }}
+{{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}">Next</a>
+{{ end }}
 </div >
 
     </div>
