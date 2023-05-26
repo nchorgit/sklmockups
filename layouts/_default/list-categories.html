@@ -19,39 +19,38 @@
 
     <div class="main">
         <div class="main-top">
-            <div class="mtop-left"> {{partial "pagination.html" .}} </div>
+            <div class="mtop-left">  </div>
             
-            <div class="mtop-right">
+            <div class="mtop-right" style="display: none;">
                 <div class="order" style="display: none;"><span>Ταξινόμηση</span><a class="lorder" href="#"></a></div>
                 <div class="view"><span>Προβολή: </span><a class="list" href="#"><img src="/media/icons/svg32/list.svg"
                             alt=""></a><a class="grid" href="#"><img src="/media/icons/svg32/grid.svg" alt=""></a></div>
             </div>
         </div>
 
-        <div class="main-in">
-
-            <div class="index-labels">
-                
-                {{ $paginator := ($.Site.GetPage "taxonomyTerm" "categories").Paginator }}
-                {{range $paginator.Pages }}
+        <div class="main-in-categories">
 
 
-                <a class="mockup" href="{{.Permalink}}">
-                    <div class="lilabel">
-                        <p class="env-title">{{.Title}}</p>
-                        <p class="gnum">
-                            {{ len (where .Pages "Section" "!=" "") }}</p>
-                    </div>
-                </a>
-                {{end}}
+           
+
+            <div class="index-labels-categories">
+                {{ range (.Site.GetPage "taxonomyTerm" "categories").Pages }}
+                    <a class="mockup" href="{{ .Permalink }}">
+                        <div class="lilabel">
+                            <p class="env-title"><span class="material-symbols-rounded"> content_copy </span><span>{{ .Title }}</span></p>
+                            <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                        </div>
+                    </a>
+                {{ end }}
             </div>
+            
             
             
         </div>
 
     </div>
 </body>
-<script>
+<script>/*
     $('a:contains("Χαρτοπετσέτες")').prepend('<img class=fimg" src="/media/images/high/glaros-xartopetsetes-33.jpg">');
     $('a:contains("Χαρτομάντιλα")').prepend('<img class=fimg" src="/media/images/high/glaros-xartomantila-100.jpg">');
     $('a:contains("Χαρτί Κουζίνας")').prepend('<img class=fimg" src="/media/images/high/glaros-xarti-kouzinas-1.jpg">');
@@ -176,7 +175,7 @@
     $('a:contains("Υγρά Πιάτων")').prepend('<img class=fimg" src="/media/images/high/drolio-ygro-piatwn-1000g.jpg">');
     $('a:contains("Χυμοί")').prepend('<img class=fimg" src="/media/images/high/marata-xymos-aspida-front-1l.jpg">');
     $('a:contains("Ψαλίδια")').prepend('<img class=fimg" src="/media/images/high/stampa-psalidi-21cm.jpg">');
-    $('a:contains("Σοκολάτες")').prepend('<img class=fimg" src="/media/images/high/bonora-sokolates-front-100g.jpg">');
+    $('a:contains("Σοκολάτες")').prepend('<img class=fimg" src="/media/images/high/bonora-sokolates-front-100g.jpg">');*/
 
     $("a.list").click(function () {
         $(".main-in").addClass("listv");

@@ -121,7 +121,9 @@ ul.left-top {
     margin: 50px 0;
     padding: 0;
 }
-
+ul.left-top img {
+    opacity: .6;
+}
 ul.left-top a,
 .left-center a {
     color: #fff;
@@ -285,12 +287,25 @@ button.sbutton {
     padding: 110px 30px 30px 320px;
 }
 
-
+.main-in .index-labels {
+    margin-top: 0;
+}
 
 .index-labels a:hover {
     background: #333;
 }
 
+.index-labels-categories p.env-title {
+    color: #ddd;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 p.env-title {
     color: #ddd;
     font-size: 20px;
@@ -299,7 +314,6 @@ p.env-title {
     margin: 0;
     font-weight: 500;
 }
-
 .index-labels img {
     width: 100%;
     height: auto;
@@ -399,7 +413,7 @@ a.grid:hover {
     height: 4px;
     background: #222;
     border-radius: 10px;
-    margin: 50px 0 50px 0;
+    margin: 30px 0 30px 0;
 }
 
 /*POST*/
@@ -654,7 +668,44 @@ a.downl .picon {
     display: grid;
     flex-wrap: wrap;
 }
-
+.index-labels-categories {
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(auto-fill, minmax(413px, 1fr));
+   
+}
+.index-labels-categories .lilabel {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.index-labels-categories p.gnum {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    background: #8e2222;
+    text-align: center;
+    line-height: 44px;
+    color: #eee;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: -7px;
+    right: 15px;
+}
+.index-labels-categories a {
+    position: relative;
+    padding: 10px;
+    border-radius: 0px;
+    background: #151515;
+    border: 0px solid #111;
+}
+.main-in-categories {
+    padding: 8px;
+    background: #222;
+    border-radius: 8px;
+}
 .index-labels {
     gap: 30px;
     grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));

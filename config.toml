@@ -15,12 +15,11 @@ assetDir = "static"
 
 [taxonomies]
   label = "labels"
- 
-  tag = "tags"
+  tag = "gencat"
   category = "categories"
   orofos = "orofos"
   promo = "promo"
-  gencat= "gencat"
+ 
   publication_type = "publication_types"
   author = "authors"
   layout = ""

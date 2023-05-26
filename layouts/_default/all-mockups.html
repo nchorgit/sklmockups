@@ -14,6 +14,31 @@ a.llink4 {
         padding: 15px 26px;
         border-left: solid 4px orange;
         }
+        .all-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #333;
+    height: 40px;
+    padding: 4px 25px 4px 4px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.nmoc {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    background: #8e2222;
+    text-align: center;
+    line-height: 48px;
+    color: #eee;
+    border-radius: 50%;
+    position: relative;
+    left: -5px;
+}
+.nper {
+    color: #eee;
+}
     </style> 
  </head>
  <body>
@@ -25,7 +50,11 @@ a.llink4 {
            
           </div>
           {{ range where ($.Site.GetPage "taxonomyTerm" "gencat").Pages "Title" ("Τρόφιμα") }}
-          <div class="nmoc"><b>{{ len (where .Pages "Section" "!=" "") }}</b></div>
+          <div class="all-right">
+            
+            <div class="nmoc"><b>{{ len (where .Pages "Section" "!=" "") }}</b></div>
+            <div class="nper">Mockups</div>
+          </div>
     {{ end }}
          </div>
             <div class="list-all">
@@ -46,10 +75,14 @@ a.llink4 {
             
             </div>
             {{ range where ($.Site.GetPage "taxonomyTerm" "gencat").Pages "Title" ("Μη Τρόφιμα") }}
-            <div class="nmoc"><b>{{ len (where .Pages "Section" "!=" "") }}</b></div>
+            <div class="all-right">
+            
+              <div class="nmoc"><b>{{ len (where .Pages "Section" "!=" "") }}</b></div>
+              <div class="nper">Mockups</div>
+            </div>
       {{ end }}
             </div>
-           }
+            
               <div class="list-all">
                 {{ range where .Site.RegularPages ".Params.gencat" "intersect" (slice "Μη Τρόφιμα")}}
              <div style="margin: 0 -20px;">
@@ -62,13 +95,18 @@ a.llink4 {
                   </div>
            {{end}}
                 </div>
+                
          <div class="main-line"></div>
          <div class="main-top">
              <div class="mtop-left"><img height="32px" src="/media/icons/svg32/orofos.svg" alt=""><span><b>Όροφος</b></span>
               
             </div>
             {{ range where ($.Site.GetPage "taxonomyTerm" "gencat").Pages "Title" ("Όροφος") }}
+            <div class="all-right">
+            
               <div class="nmoc"><b>{{ len (where .Pages "Section" "!=" "") }}</b></div>
+              <div class="nper">Mockups</div>
+            </div>
         {{ end }}
             </div>
             <div class="list-all">

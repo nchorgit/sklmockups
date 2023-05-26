@@ -21,8 +21,10 @@
                 <a href="{{ .Params.download }}" class="downl"><span class="picon material-symbols-rounded">download</span><span>Download PSD</span></a>
           {{ if .Params.labels }}{{range .Params.labels}}<a
                     href="{{ "/labels/" | relLangURL }}{{ . | urlize }}"><span class= "picon material-symbols-rounded">sell</span><span class="ctitle">{{ . }}</span></a> {{end}}{{end}}
-          {{ if .Params.categories }}{{range .Params.categories}}<a
-                        href="{{ "/categories/" | relLangURL }}{{ . | urlize }}"><span class= "picon material-symbols-rounded"> content_copy </span>{{ . }}</a> {{end}}{{end}}
+          {{ if .Params.categories }}{{range .Params.categories}}
+          <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}"><span class= "picon material-symbols-rounded"> content_copy </span>{{ . }}</a> {{end}}{{end}}
+                        {{ if .Params.gencat }}{{range .Params.gencat}}<a
+                        href="{{ "/gencat/" | relLangURL }}{{ . | urlize }}"><span class= "picon material-symbols-rounded"> content_copy </span>{{ . }}</a> {{end}}{{end}}
                        
                     </div>
                     
