@@ -23,6 +23,7 @@
                
                     
                     <h1 class="p-title">{{ .Title }}</h1>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
                 </a>
             {{ end }}
         </div>
@@ -191,6 +192,7 @@ a.llink6 {
     height: 80px;
     border-radius: 5px;
     margin: 0 15px 0 0;
+    border: solid 1.5px #333;
     
 }
    </style>
