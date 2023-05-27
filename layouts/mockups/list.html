@@ -1,0 +1,55 @@
+<head> {{ partial "head" . }}</head>
+<body>
+    {{ partial "header" . }}
+    {{ partial "left" . }} 
+    <div class="main">
+    <div class="main-top">
+    <div class="mtop-left">
+      
+        <b class="nmoc">{{ len (where .Pages "Section" "!=" "") }}</b> <strong><span class="picon material-symbols-rounded" style="position: relative; top:-2px;"> edit_square </span> <span class="ctitle">{{ .Title }}</span></strong></div>
+        
+            <div class="mtop-right">
+                <div class="order" style="display: none;"><span>Ταξινόμηση</span><a class="lorder" href="#"></a></div>
+                <div class="view"><span>Προβολή: </span><a class="list" href="#"><img src="/media/icons/svg32/list.svg" alt=""></a><a class="grid" href="#"><img src="/media/icons/svg32/grid.svg" alt=""></a></div>
+            </div>
+           </div>
+
+           <div class="mockups-list">
+            {{ $paginator := .Paginate .Pages 24 }}
+            
+            {{ range $paginator.Pages }}
+                <a href="{{ .Permalink }}" class="mockup">
+                    <div class="fimg">
+                        {{ if isset .Params "image-high" }}
+                            <img src="{{ index .Params "image-high" }}">
+                        {{ end }}
+                    </div>
+                    <h1 class="p-title">{{ .Title }}</h1>
+                </a>
+            {{ end }}
+        </div>
+        
+       
+        {{partial "pagination.html" .}}
+
+    </div>
+    <script>
+        $("a.list").click(function () {
+           $(".mockups-list").addClass("listv");
+           $(this).addClass("lpointer");
+           $('a.grid').removeClass('lpointer');
+   
+       });
+       $("a.grid").click(function () {
+           $(".mockups-list").removeClass("listv");
+           $(this).addClass("lpointer");
+           $('a.list').removeClass('lpointer');
+   
+       });
+      
+    
+       $('a.grid').addClass('lpointer');
+       $(".ctitle").text($(".ctitle").text().replace("skl-nofood", "Σκλαβενίτης"));
+   
+   </script>
+</body>
