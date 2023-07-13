@@ -320,7 +320,9 @@ p.env-title {
     border-radius: 4px;
     margin: 0 auto;
 }
-
+img.fimg:nth-child(2) {
+    display: none;
+}
 p.pcat {
     font-size: 20px;
     color: #eee;

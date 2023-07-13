@@ -1,0 +1,102 @@
+<head> {{ partial "head" . }}
+    
+</head>
+<body>
+    {{ partial "header" . }}
+    {{ partial "left" . }} 
+    <div class="main">
+    <div class="main-top">
+    <div class="mtop-left">
+        
+        <b class="nmoc">{{ len (where .Pages "Section" "!=" "") }}</b> <strong><span class="picon material-symbols-rounded"> sell </span>Ετικέτες</strong></div>
+        
+            <div class="mtop-right">
+                
+                <div class="order" style="display: none;"><span>Ταξινόμηση</span><a class="lorder" href="#"></a></div>
+                <div class="view"><span>Προβολή: </span><a class="list" href="#"><img src="/media/icons/svg32/list.svg" alt=""></a><a class="grid" href="#"><img src="/media/icons/svg32/grid.svg" alt=""></a></div>
+            </div>
+           </div>
+           <div class="index-labels">
+            {{ $paginator := .Paginate .Pages 28 }}
+            
+            {{ range $paginator.Pages }}
+                <a href="{{ .Permalink }}" class="mockup">
+                   
+               
+                    
+                    <h1 class="p-title">{{ .Title }}</h1>
+                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                </a>
+            {{ end }}
+        </div>
+        {{partial "pagination.html" .}}
+    </div>
+
+    <script>
+$('a:contains("Baker Master")').prepend('<img class="fimg" src="/media/icons/bakermaster.png">');
+$('a:contains("Barron")').prepend('<img class="fimg" src="/media/icons/barron.png">');
+$('a:contains("Bonora")').prepend('<img class="fimg" src="/media/icons/bonora.png">');
+$('a:contains("Buenas")').prepend('<img class="fimg" src="/media/icons/buenas.png">');
+$('a:contains("Drolio")').prepend('<img class="fimg" src="/media/icons/drolio.png">');
+$('a:contains("Fisherman")').prepend('<img class="fimg" src="/media/icons/fisherman.png">');
+$('a:contains("Frogo")').prepend('<img class="fimg" src="/media/icons/frogo.png">');
+$('a:contains("Kitten")').prepend('<img class="fimg" src="/media/icons/kitten.png">');
+$('a:contains("Margarit")').prepend('<img class="fimg" src="/media/icons/margarit.png">');
+$('a:contains("Master Energy")').prepend('<img class="fimg" src="/media/icons/masterenergy.png">');
+$('a:contains("Master Light")').prepend('<img class="fimg" src="/media/icons/masterlight.png">');
+$('a:contains("Meat House")').prepend('<img class="fimg" src="/media/icons/meathouse.png">');
+$('a:contains("Sette")').prepend('<img class="fimg" src="/media/icons/sette.png">');
+$('a:contains("Stampa")').prepend('<img class="fimg" src="/media/icons/stampa.png">');
+$('a:contains("Tickit")').prepend('<img class="fimg" src="/media/icons/tickit.png">');
+$('a:contains("Toni")').prepend('<img class="fimg" src="/media/icons/toni.png">');
+$('a:contains("Ανθέλα")').prepend('<img class="fimg" src="/media/icons/anthela.png">');
+$('a:contains("Γλάρος")').prepend('<img class="fimg" src="/media/icons/glaros.png">');
+$('a:contains("Μαράτα")').prepend('<img class="fimg" src="/media/icons/marata.png">');
+$('a:contains("Πιέστο")').prepend('<img class="fimg" src="/media/icons/piesto.png">');
+$('a:contains("Ρόμβος")').prepend('<img class="fimg" src="/media/icons/romvos.png">');
+$('a:contains("Σκλαβε")').prepend('<img class="fimg" src="/media/icons/sklavenitis.png">');
+$('a:contains("ΜΤ")').prepend('<img class="fimg" src="/media/icons/sklavenitis-nofood.png">');
+
+        $("a.list").click(function () {
+           $(".index-labels").addClass("listv");
+           $(this).addClass("lpointer");
+           $('a.grid').removeClass('lpointer');
+   
+       });
+       $("a.grid").click(function () {
+           $(".index-labels").removeClass("listv");
+           $(this).addClass("lpointer");
+           $('a.list').removeClass('lpointer');
+   
+       });
+      
+    
+       $('a.grid').addClass('lpointer');
+    
+   
+   </script>
+   <style>
+    li img.fimg\" {
+    display: none;
+}
+a.llink6 {
+            background: black;
+            margin: 15px -30px;
+            padding: 15px 26px;
+            border-left: solid 4px orange;
+            border-radius: 0;
+            opacity: 1;
+        }
+        .listv img.fimg\" {
+    width: auto;
+    height: 80px;
+    border-radius: 5px;
+    margin: 0 15px 0 0;
+    border: solid 1.5px #333;
+    
+}
+h1.p-title {
+    font-size: 20px;
+}
+   </style>
+</body>
