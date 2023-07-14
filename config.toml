@@ -27,17 +27,18 @@ assetDir = "static"
 [related]
   includeNewer = false
   threshold = 85
-  toLower = false
+  toLower = true
 
   [[related.indices]]
   name = "categories"
   weight = 50
 
-   [[related.indices]]
+  [[related.indices]]
   name = "labels"
   weight = 45
 
-   [[related.indices]]
+  [[related.indices]]
   name = "promo"
   weight = 45
 
+ 
