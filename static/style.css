@@ -884,35 +884,35 @@ p.gnum {
         width: 30px;
         padding: 15px 30px
     }
-    .logo-text {
+    .left-side .logo-text {
         display: none;
     }
-    .logo {
+    .left-side .logo {
         justify-content: center;
     }
-    a.llink1 span:nth-child(2) {
+    .left-side a.llink1 span:nth-child(2) {
         display: none;
     }
-    a.llink2 span:nth-child(2) {
+    .left-side a.llink2 span:nth-child(2) {
         display: none;
     }
-    a.llink3 span:nth-child(2) {
+    .left-side a.llink3 span:nth-child(2) {
         display: none;
     }
-    a.llink4 span:nth-child(2) {
+    .left-side a.llink4 span:nth-child(2) {
         display: none;
     }
-    ul.left-top {
+    .left-side ul.left-top {
         margin: 50px 0;
     }
-    .left-center {
+    .left-side .left-center {
         display: grid;
         justify-content: center;
     }
-    .left-center a span:nth-child(2) {
+    .left-side .left-center a span:nth-child(2) {
         display: none;
     }
-    .left-bottom {
+    .left-side .left-bottom {
         display: none;
     }
     .search {
