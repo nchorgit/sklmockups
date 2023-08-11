@@ -318,7 +318,7 @@
       <a href="{{.Permalink}}" class="smockup">
         {{if isset .Params "image-low" }}<img src="{{ index .Params "image-low" }}" class="sfimg" alt="">
         {{ end }}
-        <span class="stitle">{{ .Title }}<span style="display: none;">{{.File.LogicalName}}</span><span class="smeta"
+        <span class="stitle">{{ .Title }}<span class="seng" style="display: none;">{{.File.LogicalName}}</span><span class="smeta"
             style="display: none;">{{ .Title }}</span></span>
 
       </a>
@@ -410,7 +410,16 @@
     );
   });
 
-  
+  $(".seng").each(function () {
+    var text = $(this).text();
+    $(this).text(
+      $(this)
+      .text()
+      
+      .replace(/-/g, " ")
+      /*.replace(/[^\w\s]/gi, " ")*/
+    );
+  });
       
   let zoomLevels = [1, 0.9, 0.8, 0.75];
 		let currentZoomLevel = 0;
