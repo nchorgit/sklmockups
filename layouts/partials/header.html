@@ -248,18 +248,12 @@
   </svg>
 </div>
 <div class="top-menu">
-  <div class="search-outer">
-    <form class="search" action="search.html" method="GET">
-      <div class="sbef">Mockup:</div>
-      <input class="sinput" type="text" name="query" value="Αναζήτηση">
-      
-      <button class="sbutton"type="submit"><img src="https://sklpsdmockups.onrender.com/media/icons/mglass.svg" alt=""></button>
-    </form></div>
-  <!--div class="search">
+
+  <div class="search">
     <div class="sbef">Mockup:</div>
     <input autocomplete="off" class="sinput" id="filter-input" type="text" value="Αναζήτηση" />
     <button class="sbutton" id="filter-submit" type="button"><img src="/media/icons/mglass.svg" alt=""></button>
-  </div-->
+  </div>
 
   <!--link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
   <script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
@@ -308,6 +302,173 @@
         </div>
   </div>
 </div>
+<div class="search-container" style="display: none;">
+  <div class="search-results">
+    <div class="search-header">
+      <p class="spar"><span class="num-results nmoc"><b>0</b></span>PSD Mockups στην Αναζήτηση 
+        <span class="smglass"><img width="24px" src="/media/icons/mglass.svg" alt=""><span class="search-query"> </span> </span>
+        <span
+          class="sclose grid material-icons">close</span></p>
+    </div>
+  </div>
+  <ul class="search-list">
+    {{range .Site.RegularPages}}
+
+    <li>
+      <a href="{{.Permalink}}" class="smockup">
+        {{if isset .Params "image-low" }}<img src="{{ index .Params "image-low" }}" class="sfimg" alt="">
+        {{ end }}
+        <span class="stitle">{{ .Title }}<span class="seng" style="display: none;">{{.File.LogicalName}}</span><span class="smeta"
+            style="display: none;">{{ .Title }}</span></span>
+
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+
+<script>
+  const searchContainer = document.querySelector('.search-container');
+  const searchList = document.querySelector('.search-list');
+  const searchInput = document.querySelector('.sinput');
+  const numResults = document.querySelector('.num-results');
+  const searchQuery = document.querySelector('.search-query');
+  const closeButton = document.querySelector('.sclose');
+  const searchResults = document.querySelector('.search-results');
+
+  let searchTimeout;
+
+  function filterResults() {
+    const query = searchInput.value.toLowerCase();
+    const results = searchList.querySelectorAll('li');
+    let numShown = 0;
+
+    for (let i = 0; i < results.length; i++) {
+      const title = results[i].querySelector('.stitle').textContent.toLowerCase();
+      if (title.includes(query)) {
+        results[i].style.display = '';
+        numShown++;
+      } else {
+        results[i].style.display = 'none';
+      }
+    }
+
+    numResults.textContent = numShown;
+    searchQuery.textContent = query;
+  }
+
+  searchInput.addEventListener('input', () => {
+    if (searchTimeout) {
+      clearTimeout(searchTimeout);
+    }
+
+    if (searchInput.value.length >= 3) {
+      searchTimeout = setTimeout(() => {
+        searchContainer.style.display = '';
+        searchList.style.display = '';
+        searchResults.style.display = '';
+        filterResults();
+      }, 300);
+    } else {
+      searchContainer.style.display = 'none';
+    }
+  });
+
+  searchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Backspace') {
+      searchContainer.style.display = 'none';
+      searchList.style.display = 'none';
+      searchInput.value = '';
+    }
+  });
+
+  closeButton.addEventListener('click', () => {
+    searchContainer.style.display = 'none';
+    searchList.style.display = 'none';
+    searchInput.value = 'Αναζήτηση';
+  });
+
+  searchInput.addEventListener('click', () => {
+    searchContainer.style.display = 'none';
+    searchResults.style.display = 'none';
+    searchInput.value = '';
+  });
+  $(".smeta").each(function () {
+    var text = $(this).text();
+    $(this).text(
+      $(this)
+      .text()
+      .replace(/ά/g, "α")
+      .replace(/έ/g, "ε")
+      .replace(/ή/g, "η")
+      .replace(/ί/g, "ι")
+      .replace(/ό/g, "ο")
+      .replace(/ύ/g, "υ")
+      .replace(/ώ/g, "ω")
+      .replace(/-/g, " ")
+      /*.replace(/[^\w\s]/gi, " ")*/
+    );
+  });
+
+  $(".seng").each(function () {
+    var text = $(this).text();
+    $(this).text(
+      $(this)
+      .text()
+      
+      .replace(/-/g, " ")
+      /*.replace(/[^\w\s]/gi, " ")*/
+    );
+  });
+      
+  let zoomLevels = [1, 0.9, 0.8, 0.75];
+		let currentZoomLevel = 0;
+		
+		function zoomIn() {
+			currentZoomLevel = Math.min(currentZoomLevel + 1, zoomLevels.length - 1);
+			setZoom(zoomLevels[currentZoomLevel]);
+		}
+		
+		function zoomOut() {
+			currentZoomLevel = Math.max(currentZoomLevel - 1, 0);
+			setZoom(zoomLevels[currentZoomLevel]);
+		}
+		
+		function resetZoom() {
+			currentZoomLevel = 0;
+			setZoom(zoomLevels[currentZoomLevel]);
+		}
+		
+		function setZoom(zoomLevel) {
+			document.body.style.zoom = zoomLevel;
+		}
+		
+		document.querySelector(".plus").addEventListener("click", zoomIn);
+		document.querySelector(".minus").addEventListener("click", zoomOut);
+		document.querySelector(".reset").addEventListener("click", resetZoom);
+
+    $(document).scroll(function () {
+      var y = $(this).scrollTop();
+      if (y > 20) {
+          $('.totop').fadeIn();
+      } else {
+          $('.totop').fadeOut();
+      }
+  });
+  $('.totop').click(function () {
+      $('html, body').scrollTop(0);
+  });
+ 
+	</script>
+
+
+
+
+
+
+
+
+
 <script>
   $(window).on('load', function () {
    
