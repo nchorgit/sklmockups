@@ -105,25 +105,7 @@
 
 
 
-  {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Master Light") }}
-    <a class="mockup" href="{{.Permalink}}">
-      <div class="lilabel">
-        <p class="env-title">{{.Title}}</p>
-        <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
-      </div>
-    </a>
-  {{ end }}
 
-
-
-  {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Master Energy") }}
-    <a class="mockup" href="{{.Permalink}}">
-      <div class="lilabel">
-        <p class="env-title">{{.Title}}</p>
-        <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
-      </div>
-    </a>
-  {{ end }}
 
 
 
