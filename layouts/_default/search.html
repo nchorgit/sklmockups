@@ -3,58 +3,59 @@
 
 <head>
     {{ partial "head" . }}
+    {{ partial "left" . }}
 
 </head>
 
 <body>
-  
-    
-    
-    <form class="search" action="search" method="GET">
-        <div class="sbef">Mockup:</div>
-        <input class="sinput" type="text" name="query" value="Αναζήτηση">
-        
-        <button class="sbutton"type="submit"><img src="https://sklpsdmockups.onrender.com/media/icons/mglass.svg" alt=""></button>
-      </form>
+  <div class="search-outer">
+    <form class="search" action="" method="GET">
+      <div class="sbef">Mockup:</div>
+      <input class="sinput" type="text" name="query" value="Αναζήτηση">
+      
+      <button class="sbutton"type="submit"><img src="https://sklpsdmockups.onrender.com/media/icons/mglass.svg" alt=""></button>
+    </form></div>
+  <div class="results">
+    <p><span class="result-count">0</span> results for "<span class="search-query"></span>"</p>
+  </div>
+  <div class="mockups-list">
+    {{range .Site.RegularPages}}
 
   
-        <div class="results">
-            <p><span class="result-count">0</span> results for "<span class="search-query"></span>"</p>
-          </div>
-          <div class="mockups-list">
-            {{range .Site.RegularPages}}
-            <a href="{{.Permalink}}" class="mockup">
-                {{if isset .Params "image-low" }}<img src="{{ index .Params "image-low" }}" class="sfimg" alt="">
-                {{ end }}
-                <span class="stitle">{{ .Title }}<span class="seng" style="display: none;">{{.File.LogicalName}}</span><span class="smeta"
-                    style="display: none;">{{ .Title }}</span></span>
-        
-              </a>
-                {{ end }}
-          </div>
-          <script>
-            document.addEventListener('DOMContentLoaded', function() {
-              const urlParams = new URLSearchParams(window.location.search);
-              const query = urlParams.get('query');
-        
-              if (query) {
-                document.querySelector('.search-query').textContent = query;
-                const mockups = document.querySelectorAll('.mockup');
-                let resultCount = 0;
-        
-                mockups.forEach(function(mockup) {
-                  const mockupText = mockup.textContent.toLowerCase();
-                  if (mockupText.includes(query.toLowerCase())) {
-                    mockup.style.display = 'block';
-                    resultCount++;
-                  } else {
-                    mockup.style.display = 'none';
-                  }
-                });
-        
-                document.querySelector('.result-count').textContent = resultCount;
-              }
-            });
-          </script>
+      <a href="{{.Permalink}}" class="smockup">
+        {{if isset .Params "image-low" }}<img src="{{ index .Params "image-low" }}" class="sfimg" alt="">
+        {{ end }}
+        <span class="stitle">{{ .Title }}<span class="seng" style="display: none;">{{.File.LogicalName}}</span><span class="smeta"
+            style="display: none;">{{ .Title }}</span></span>
+
+      </a>
+    
+    {{ end }}
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const query = urlParams.get('query');
+
+      if (query) {
+        document.querySelector('.search-query').textContent = query;
+        const mockups = document.querySelectorAll('.mockup');
+        let resultCount = 0;
+
+        mockups.forEach(function(mockup) {
+          const mockupText = mockup.textContent.toLowerCase();
+          if (mockupText.includes(query.toLowerCase())) {
+            mockup.style.display = 'block';
+            resultCount++;
+          } else {
+            mockup.style.display = 'none';
+          }
+        });
+
+        document.querySelector('.result-count').textContent = resultCount;
+      }
+    });
+  </script>
 </body>
 </html>
