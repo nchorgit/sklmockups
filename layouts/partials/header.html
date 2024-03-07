@@ -319,7 +319,10 @@
         {{if isset .Params "image-low" }}<img src="{{ index .Params "image-low" }}" class="sfimg" alt="">
         {{ end }}
         <span class="stitle">{{ .Title }}<span class="seng" style="display: none;">{{.File.LogicalName}}</span><span class="smeta"
-            style="display: none;">{{ .Title }}</span></span>
+            style="display: none;">{{ .Title }}</span>
+	<span class="fmeta"
+            style="display: none;">{{ index .Params "fmeta" }}</span>
+	</span>
 
       </a>
     </li>
