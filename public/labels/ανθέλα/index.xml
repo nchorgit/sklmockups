@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ανθέλα on Home</title>
-    <link>http://localhost:43395/labels/%CE%B1%CE%BD%CE%B8%CE%AD%CE%BB%CE%B1/</link>
+    <link>http://localhost:34663/labels/%CE%B1%CE%BD%CE%B8%CE%AD%CE%BB%CE%B1/</link>
     <description>Recent content in Ανθέλα on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <atom:link href="http://localhost:43395/labels/%CE%B1%CE%BD%CE%B8%CE%AD%CE%BB%CE%B1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:34663/labels/%CE%B1%CE%BD%CE%B8%CE%AD%CE%BB%CE%B1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ανθέλα Ελαιόλαδο 1L</title>
-      <link>http://localhost:43395/mockups/anthela/anthela-elaiolado-1l/</link>
+      <link>http://localhost:34663/mockups/anthela/anthela-elaiolado-1l/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/anthela/anthela-elaiolado-1l/</guid>
+      <guid>http://localhost:34663/mockups/anthela/anthela-elaiolado-1l/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Ανθέλα Ελαιόλαδο 2L</title>
-      <link>http://localhost:43395/mockups/anthela/anthela-elaiolado-2l/</link>
+      <link>http://localhost:34663/mockups/anthela/anthela-elaiolado-2l/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/anthela/anthela-elaiolado-2l/</guid>
+      <guid>http://localhost:34663/mockups/anthela/anthela-elaiolado-2l/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Ανθέλα Ελαιόλαδο 5L</title>
-      <link>http://localhost:43395/mockups/anthela/anthela-elaiolado-5l/</link>
+      <link>http://localhost:34663/mockups/anthela/anthela-elaiolado-5l/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/anthela/anthela-elaiolado-5l/</guid>
+      <guid>http://localhost:34663/mockups/anthela/anthela-elaiolado-5l/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
   </channel>

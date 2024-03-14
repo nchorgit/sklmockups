@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gencat on Home</title>
-    <link>http://localhost:1313/gencat/</link>
+    <link>http://localhost:34663/gencat/</link>
     <description>Recent content in Gencat on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <atom:link href="http://localhost:1313/gencat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:34663/gencat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Μη Τρόφιμα</title>
-      <link>http://localhost:1313/gencat/%CE%BC%CE%B7-%CF%84%CF%81%CF%8C%CF%86%CE%B9%CE%BC%CE%B1/</link>
+      <link>http://localhost:34663/gencat/%CE%BC%CE%B7-%CF%84%CF%81%CF%8C%CF%86%CE%B9%CE%BC%CE%B1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gencat/%CE%BC%CE%B7-%CF%84%CF%81%CF%8C%CF%86%CE%B9%CE%BC%CE%B1/</guid>
+      <guid>http://localhost:34663/gencat/%CE%BC%CE%B7-%CF%84%CF%81%CF%8C%CF%86%CE%B9%CE%BC%CE%B1/</guid>
       <description></description>
     </item>
     <item>
       <title>Όροφος</title>
-      <link>http://localhost:1313/gencat/%CF%8C%CF%81%CE%BF%CF%86%CE%BF%CF%82/</link>
+      <link>http://localhost:34663/gencat/%CF%8C%CF%81%CE%BF%CF%86%CE%BF%CF%82/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gencat/%CF%8C%CF%81%CE%BF%CF%86%CE%BF%CF%82/</guid>
+      <guid>http://localhost:34663/gencat/%CF%8C%CF%81%CE%BF%CF%86%CE%BF%CF%82/</guid>
       <description></description>
     </item>
     <item>
       <title>Τρόφιμα</title>
-      <link>http://localhost:1313/gencat/%CF%84%CF%81%CF%8C%CF%86%CE%B9%CE%BC%CE%B1/</link>
+      <link>http://localhost:34663/gencat/%CF%84%CF%81%CF%8C%CF%86%CE%B9%CE%BC%CE%B1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gencat/%CF%84%CF%81%CF%8C%CF%86%CE%B9%CE%BC%CE%B1/</guid>
+      <guid>http://localhost:34663/gencat/%CF%84%CF%81%CF%8C%CF%86%CE%B9%CE%BC%CE%B1/</guid>
       <description></description>
     </item>
   </channel>

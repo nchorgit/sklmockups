@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Μείγματα on Home</title>
-    <link>http://localhost:43395/categories/%CE%BC%CE%B5%CE%AF%CE%B3%CE%BC%CE%B1%CF%84%CE%B1/</link>
+    <link>http://localhost:34663/categories/%CE%BC%CE%B5%CE%AF%CE%B3%CE%BC%CE%B1%CF%84%CE%B1/</link>
     <description>Recent content in Μείγματα on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <atom:link href="http://localhost:43395/categories/%CE%BC%CE%B5%CE%AF%CE%B3%CE%BC%CE%B1%CF%84%CE%B1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:34663/categories/%CE%BC%CE%B5%CE%AF%CE%B3%CE%BC%CE%B1%CF%84%CE%B1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Μαράτα Πουρές &amp; Μπεσαμέλ 250g</title>
-      <link>http://localhost:43395/mockups/marata/migmata/marata-poures--mpesamel-250g/</link>
+      <link>http://localhost:34663/mockups/marata/migmata/marata-poures--mpesamel-250g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/marata/migmata/marata-poures--mpesamel-250g/</guid>
+      <guid>http://localhost:34663/mockups/marata/migmata/marata-poures--mpesamel-250g/</guid>
       <description>Εμπρόσθια, Πλευρές &amp; Πίσω</description>
     </item>
     <item>
       <title>Μαράτα Σιμιγδάλι 500g</title>
-      <link>http://localhost:43395/mockups/marata/migmata/marata-simigdali-500g/</link>
+      <link>http://localhost:34663/mockups/marata/migmata/marata-simigdali-500g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/marata/migmata/marata-simigdali-500g/</guid>
+      <guid>http://localhost:34663/mockups/marata/migmata/marata-simigdali-500g/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
   </channel>

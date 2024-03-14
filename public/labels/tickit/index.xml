@@ -2,72 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tickit on Home</title>
-    <link>http://localhost:43395/labels/tickit/</link>
+    <link>http://localhost:34663/labels/tickit/</link>
     <description>Recent content in Tickit on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <atom:link href="http://localhost:43395/labels/tickit/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:34663/labels/tickit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tickit Αυτοκόλλητο Ρολό 2m &amp; 5m</title>
-      <link>http://localhost:43395/mockups/tickit/tickit-aftokollito-rolo/</link>
+      <link>http://localhost:34663/mockups/tickit/tickit-aftokollito-rolo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/tickit/tickit-aftokollito-rolo/</guid>
+      <guid>http://localhost:34663/mockups/tickit/tickit-aftokollito-rolo/</guid>
       <description>Εμπρόσθια &amp; Πλευρές</description>
     </item>
     <item>
       <title>Tickit Αυτοκόλλητο Σε Φύλλα</title>
-      <link>http://localhost:43395/mockups/tickit/tickit-aftokollito-se-fylla/</link>
+      <link>http://localhost:34663/mockups/tickit/tickit-aftokollito-se-fylla/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/tickit/tickit-aftokollito-se-fylla/</guid>
+      <guid>http://localhost:34663/mockups/tickit/tickit-aftokollito-se-fylla/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Tickit Μαρκαδόροι Λεπτοί 12 Τεμάχια</title>
-      <link>http://localhost:43395/mockups/tickit/tickit-markadoroi-leptoi/</link>
+      <link>http://localhost:34663/mockups/tickit/tickit-markadoroi-leptoi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/tickit/tickit-markadoroi-leptoi/</guid>
+      <guid>http://localhost:34663/mockups/tickit/tickit-markadoroi-leptoi/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Tickit Μαρκαδόροι Χόνδροι 12 Τεμάχια</title>
-      <link>http://localhost:43395/mockups/tickit/tickit-markadoroi-xondroi/</link>
+      <link>http://localhost:34663/mockups/tickit/tickit-markadoroi-xondroi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/tickit/tickit-markadoroi-xondroi/</guid>
+      <guid>http://localhost:34663/mockups/tickit/tickit-markadoroi-xondroi/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Tickit Μαρκαδόροι Χόνδροι 36 Τεμάχια</title>
-      <link>http://localhost:43395/mockups/tickit/tickit-markadoroi-xondroi-36-tem/</link>
+      <link>http://localhost:34663/mockups/tickit/tickit-markadoroi-xondroi-36-tem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/tickit/tickit-markadoroi-xondroi-36-tem/</guid>
+      <guid>http://localhost:34663/mockups/tickit/tickit-markadoroi-xondroi-36-tem/</guid>
       <description>Εμπρόσθια &amp; Πλευρές</description>
     </item>
     <item>
       <title>Tickit Τετράδια</title>
-      <link>http://localhost:43395/mockups/tickit/tickit-tetradia/</link>
+      <link>http://localhost:34663/mockups/tickit/tickit-tetradia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/tickit/tickit-tetradia/</guid>
+      <guid>http://localhost:34663/mockups/tickit/tickit-tetradia/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Tickit Ψαλίδι GR-SS-129 12cm</title>
-      <link>http://localhost:43395/mockups/tickit/tickit-psalidi-12cm/</link>
+      <link>http://localhost:34663/mockups/tickit/tickit-psalidi-12cm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/tickit/tickit-psalidi-12cm/</guid>
+      <guid>http://localhost:34663/mockups/tickit/tickit-psalidi-12cm/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Tickit Ψαλίδι GR-SS-62P 13cm</title>
-      <link>http://localhost:43395/mockups/tickit/tickit-psalidi-13cm/</link>
+      <link>http://localhost:34663/mockups/tickit/tickit-psalidi-13cm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/tickit/tickit-psalidi-13cm/</guid>
+      <guid>http://localhost:34663/mockups/tickit/tickit-psalidi-13cm/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Tickit Ψαλίδι GR-SS-69P 12.5cm</title>
-      <link>http://localhost:43395/mockups/tickit/tickit-psalidi-12.5cm/</link>
+      <link>http://localhost:34663/mockups/tickit/tickit-psalidi-12.5cm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/tickit/tickit-psalidi-12.5cm/</guid>
+      <guid>http://localhost:34663/mockups/tickit/tickit-psalidi-12.5cm/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
   </channel>

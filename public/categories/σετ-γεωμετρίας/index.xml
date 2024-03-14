@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Σετ Γεωμετρίας on Home</title>
-    <link>http://localhost:43395/categories/%CF%83%CE%B5%CF%84-%CE%B3%CE%B5%CF%89%CE%BC%CE%B5%CF%84%CF%81%CE%AF%CE%B1%CF%82/</link>
+    <link>http://localhost:34663/categories/%CF%83%CE%B5%CF%84-%CE%B3%CE%B5%CF%89%CE%BC%CE%B5%CF%84%CF%81%CE%AF%CE%B1%CF%82/</link>
     <description>Recent content in Σετ Γεωμετρίας on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <atom:link href="http://localhost:43395/categories/%CF%83%CE%B5%CF%84-%CE%B3%CE%B5%CF%89%CE%BC%CE%B5%CF%84%CF%81%CE%AF%CE%B1%CF%82/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:34663/categories/%CF%83%CE%B5%CF%84-%CE%B3%CE%B5%CF%89%CE%BC%CE%B5%CF%84%CF%81%CE%AF%CE%B1%CF%82/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stampa Σετ Γεωμετρίας 3 Τεμαχίων</title>
-      <link>http://localhost:43395/mockups/stampa/eidh-grafeiou/stampa-set-geometrias-3tem/</link>
+      <link>http://localhost:34663/mockups/stampa/eidh-grafeiou/stampa-set-geometrias-3tem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/stampa/eidh-grafeiou/stampa-set-geometrias-3tem/</guid>
+      <guid>http://localhost:34663/mockups/stampa/eidh-grafeiou/stampa-set-geometrias-3tem/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Stampa Σετ Γεωμετρίας 4 Τεμαχίων</title>
-      <link>http://localhost:43395/mockups/stampa/eidh-grafeiou/stampa-set-geometrias-4tem/</link>
+      <link>http://localhost:34663/mockups/stampa/eidh-grafeiou/stampa-set-geometrias-4tem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/stampa/eidh-grafeiou/stampa-set-geometrias-4tem/</guid>
+      <guid>http://localhost:34663/mockups/stampa/eidh-grafeiou/stampa-set-geometrias-4tem/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Stampa Χάρακας Εύκαμπτος 30cm</title>
-      <link>http://localhost:43395/mockups/stampa/eidh-grafeiou/stampa-xarakas-efkamptos-30cm/</link>
+      <link>http://localhost:34663/mockups/stampa/eidh-grafeiou/stampa-xarakas-efkamptos-30cm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/stampa/eidh-grafeiou/stampa-xarakas-efkamptos-30cm/</guid>
+      <guid>http://localhost:34663/mockups/stampa/eidh-grafeiou/stampa-xarakas-efkamptos-30cm/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
   </channel>

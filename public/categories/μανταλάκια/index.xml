@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Μανταλάκια on Home</title>
-    <link>http://localhost:43395/categories/%CE%BC%CE%B1%CE%BD%CF%84%CE%B1%CE%BB%CE%AC%CE%BA%CE%B9%CE%B1/</link>
+    <link>http://localhost:34663/categories/%CE%BC%CE%B1%CE%BD%CF%84%CE%B1%CE%BB%CE%AC%CE%BA%CE%B9%CE%B1/</link>
     <description>Recent content in Μανταλάκια on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <atom:link href="http://localhost:43395/categories/%CE%BC%CE%B1%CE%BD%CF%84%CE%B1%CE%BB%CE%AC%CE%BA%CE%B9%CE%B1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:34663/categories/%CE%BC%CE%B1%CE%BD%CF%84%CE%B1%CE%BB%CE%AC%CE%BA%CE%B9%CE%B1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kitten Μανταλάκια Extra</title>
-      <link>http://localhost:43395/mockups/kitten/mantalakia/kitten-mantalakia-extra/</link>
+      <link>http://localhost:34663/mockups/kitten/mantalakia/kitten-mantalakia-extra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/kitten/mantalakia/kitten-mantalakia-extra/</guid>
+      <guid>http://localhost:34663/mockups/kitten/mantalakia/kitten-mantalakia-extra/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Kitten Μανταλάκια Γίγας</title>
-      <link>http://localhost:43395/mockups/kitten/mantalakia/kitten-mantalakia-gigas/</link>
+      <link>http://localhost:34663/mockups/kitten/mantalakia/kitten-mantalakia-gigas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/kitten/mantalakia/kitten-mantalakia-gigas/</guid>
+      <guid>http://localhost:34663/mockups/kitten/mantalakia/kitten-mantalakia-gigas/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Kitten Μανταλάκια Ξύλινα</title>
-      <link>http://localhost:43395/mockups/kitten/mantalakia/kitten-mantalakia-ksilina/</link>
+      <link>http://localhost:34663/mockups/kitten/mantalakia/kitten-mantalakia-ksilina/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/kitten/mantalakia/kitten-mantalakia-ksilina/</guid>
+      <guid>http://localhost:34663/mockups/kitten/mantalakia/kitten-mantalakia-ksilina/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Kitten Μανταλάκια Χρωματιστά</title>
-      <link>http://localhost:43395/mockups/kitten/mantalakia/kitten-mantalakia-xromatista/</link>
+      <link>http://localhost:34663/mockups/kitten/mantalakia/kitten-mantalakia-xromatista/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/kitten/mantalakia/kitten-mantalakia-xromatista/</guid>
+      <guid>http://localhost:34663/mockups/kitten/mantalakia/kitten-mantalakia-xromatista/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Kitten Μανταλάκια Χρωματιστά Style</title>
-      <link>http://localhost:43395/mockups/kitten/mantalakia/kitten-mantalakia-xromatista-style/</link>
+      <link>http://localhost:34663/mockups/kitten/mantalakia/kitten-mantalakia-xromatista-style/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/kitten/mantalakia/kitten-mantalakia-xromatista-style/</guid>
+      <guid>http://localhost:34663/mockups/kitten/mantalakia/kitten-mantalakia-xromatista-style/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Kitten Σχοινί Απλώματος</title>
-      <link>http://localhost:43395/mockups/kitten/mantalakia/kitten-sxoini-aplomatos/</link>
+      <link>http://localhost:34663/mockups/kitten/mantalakia/kitten-sxoini-aplomatos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/kitten/mantalakia/kitten-sxoini-aplomatos/</guid>
+      <guid>http://localhost:34663/mockups/kitten/mantalakia/kitten-sxoini-aplomatos/</guid>
       <description>Εμπρόσθια &amp; Πλευρές</description>
     </item>
   </channel>

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Σφουγγάρια on Home</title>
-    <link>http://localhost:43395/categories/%CF%83%CF%86%CE%BF%CF%85%CE%B3%CE%B3%CE%AC%CF%81%CE%B9%CE%B1/</link>
+    <link>http://localhost:34663/categories/%CF%83%CF%86%CE%BF%CF%85%CE%B3%CE%B3%CE%AC%CF%81%CE%B9%CE%B1/</link>
     <description>Recent content in Σφουγγάρια on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <atom:link href="http://localhost:43395/categories/%CF%83%CF%86%CE%BF%CF%85%CE%B3%CE%B3%CE%AC%CF%81%CE%B9%CE%B1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:34663/categories/%CF%83%CF%86%CE%BF%CF%85%CE%B3%CE%B3%CE%AC%CF%81%CE%B9%CE%B1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kitten Σφουγγάρι Γόμα</title>
-      <link>http://localhost:43395/mockups/kitten/sfouggaria/kitten-sfouggari-goma/</link>
+      <link>http://localhost:34663/mockups/kitten/sfouggaria/kitten-sfouggari-goma/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/kitten/sfouggaria/kitten-sfouggari-goma/</guid>
+      <guid>http://localhost:34663/mockups/kitten/sfouggaria/kitten-sfouggari-goma/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Kitten Σφουγγαρίστρα</title>
-      <link>http://localhost:43395/mockups/kitten/sfouggaria/kitten-sfouggaristra/</link>
+      <link>http://localhost:34663/mockups/kitten/sfouggaria/kitten-sfouggaristra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/kitten/sfouggaria/kitten-sfouggaristra/</guid>
+      <guid>http://localhost:34663/mockups/kitten/sfouggaria/kitten-sfouggaristra/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
   </channel>

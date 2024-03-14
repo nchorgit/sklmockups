@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ζαχαροπλαστείο on Home</title>
-    <link>http://localhost:43395/categories/%CE%B6%CE%B1%CF%87%CE%B1%CF%81%CE%BF%CF%80%CE%BB%CE%B1%CF%83%CF%84%CE%B5%CE%AF%CE%BF/</link>
+    <link>http://localhost:34663/categories/%CE%B6%CE%B1%CF%87%CE%B1%CF%81%CE%BF%CF%80%CE%BB%CE%B1%CF%83%CF%84%CE%B5%CE%AF%CE%BF/</link>
     <description>Recent content in Ζαχαροπλαστείο on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <atom:link href="http://localhost:43395/categories/%CE%B6%CE%B1%CF%87%CE%B1%CF%81%CE%BF%CF%80%CE%BB%CE%B1%CF%83%CF%84%CE%B5%CE%AF%CE%BF/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:34663/categories/%CE%B6%CE%B1%CF%87%CE%B1%CF%81%CE%BF%CF%80%CE%BB%CE%B1%CF%83%CF%84%CE%B5%CE%AF%CE%BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Σκλαβενίτης Βασιλόπιτα Κουτί</title>
-      <link>http://localhost:43395/mockups/sklavenitis/zaxaroplasteio/sklavenitis-vasilopita/</link>
+      <link>http://localhost:34663/mockups/sklavenitis/zaxaroplasteio/sklavenitis-vasilopita/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/sklavenitis/zaxaroplasteio/sklavenitis-vasilopita/</guid>
+      <guid>http://localhost:34663/mockups/sklavenitis/zaxaroplasteio/sklavenitis-vasilopita/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Σκλαβενίτης Κουραμπιέδες Αμυγδάλου 1kg</title>
-      <link>http://localhost:43395/mockups/sklavenitis/zaxaroplasteio/sklavenitis-kourampiedes-1kg/</link>
+      <link>http://localhost:34663/mockups/sklavenitis/zaxaroplasteio/sklavenitis-kourampiedes-1kg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/sklavenitis/zaxaroplasteio/sklavenitis-kourampiedes-1kg/</guid>
+      <guid>http://localhost:34663/mockups/sklavenitis/zaxaroplasteio/sklavenitis-kourampiedes-1kg/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Σκλαβενίτης Κουραμπιέδες Αμυγδάλου 330g</title>
-      <link>http://localhost:43395/mockups/sklavenitis/zaxaroplasteio/sklavenitis-kourampiedes-330g/</link>
+      <link>http://localhost:34663/mockups/sklavenitis/zaxaroplasteio/sklavenitis-kourampiedes-330g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:43395/mockups/sklavenitis/zaxaroplasteio/sklavenitis-kourampiedes-330g/</guid>
+      <guid>http://localhost:34663/mockups/sklavenitis/zaxaroplasteio/sklavenitis-kourampiedes-330g/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
   </channel>
