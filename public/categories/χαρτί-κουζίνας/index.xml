@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Χαρτί Κουζίνας on Home</title>
+    <link>http://localhost:43395/categories/%CF%87%CE%B1%CF%81%CF%84%CE%AF-%CE%BA%CE%BF%CF%85%CE%B6%CE%AF%CE%BD%CE%B1%CF%82/</link>
+    <description>Recent content in Χαρτί Κουζίνας on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <atom:link href="http://localhost:43395/categories/%CF%87%CE%B1%CF%81%CF%84%CE%AF-%CE%BA%CE%BF%CF%85%CE%B6%CE%AF%CE%BD%CE%B1%CF%82/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Γλάρος Χαρτί Κουζίνας 1 Ρολό 800g</title>
+      <link>http://localhost:43395/mockups/glaros/xarti-kouzinas/glaros-xarti-kouzinas-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43395/mockups/glaros/xarti-kouzinas/glaros-xarti-kouzinas-1/</guid>
+      <description>Εμπρόσθια Όψη</description>
+    </item>
+    <item>
+      <title>Γλάρος Χαρτί Κουζίνας 2 Ρολά</title>
+      <link>http://localhost:43395/mockups/glaros/xarti-kouzinas/glaros-xarti-kouzinas-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43395/mockups/glaros/xarti-kouzinas/glaros-xarti-kouzinas-2/</guid>
+      <description>Εμπρόσθια &amp; Πλευρές</description>
+    </item>
+    <item>
+      <title>Γλάρος Χαρτί Κουζίνας 4 Ρολά</title>
+      <link>http://localhost:43395/mockups/glaros/xarti-kouzinas/glaros-xarti-kouzinas-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43395/mockups/glaros/xarti-kouzinas/glaros-xarti-kouzinas-4/</guid>
+      <description>Εμπρόσθια &amp; Πλευρές</description>
+    </item>
+    <item>
+      <title>Γλάρος Χαρτί Κουζίνας Γίγας 2 Ρολά</title>
+      <link>http://localhost:43395/mockups/glaros/xarti-kouzinas/glaros-xarti-kouzinas-gigas-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43395/mockups/glaros/xarti-kouzinas/glaros-xarti-kouzinas-gigas-2/</guid>
+      <description>Εμπρόσθια &amp; Πλευρές</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Λαμπτήρες on Home</title>
+    <link>http://localhost:43395/categories/%CE%BB%CE%B1%CE%BC%CF%80%CF%84%CE%AE%CF%81%CE%B5%CF%82/</link>
+    <description>Recent content in Λαμπτήρες on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <atom:link href="http://localhost:43395/categories/%CE%BB%CE%B1%CE%BC%CF%80%CF%84%CE%AE%CF%81%CE%B5%CF%82/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Master Light Λαμπτήρες Εμπρόσθια Όψη</title>
+      <link>http://localhost:43395/mockups/master-light/master-light-lampthres-aview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43395/mockups/master-light/master-light-lampthres-aview/</guid>
+      <description>Εμπρόσθια Όψη</description>
+    </item>
+    <item>
+      <title>Master Light Λαμπτήρες Πίσω Πλευρά</title>
+      <link>http://localhost:43395/mockups/master-light/master-light-lampthres-bview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43395/mockups/master-light/master-light-lampthres-bview/</guid>
+      <description>Πίσω Πλευρά</description>
+    </item>
+  </channel>
+</rss>

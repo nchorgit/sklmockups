@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Μπισκότα on Home</title>
+    <link>http://localhost:43395/categories/%CE%BC%CF%80%CE%B9%CF%83%CE%BA%CF%8C%CF%84%CE%B1/</link>
+    <description>Recent content in Μπισκότα on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <atom:link href="http://localhost:43395/categories/%CE%BC%CF%80%CE%B9%CF%83%CE%BA%CF%8C%CF%84%CE%B1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bonora μπισκότα digestive 200g</title>
+      <link>http://localhost:43395/mockups/bonora/mpiskota/bonora-mpiskota-digestive-200g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43395/mockups/bonora/mpiskota/bonora-mpiskota-digestive-200g/</guid>
+      <description>Εμπρόσθια &amp; Πίσω</description>
+    </item>
+    <item>
+      <title>bonora μπισκότα βρώμης 265g</title>
+      <link>http://localhost:43395/mockups/bonora/mpiskota/bonora-mpiskota-vromis-265g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43395/mockups/bonora/mpiskota/bonora-mpiskota-vromis-265g/</guid>
+      <description>Εμπρόσθια &amp; Πίσω</description>
+    </item>
+    <item>
+      <title>bonora μπισκοτα γεμιστα 500g</title>
+      <link>http://localhost:43395/mockups/bonora/mpiskota/bonora-mpiskota-gemista-500g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:43395/mockups/bonora/mpiskota/bonora-mpiskota-gemista-500g/</guid>
+      <description>Εμπρόσθια &amp; Πλευρές</description>
+    </item>
+  </channel>
+</rss>
