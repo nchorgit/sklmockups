@@ -6,7 +6,7 @@
     <div class="main-top">
     <div class="mtop-left">
       
-        <b class="nmoc">{{ len (where .Site.Pages "Section" "!=" "") }}</b> <strong><span class="picon material-symbols-rounded" style="position: relative; top:-2px;"> edit_square </span> <span class="ctitle">{{ .Title }}</span></strong></div>
+        <b class="nmoc">{{ len (where .Site.Pages "Section" .Section) }}</b> <strong><span class="picon material-symbols-rounded" style="position: relative; top:-2px;"> edit_square </span> <span class="ctitle">{{ .Title }}</span></strong></div>
         
             <div class="mtop-right">
                 <div class="order" style="display: none;"><span>Ταξινόμηση</span><a class="lorder" href="#"></a></div>
