@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Σπογγοπετσέτες on Home</title>
-    <link>http://localhost:34663/categories/%CF%83%CF%80%CE%BF%CE%B3%CE%B3%CE%BF%CF%80%CE%B5%CF%84%CF%83%CE%AD%CF%84%CE%B5%CF%82/</link>
+    <link>http://localhost:44469/categories/%CF%83%CF%80%CE%BF%CE%B3%CE%B3%CE%BF%CF%80%CE%B5%CF%84%CF%83%CE%AD%CF%84%CE%B5%CF%82/</link>
     <description>Recent content in Σπογγοπετσέτες on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <atom:link href="http://localhost:34663/categories/%CF%83%CF%80%CE%BF%CE%B3%CE%B3%CE%BF%CF%80%CE%B5%CF%84%CF%83%CE%AD%CF%84%CE%B5%CF%82/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:44469/categories/%CF%83%CF%80%CE%BF%CE%B3%CE%B3%CE%BF%CF%80%CE%B5%CF%84%CF%83%CE%AD%CF%84%CE%B5%CF%82/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kitten Σπογγοπετσέτα No2</title>
-      <link>http://localhost:34663/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-no2/</link>
+      <link>http://localhost:44469/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-no2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:34663/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-no2/</guid>
+      <guid>http://localhost:44469/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-no2/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Kitten Σπογγοπετσέτα No3</title>
-      <link>http://localhost:34663/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-no3/</link>
+      <link>http://localhost:44469/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-no3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:34663/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-no3/</guid>
+      <guid>http://localhost:44469/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-no3/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Kitten Σπογγοπετσέτα Ρολό</title>
-      <link>http://localhost:34663/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-rolo/</link>
+      <link>http://localhost:44469/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-rolo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:34663/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-rolo/</guid>
+      <guid>http://localhost:44469/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-rolo/</guid>
       <description>Εμπρόσθια &amp; Πλευρές</description>
     </item>
     <item>
       <title>Kitten Σπογγοπετσέτες No1</title>
-      <link>http://localhost:34663/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-no1/</link>
+      <link>http://localhost:44469/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-no1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:34663/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-no1/</guid>
+      <guid>http://localhost:44469/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-no1/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
   </channel>

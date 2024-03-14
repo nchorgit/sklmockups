@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Πρόσθετα Φαγητών on Home</title>
-    <link>http://localhost:34663/categories/%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%84%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CF%8E%CE%BD/</link>
+    <link>http://localhost:44469/categories/%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%84%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CF%8E%CE%BD/</link>
     <description>Recent content in Πρόσθετα Φαγητών on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <atom:link href="http://localhost:34663/categories/%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%84%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CF%8E%CE%BD/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:44469/categories/%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%84%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CF%8E%CE%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Μαράτα Σόδα 400g</title>
-      <link>http://localhost:34663/mockups/marata/prostheta-faghtwn/marata-soda-400g/</link>
+      <link>http://localhost:44469/mockups/marata/prostheta-faghtwn/marata-soda-400g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:34663/mockups/marata/prostheta-faghtwn/marata-soda-400g/</guid>
+      <guid>http://localhost:44469/mockups/marata/prostheta-faghtwn/marata-soda-400g/</guid>
       <description>Εμπρόσθια &amp; Πλευρές</description>
     </item>
   </channel>

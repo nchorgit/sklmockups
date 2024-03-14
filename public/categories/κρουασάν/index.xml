@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Κρουασάν on Home</title>
-    <link>http://localhost:34663/categories/%CE%BA%CF%81%CE%BF%CF%85%CE%B1%CF%83%CE%AC%CE%BD/</link>
+    <link>http://localhost:44469/categories/%CE%BA%CF%81%CE%BF%CF%85%CE%B1%CF%83%CE%AC%CE%BD/</link>
     <description>Recent content in Κρουασάν on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <atom:link href="http://localhost:34663/categories/%CE%BA%CF%81%CE%BF%CF%85%CE%B1%CF%83%CE%AC%CE%BD/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:44469/categories/%CE%BA%CF%81%CE%BF%CF%85%CE%B1%CF%83%CE%AC%CE%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Μαράτα Κρουασάν Εμπρόσθια Όψη 85g</title>
-      <link>http://localhost:34663/mockups/marata/krouasan/marata-krouasan-front-85g/</link>
+      <link>http://localhost:44469/mockups/marata/krouasan/marata-krouasan-front-85g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:34663/mockups/marata/krouasan/marata-krouasan-front-85g/</guid>
+      <guid>http://localhost:44469/mockups/marata/krouasan/marata-krouasan-front-85g/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Μαράτα Κρουασάν Πίσω Πλευρά 85g</title>
-      <link>http://localhost:34663/mockups/marata/krouasan/marata-krouasan-back-85g/</link>
+      <link>http://localhost:44469/mockups/marata/krouasan/marata-krouasan-back-85g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:34663/mockups/marata/krouasan/marata-krouasan-back-85g/</guid>
+      <guid>http://localhost:44469/mockups/marata/krouasan/marata-krouasan-back-85g/</guid>
       <description>Πίσω Πλευρά</description>
     </item>
   </channel>

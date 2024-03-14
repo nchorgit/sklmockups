@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Striftes on Home</title>
-    <link>http://localhost:34663/promo/striftes/</link>
+    <link>http://localhost:44469/promo/striftes/</link>
     <description>Recent content in Striftes on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <atom:link href="http://localhost:34663/promo/striftes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:44469/promo/striftes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Baker Master Στριφτές Πίτες Εμπρόσθια Όψη 850g</title>
-      <link>http://localhost:34663/mockups/baker-master/baker-master-striftes-pites-front-850g/</link>
+      <link>http://localhost:44469/mockups/baker-master/baker-master-striftes-pites-front-850g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:34663/mockups/baker-master/baker-master-striftes-pites-front-850g/</guid>
+      <guid>http://localhost:44469/mockups/baker-master/baker-master-striftes-pites-front-850g/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Μαράτα Στριφτές Πίτες Εμπρόσθια Όψη 1kg</title>
-      <link>http://localhost:34663/mockups/marata/pites/marata-striftes-pites-front/</link>
+      <link>http://localhost:44469/mockups/marata/pites/marata-striftes-pites-front/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:34663/mockups/marata/pites/marata-striftes-pites-front/</guid>
+      <guid>http://localhost:44469/mockups/marata/pites/marata-striftes-pites-front/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Μαράτα Στριφτές Πίτες Προοπτική Προβολή 1kg</title>
-      <link>http://localhost:34663/mockups/marata/pites/marata-striftes-pites-perspective/</link>
+      <link>http://localhost:44469/mockups/marata/pites/marata-striftes-pites-perspective/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:34663/mockups/marata/pites/marata-striftes-pites-perspective/</guid>
+      <guid>http://localhost:44469/mockups/marata/pites/marata-striftes-pites-perspective/</guid>
       <description>Προοπτική Προβολή</description>
     </item>
     <item>
       <title>Baker Master Στριφτές Πίτες Κάτω Πλευρά 850g</title>
-      <link>http://localhost:34663/mockups/baker-master/baker-master-striftes-pites-back-850g/</link>
+      <link>http://localhost:44469/mockups/baker-master/baker-master-striftes-pites-back-850g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:34663/mockups/baker-master/baker-master-striftes-pites-back-850g/</guid>
+      <guid>http://localhost:44469/mockups/baker-master/baker-master-striftes-pites-back-850g/</guid>
       <description>Κάτω Πλευρά</description>
     </item>
     <item>
       <title>Μαράτα Στριφτές Πίτες Κάτω Πλευρά 1kg</title>
-      <link>http://localhost:34663/mockups/marata/pites/marata-striftes-pites-back/</link>
+      <link>http://localhost:44469/mockups/marata/pites/marata-striftes-pites-back/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:34663/mockups/marata/pites/marata-striftes-pites-back/</guid>
+      <guid>http://localhost:44469/mockups/marata/pites/marata-striftes-pites-back/</guid>
       <description>Κάτω Πλευρά</description>
     </item>
   </channel>

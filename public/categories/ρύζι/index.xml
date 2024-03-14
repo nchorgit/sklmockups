@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ρύζι on Home</title>
-    <link>http://localhost:34663/categories/%CF%81%CF%8D%CE%B6%CE%B9/</link>
+    <link>http://localhost:44469/categories/%CF%81%CF%8D%CE%B6%CE%B9/</link>
     <description>Recent content in Ρύζι on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
-    <atom:link href="http://localhost:34663/categories/%CF%81%CF%8D%CE%B6%CE%B9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:44469/categories/%CF%81%CF%8D%CE%B6%CE%B9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Σκλαβενίτης Ρύζι 500g</title>
-      <link>http://localhost:34663/mockups/sklavenitis/ryzi/sklavenitis-ryzia-500g/</link>
+      <link>http://localhost:44469/mockups/sklavenitis/ryzi/sklavenitis-ryzia-500g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:34663/mockups/sklavenitis/ryzi/sklavenitis-ryzia-500g/</guid>
+      <guid>http://localhost:44469/mockups/sklavenitis/ryzi/sklavenitis-ryzia-500g/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
   </channel>
