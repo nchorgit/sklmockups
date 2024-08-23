@@ -522,8 +522,11 @@ a:hover.report {
     font-size: 18px;
     font-weight: 700;
 }
-.plabels a:nth-child(4) {
+/*.plabels a:nth-child(4) {
     display: none;
+}*/
+.genclass {
+    display: none !important;
 }
 .plabels a:hover {
     background: #333;
