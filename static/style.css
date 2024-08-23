@@ -70,9 +70,7 @@ body {
 
     overflow-y: overlay;
 }
-.genclass {
-    display: none;
-}
+
 title {
     text-transform: capitalize;
 }
