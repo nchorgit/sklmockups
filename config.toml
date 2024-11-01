@@ -1,4 +1,4 @@
-baseURL = 'https://nchorgit.github.io/sklmockups/'
+baseURL = ''
 languageCode = 'el'
 title = 'Home'
 paginate = "21"
