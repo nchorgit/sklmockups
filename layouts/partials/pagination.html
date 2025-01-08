@@ -73,6 +73,7 @@ ul.pagination {
     font-size: 20px;
     line-height: 25px;
     padding: 0;
+    gap: 10px;
 
 }
 nav.spages.spages2 {
@@ -80,9 +81,10 @@ nav.spages.spages2 {
     align-items: center;
     gap: 20px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 li.page-item {
-    margin-right: 10px;
+    
 }
 
 .page-item.active .page-link {
@@ -110,6 +112,14 @@ p.pnum {
     font-size: 17px;
     color: #ccc;
     border: 2px solid #333;
+    display: flex;
+    gap: 5px;
+}
+@media screen and (max-width: 720px) {
+ nav.spages.spages2 {
+    
+    
+ }
 }
 </style>
 

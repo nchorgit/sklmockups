@@ -383,7 +383,15 @@ span.FITB-inptCont[data-type=radiobox] label,
 body, .form-all {
     margin-top : 0;
 }
-
+@media screen and (max-width: 770px) {
+li.form-line:not([data-payment=true]) [data-wrapper-react=true] {
+  display: grid;
+  gap: 20px;
+}
+li.form-line:not(.form-line-column)[data-type=control_fullname] .form-input-wide [data-wrapper-react]:not(.extended) .form-sub-label-container+.form-sub-label-container {
+    margin-left: 0;
+}
+}
 
     /* Injected CSS Code */
 </style>
@@ -392,12 +400,8 @@ body, .form-all {
     {{ partial "header" . }}
     {{ partial "left" . }} 
 <div class="main">
-  <p class="queans"><span class="material-symbols-rounded" style="color: #57a7e6;
-    background: #2d2d2d;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    border-radius: 50%;"> mail </span><span>Επικοινωνήστε μαζί μας</span></p>
+  <p class="queans"><span class="material-symbols-rounded hicon" style="color: #57a7e6;
+    "> mail </span><span class="htext">Επικοινωνήστε μαζί μας</span></p>
   <form class="jotform-form" action="https://eu-submit.jotform.com/submit/231423426264349" method="post" name="form_231423426264349" id="231423426264349" accept-charset="utf-8" autocomplete="on" novalidate="true"><input type="hidden" name="formID" value="231423426264349"><input type="hidden" id="JWTContainer" value=""><input type="hidden" id="cardinalOrderNumber" value="">
     
     <div role="main" class="form-all">

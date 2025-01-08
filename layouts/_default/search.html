@@ -3,59 +3,103 @@
 
 <head>
     {{ partial "head" . }}
-    {{ partial "left" . }}
+  
 
 </head>
 
 <body>
-  <div class="search-outer">
-    <form class="search" action="" method="GET">
-      <div class="sbef">Mockup:</div>
-      <input class="sinput" type="text" name="query" value="Αναζήτηση">
-      
-      <button class="sbutton"type="submit"><img src="https://sklpsdmockups.onrender.com/media/icons/mglass.svg" alt=""></button>
-    </form></div>
-  <div class="results">
-    <p><span class="result-count">0</span> results for "<span class="search-query"></span>"</p>
+  {{ partial "header" . }} 
+  {{ partial "left" . }} 
+  <div class="search-container">
+    <div class="search-results">
+      <div class="search-header">
+        <p class="spar">
+          <span class="num-results nmoc"><b>0</b></span> αποτελέσματα για την αναζήτηση 
+          <span class="smglass">
+            <img width="24px" src="/media/icons/mglass.svg" alt="Αναζήτηση">
+            <span class="search-query"></span>
+          </span>
+        </p>
+      </div>
+    </div>
+    <ul class="search-list">
+      {{range .Site.RegularPages}}
+      <li>
+        <a href="{{.Permalink}}" class="smockup">
+          {{if isset .Params "image-low" }}
+            <img src="{{ index .Params "image-low" }}" class="sfimg" alt="">
+          {{ end }}
+          <span class="stitle">{{ .Title }}
+            <span class="seng" style="display: none;">{{.File.LogicalName}}</span>
+            <span class="smeta" style="display: none;">{{ .Title }}</span>
+            <span class="fmeta" style="display: none;">{{ index .Params "fmeta" }}</span>
+          </span>
+        </a>
+      </li>
+      {{end}}
+    </ul>
   </div>
-  <div class="mockups-list">
-    {{range .Site.RegularPages}}
-
   
-      <a href="{{.Permalink}}" class="smockup">
-        {{if isset .Params "image-low" }}<img src="{{ index .Params "image-low" }}" class="sfimg" alt="">
-        {{ end }}
-        <span class="stitle">{{ .Title }}<span class="seng" style="display: none;">{{.File.LogicalName}}</span><span class="smeta"
-            style="display: none;">{{ .Title }}</span></span>
+<script>
+ document.addEventListener('DOMContentLoaded', () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const query = urlParams.get('q')?.toLowerCase();
 
-      </a>
-    
-    {{ end }}
-  </div>
+  const searchContainer = document.querySelector('.search-container');
+  const numResults = document.querySelector('.num-results');
+  const searchQuery = document.querySelector('.search-query');
+  const results = document.querySelectorAll('.search-list li');
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const urlParams = new URLSearchParams(window.location.search);
-      const query = urlParams.get('query');
+  if (query) {
+    searchQuery.textContent = query;
+    let numShown = 0;
 
-      if (query) {
-        document.querySelector('.search-query').textContent = query;
-        const mockups = document.querySelectorAll('.mockup');
-        let resultCount = 0;
+    results.forEach(item => {
+      const title = item.querySelector('.stitle').textContent.toLowerCase();
+      const fmeta = item.querySelector('.fmeta')?.textContent.toLowerCase() || '';
 
-        mockups.forEach(function(mockup) {
-          const mockupText = mockup.textContent.toLowerCase();
-          if (mockupText.includes(query.toLowerCase())) {
-            mockup.style.display = 'block';
-            resultCount++;
-          } else {
-            mockup.style.display = 'none';
-          }
-        });
-
-        document.querySelector('.result-count').textContent = resultCount;
+      if (title.includes(query) || fmeta.includes(query)) {
+        item.style.display = ''; // Εμφάνιση του αποτελέσματος
+        numShown++;
+      } else {
+        item.style.display = 'none'; // Απόκρυψη του αποτελέσματος
       }
     });
-  </script>
+
+    numResults.textContent = numShown;
+
+    if (numShown === 0) {
+      displayNoResultsMessage(searchContainer);
+    }
+  } else {
+    searchContainer.style.display = 'none';
+  }
+});
+
+// Εμφάνιση μηνύματος για 0 αποτελέσματα
+function displayNoResultsMessage(container) {
+  const noResultsMessage = document.createElement('p');
+  noResultsMessage.classList.add('no-results-message');
+  noResultsMessage.textContent = 'Δεν βρέθηκαν αποτελέσματα για την αναζήτησή σας.';
+  container.appendChild(noResultsMessage);
+}
+// Λειτουργία για την ανάγνωση query parameters
+function getQueryParam(param) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
+}
+
+// Ανάγνωση της λέξης-κλειδιού από το URL
+const searchQueryInput = document.querySelector('.sinput'); // Το input της σελίδας αναζήτησης
+const queryFromURL = getQueryParam('q');
+
+if (queryFromURL) {
+  searchQueryInput.value = decodeURIComponent(queryFromURL); // Προσθήκη της λέξης στο input
+}
+
+
+
+</script>
+
 </body>
 </html>

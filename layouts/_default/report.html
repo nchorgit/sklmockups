@@ -383,8 +383,15 @@ span.FITB-inptCont[data-type=radiobox] label,
 body, .form-all {
     margin-top : 0;
 }
-
-
+@media screen and (max-width: 770px) {
+li.form-line:not([data-payment=true]) [data-wrapper-react=true] {
+  display: grid;
+  gap: 20px;
+}
+li.form-line:not(.form-line-column)[data-type=control_fullname] .form-input-wide [data-wrapper-react]:not(.extended) .form-sub-label-container+.form-sub-label-container {
+    margin-left: 0;
+}
+}
     /* Injected CSS Code */
 </style>
 </head>
@@ -392,12 +399,8 @@ body, .form-all {
     {{ partial "header" . }}
     {{ partial "left" . }} 
 <div class="main">
-  <p class="queans"><span class="material-symbols-rounded" style="color: #da1f33;
-    background: #2d2d2d;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    border-radius: 50%;"> report </span><span>Αναφορά σφάλματος</span></p>
+  <p class="queans"><span class="material-symbols-rounded hicon" style="color: #da1f33;
+    "> report </span><span class="htext">Αναφορά σφάλματος</span></p>
   <form class="jotform-form" action="https://eu-submit.jotform.com/submit/231420781583051" method="post" name="form_231420781583051" id="231420781583051" accept-charset="utf-8" autocomplete="on"><input type="hidden" name="formID" value="231420781583051" />
 
     

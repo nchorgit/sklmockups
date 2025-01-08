@@ -1,32 +1,42 @@
-
-<div id="loader-wrapper"><img width="300" src="/media/icons/loadlogo.svg" alt="">
-  <div class="loader2"></div>
+<div id="loader-wrapper">
+  <div class="loader-inner" style="display: flex; justify-content: center;">
+  <img src="/media/icons/loadlogo.svg" alt="">
+  <div class="loader2"></div></div>
 </div>
 <div class="totop">
   <svg style="transform: rotate(180deg); position:absolute; width:20px; margin:auto; top:0;bottom:0;left:0;right:0;"
-      viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M1 1L6.0651 6" stroke="#fff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
-          stroke-linejoin="round"></path>
-      <path d="M6.06445 6L11.1296 1" stroke="#fff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
-          stroke-linejoin="round"></path>
+    viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1 1L6.0651 6" stroke="#fff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+      stroke-linejoin="round"></path>
+    <path d="M6.06445 6L11.1296 1" stroke="#fff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+      stroke-linejoin="round"></path>
   </svg>
 </div>
 <div class="top-menu">
-<div class="logo-header">  <a href="/">
-  <div class="logo">
-    <div class="logo-img"><img src="/media/icons/logo2.svg" alt=""></div>
-    <div class="logo-text">PSD<span style="
+  <div class="logo-header"> <a href="/">
+      <div class="logo">
+        <div class="logo-img"><img src="/media/icons/logo2.svg" alt=""></div>
+        <div class="logo-text">PSD<span style="
     color: #eee;
 ">Mockups</span></div>
-</div></a></div>
-<div class="hamp"><img src="/media/icons/hamp.svg" alt=""></div>
-<div class="hamp-close"><img src="/media/icons/hamp-close.svg" alt=""></div>
-  <div class="search">
+      </div>
+    </a></div>
+  <div class="hamp"><img src="/media/icons/hamp.svg" alt=""></div>
+  <div class="hamp-close"><img src="/media/icons/hamp-close.svg" alt=""></div>
+  <!--div class="searchb"><img src="/media/icons/mglass.svg" alt=""></div-->
+  <!-- Πρώτη φόρμα αναζήτησης -->
+  <div class="search desktop-search">
     <div class="sbef">Mockup:</div>
-    <input autocomplete="off" class="sinput" id="filter-input" type="text" value="Αναζήτηση" />
-    <button class="sbutton" id="filter-submit" type="button"><img src="/media/icons/mglass.svg" alt=""></button>
+    <input autocomplete="off" class="sinput" id="filter-input-desktop" type="text" value="Αναζήτηση" />
+    <button class="sbutton" id="filter-submit-desktop" type="button">
+      <img src="/media/icons/mglass.svg" alt="Αναζήτηση">
+    </button>
   </div>
+
   
+
+
+
   <!--link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
   <script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
   
@@ -39,148 +49,211 @@
   <div class="top-right-menu">
 
     <!--a href="#"><img style="margin-right:10px" width="32px" src="/media/icons/svg32/onedrive.svg" alt=""><span> OneDrive</span></a-->
-    
-    <a class="options" href="/faq"><span style="font-size: 34px; margin-right:10px;" class="material-symbols-rounded">
-      <span style="color: #ddd;" class="material-symbols-rounded">
-        unknown_document
+
+    <a class="options1" href="/faq"><span style="font-size: 34px; margin-right:10px;" class="material-symbols-rounded">
+        <span class="helpi" style="color: #ddd;" class="material-symbols-rounded">
+          unknown_document
         </span>
-      </span><span>Βοήθεια</span></a>
-    <div class="plsite"><a href="https://sklavenitis-pl.onrender.com/" target="_blank"><span class="material-icons" style="color:#eee;margin-right: 5px;">
+      </span><span class="help">Βοήθεια</span></a>
+    <div class="plsite1 plsite"><a href="https://sklavenitis-pl.onrender.com/" target="_blank"><span class="material-icons"
+          style="color:#eee;margin-right: 5px;">
           launch
         </span><span style="color:orange">Private</span> <span
           style="color:#ff4500;margin-left: 5px; margin-right: 3px;"> Label</span></a></div>
-          <div class="zbuttons" style="display: none;">
-            <span style="
+    <div class="zbuttons" style="display: none;">
+      <span style="
             margin-right: 15px;
             font-size: 18px;
             font-weight: 700;
             color: #eee;
         ">UI Scale</span>
-               <button class="plus"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.333in" height="0.333in">
-                <path fill-rule="evenodd" fill="rgb(225, 225, 225)" d="M12.000,-0.000 C18.627,-0.000 24.000,5.373 24.000,12.000 C24.000,18.627 18.627,24.000 12.000,24.000 C5.373,24.000 -0.000,18.627 -0.000,12.000 C-0.000,5.373 5.373,-0.000 12.000,-0.000 Z"></path>
-                <path fill-rule="evenodd" fill="rgb(57, 56, 56)" d="M5.000,11.000 L19.000,11.000 C19.552,11.000 20.000,11.448 20.000,12.000 C20.000,12.552 19.552,13.000 19.000,13.000 L5.000,13.000 C4.448,13.000 4.000,12.552 4.000,12.000 C4.000,11.448 4.448,11.000 5.000,11.000 Z"></path>
-                </svg></button>
-                <button class="minus"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.333in" height="0.333in">
-                 <path fill-rule="evenodd" fill="rgb(225, 225, 225)" d="M12.000,-0.000 C18.627,-0.000 24.000,5.373 24.000,12.000 C24.000,18.627 18.627,24.000 12.000,24.000 C5.373,24.000 -0.000,18.627 -0.000,12.000 C-0.000,5.373 5.373,-0.000 12.000,-0.000 Z"></path>
-                 <path fill-rule="evenodd" fill="rgb(57, 56, 56)" d="M5.000,11.000 L19.000,11.000 C19.552,11.000 20.000,11.448 20.000,12.000 C20.000,12.552 19.552,13.000 19.000,13.000 L5.000,13.000 C4.448,13.000 4.000,12.552 4.000,12.000 C4.000,11.448 4.448,11.000 5.000,11.000 Z"></path>
-                 <path fill-rule="evenodd" fill="rgb(57, 56, 56)" d="M12.000,4.000 C12.552,4.000 13.000,4.448 13.000,5.000 L13.000,19.000 C13.000,19.552 12.552,20.000 12.000,20.000 C11.448,20.000 11.000,19.552 11.000,19.000 L11.000,5.000 C11.000,4.448 11.448,4.000 12.000,4.000 Z"></path>
-                 </svg></button>
-                 
-                <button class="reset"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.333in" height="0.333in">
-                 <path fill-rule="evenodd" fill="rgb(225, 225, 225)" d="M3.515,3.515 C8.201,-1.172 15.799,-1.172 20.485,3.515 C25.172,8.201 25.172,15.799 20.485,20.485 C15.799,25.172 8.201,25.172 3.515,20.485 C-1.172,15.799 -1.172,8.201 3.515,3.515 Z"></path>
-                 <path fill-rule="evenodd" fill="rgb(57, 56, 56)" d="M6.343,16.243 L16.243,6.343 C16.633,5.953 17.266,5.953 17.657,6.343 C18.047,6.734 18.047,7.367 17.657,7.757 L7.757,17.657 C7.367,18.047 6.734,18.047 6.343,17.657 C5.953,17.266 5.953,16.633 6.343,16.243 Z"></path>
-                 <path fill-rule="evenodd" fill="rgb(57, 56, 56)" d="M6.343,6.343 C6.734,5.953 7.367,5.953 7.757,6.343 L17.657,16.243 C18.047,16.633 18.047,17.266 17.657,17.657 C17.266,18.047 16.633,18.047 16.243,17.657 L6.343,7.757 C5.953,7.367 5.953,6.734 6.343,6.343 Z"></path>
-                 </svg></button>
-        </div>
-  </div>
-</div>
-<div class="search-container" style="display: none;">
-  <div class="search-results">
-    <div class="search-header">
-      <p class="spar"><span class="num-results nmoc"><b>0</b></span>PSD Mockups στην Αναζήτηση 
-        <span class="smglass"><img width="24px" src="/media/icons/mglass.svg" alt=""><span class="search-query"> </span> </span>
-        <span
-          class="sclose grid material-icons">close</span></p>
+      <button class="plus"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="0.333in" height="0.333in">
+          <path fill-rule="evenodd" fill="rgb(225, 225, 225)"
+            d="M12.000,-0.000 C18.627,-0.000 24.000,5.373 24.000,12.000 C24.000,18.627 18.627,24.000 12.000,24.000 C5.373,24.000 -0.000,18.627 -0.000,12.000 C-0.000,5.373 5.373,-0.000 12.000,-0.000 Z">
+          </path>
+          <path fill-rule="evenodd" fill="rgb(57, 56, 56)"
+            d="M5.000,11.000 L19.000,11.000 C19.552,11.000 20.000,11.448 20.000,12.000 C20.000,12.552 19.552,13.000 19.000,13.000 L5.000,13.000 C4.448,13.000 4.000,12.552 4.000,12.000 C4.000,11.448 4.448,11.000 5.000,11.000 Z">
+          </path>
+        </svg></button>
+      <button class="minus"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="0.333in" height="0.333in">
+          <path fill-rule="evenodd" fill="rgb(225, 225, 225)"
+            d="M12.000,-0.000 C18.627,-0.000 24.000,5.373 24.000,12.000 C24.000,18.627 18.627,24.000 12.000,24.000 C5.373,24.000 -0.000,18.627 -0.000,12.000 C-0.000,5.373 5.373,-0.000 12.000,-0.000 Z">
+          </path>
+          <path fill-rule="evenodd" fill="rgb(57, 56, 56)"
+            d="M5.000,11.000 L19.000,11.000 C19.552,11.000 20.000,11.448 20.000,12.000 C20.000,12.552 19.552,13.000 19.000,13.000 L5.000,13.000 C4.448,13.000 4.000,12.552 4.000,12.000 C4.000,11.448 4.448,11.000 5.000,11.000 Z">
+          </path>
+          <path fill-rule="evenodd" fill="rgb(57, 56, 56)"
+            d="M12.000,4.000 C12.552,4.000 13.000,4.448 13.000,5.000 L13.000,19.000 C13.000,19.552 12.552,20.000 12.000,20.000 C11.448,20.000 11.000,19.552 11.000,19.000 L11.000,5.000 C11.000,4.448 11.448,4.000 12.000,4.000 Z">
+          </path>
+        </svg></button>
+
+      <button class="reset"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="0.333in" height="0.333in">
+          <path fill-rule="evenodd" fill="rgb(225, 225, 225)"
+            d="M3.515,3.515 C8.201,-1.172 15.799,-1.172 20.485,3.515 C25.172,8.201 25.172,15.799 20.485,20.485 C15.799,25.172 8.201,25.172 3.515,20.485 C-1.172,15.799 -1.172,8.201 3.515,3.515 Z">
+          </path>
+          <path fill-rule="evenodd" fill="rgb(57, 56, 56)"
+            d="M6.343,16.243 L16.243,6.343 C16.633,5.953 17.266,5.953 17.657,6.343 C18.047,6.734 18.047,7.367 17.657,7.757 L7.757,17.657 C7.367,18.047 6.734,18.047 6.343,17.657 C5.953,17.266 5.953,16.633 6.343,16.243 Z">
+          </path>
+          <path fill-rule="evenodd" fill="rgb(57, 56, 56)"
+            d="M6.343,6.343 C6.734,5.953 7.367,5.953 7.757,6.343 L17.657,16.243 C18.047,16.633 18.047,17.266 17.657,17.657 C17.266,18.047 16.633,18.047 16.243,17.657 L6.343,7.757 C5.953,7.367 5.953,6.734 6.343,6.343 Z">
+          </path>
+        </svg></button>
     </div>
   </div>
-  <ul class="search-list">
-    {{range .Site.RegularPages}}
-
-    <li>
-      <a href="{{.Permalink}}" class="smockup">
-        {{if isset .Params "image-low" }}<img src="{{ index .Params "image-low" }}" class="sfimg" alt="">
-        {{ end }}
-        <span class="stitle">{{ .Title }}<span class="seng" style="display: none;">{{.File.LogicalName}}</span><span class="smeta"
-            style="display: none;">{{ .Title }}</span>
-	<span class="fmeta"
-            style="display: none;">{{ index .Params "fmeta" }}</span>
-	</span>
-
-      </a>
-    </li>
-    {{ end }}
-  </ul>
 </div>
 
+
+<div class="left-side2">
+<!-- Δεύτερη φόρμα αναζήτησης για κινητά -->
+<div class="search mobile-search">
+  <input autocomplete="off" class="sinput" id="filter-input-mobile" type="text" value="Αναζήτηση" />
+  <button class="sbutton" id="filter-submit-mobile" type="button">
+    <img src="/media/icons/mglass.svg" alt="Αναζήτηση">
+  </button>
+</div>
+  <ul class="left-top">
+
+    <li><a class="llink1" href="/food"><img height="32px" src="/media/icons/svg32/trofima.svg"
+          alt=""><span>Τρόφιμα</span></a></li>
+    <li><a class="llink2" href="/no-food"><img height="32px" src="/media/icons/svg32/mhtrofima.svg" alt=""><span>Μη
+          Τρόφιμα</span></a></li>
+    <li><a class="llink3" href="/orofos"><img height="32px" src="/media/icons/svg32/comp.svg"
+          alt=""><span>Όροφος</span></a></li>
+    <li><a class="llink4" href="/mockups"><span class="material-icons" style="
+      background: #67e84f;
+    padding: 4px 6px;
+    border-radius: 4px;
+    color: #085608;
+    font-size: 22px;
+  "> visibility </span><span style="
+    font-weight: bold;
+    font-size: 16px;
+">Προβολή Όλων</span></a></li>
+  </ul>
+  <div class="left-center">
+    <a class="llink5" href="/labels"><span class="material-symbols-rounded"> sell </span><span>Ετικέτες</span></a>
+    <a class="llink6" href="/categories"><span class="material-symbols-rounded"> content_copy
+      </span><span>Κατηγορίες</span></a>
+
+  </div>
+  <div class="main-line" style="margin: 30px 0;"></div>
+  <div class="left-center">
+    <a class="llink7" style="background: #090909" href="/contact"><span class="material-symbols-rounded"
+        style="color: #57a7e6;"> mail </span><span>Επικοινωνία</span></a>
+    <a class="llink8" style="background: #090909;" href="/report"><span class="material-symbols-rounded"
+        style="color: #d53a3a;"> report </span><span>Αναφορά</span></a>
+
+  </div>
+  <div class="left-center">
+    <a class="options2" href="/faq"><span style="font-size: 34px; margin-right:0px;" class="material-symbols-rounded">
+        <span style="color: #ddd;" class="material-symbols-rounded">
+          unknown_document
+        </span>
+      </span><span>Βοήθεια</span></a>
+
+    <div class="plsite2 plsite"><a href="https://sklavenitis-pl.onrender.com/" target="_blank"><span class="material-icons"
+          style="color:#eee;margin-left: -5px;">launch</span><span style="color:orange">Private</span><span
+          style="color:#ff4500;margin-left: -10px;">Label</span></a></div>
+  </div>
+</div>
+
+
+
 <script>
-  const searchContainer = document.querySelector('.search-container');
-  const searchList = document.querySelector('.search-list');
-  const searchInput = document.querySelector('.sinput');
-  const numResults = document.querySelector('.num-results');
-  const searchQuery = document.querySelector('.search-query');
-  const closeButton = document.querySelector('.sclose');
-  const searchResults = document.querySelector('.search-results');
+  // Συνάρτηση υποβολής αναζήτησης
+  function submitSearch(inputId) {
+    const searchInput = document.getElementById(inputId);
+    const query = searchInput.value.trim();
 
-  let searchTimeout;
-
-  function filterResults() {
-    const query = searchInput.value.toLowerCase();
-    const results = searchList.querySelectorAll('li');
-    let numShown = 0;
-
-    for (let i = 0; i < results.length; i++) {
-      const title = results[i].querySelector('.stitle').textContent.toLowerCase();
-      if (title.includes(query)) {
-        results[i].style.display = '';
-        numShown++;
-      } else {
-        results[i].style.display = 'none';
-      }
+    if (query && query !== 'Αναζήτηση') {
+      window.location.href = `/search?q=${encodeURIComponent(query)}`;
     }
-
-    numResults.textContent = numShown;
-    searchQuery.textContent = query;
   }
 
-  searchInput.addEventListener('input', () => {
-    if (searchTimeout) {
-      clearTimeout(searchTimeout);
-    }
+  // Ρύθμιση για την πρώτη φόρμα (Desktop)
+  const searchInputDesktop = document.getElementById('filter-input-desktop');
+  const searchButtonDesktop = document.getElementById('filter-submit-desktop');
 
-    if (searchInput.value.length >= 3) {
-      searchTimeout = setTimeout(() => {
-        searchContainer.style.display = '';
-        searchList.style.display = '';
-        searchResults.style.display = '';
-        filterResults();
-      }, 300);
-    } else {
-      searchContainer.style.display = 'none';
+  searchInputDesktop.addEventListener('focus', () => {
+    if (searchInputDesktop.value.trim() === 'Αναζήτηση') {
+      searchInputDesktop.value = '';
     }
   });
 
-  searchInput.addEventListener('keydown', (e) => {
-    if (e.key === 'Backspace') {
-      searchContainer.style.display = 'none';
-      searchList.style.display = 'none';
-      searchInput.value = '';
+  searchInputDesktop.addEventListener('blur', () => {
+    if (searchInputDesktop.value.trim() === '') {
+      searchInputDesktop.value = 'Αναζήτηση';
     }
   });
 
-  closeButton.addEventListener('click', () => {
-    searchContainer.style.display = 'none';
-    searchList.style.display = 'none';
-    searchInput.value = 'Αναζήτηση';
+  searchInputDesktop.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      submitSearch('filter-input-desktop');
+    }
   });
 
-  searchInput.addEventListener('click', () => {
-    searchContainer.style.display = 'none';
-    searchResults.style.display = 'none';
-    searchInput.value = '';
+  searchButtonDesktop.addEventListener('click', () => {
+    submitSearch('filter-input-desktop');
   });
+
+  // Ρύθμιση για τη δεύτερη φόρμα (Mobile)
+  const searchInputMobile = document.getElementById('filter-input-mobile');
+  const searchButtonMobile = document.getElementById('filter-submit-mobile');
+
+  searchInputMobile.addEventListener('focus', () => {
+    if (searchInputMobile.value.trim() === 'Αναζήτηση') {
+      searchInputMobile.value = '';
+    }
+  });
+
+  searchInputMobile.addEventListener('blur', () => {
+    if (searchInputMobile.value.trim() === '') {
+      searchInputMobile.value = 'Αναζήτηση';
+    }
+  });
+
+  searchInputMobile.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      submitSearch('filter-input-mobile');
+    }
+  });
+
+  searchButtonMobile.addEventListener('click', () => {
+    submitSearch('filter-input-mobile');
+  });
+  // Τροποποίηση του URL κατά την αναζήτηση
+  desktopButton.addEventListener('click', () => {
+    const query = desktopInput.value.trim();
+    if (query && query !== 'Αναζήτηση') {
+      window.location.href = `/search?q=${encodeURIComponent(query)}`;
+    }
+  });
+
+  mobileButton.addEventListener('click', () => {
+    const query = mobileInput.value.trim();
+    if (query && query !== 'Αναζήτηση') {
+      window.location.href = `/search?q=${encodeURIComponent(query)}`;
+    }
+  });
+
   $(".smeta").each(function () {
     var text = $(this).text();
     $(this).text(
       $(this)
-      .text()
-      .replace(/ά/g, "α")
-      .replace(/έ/g, "ε")
-      .replace(/ή/g, "η")
-      .replace(/ί/g, "ι")
-      .replace(/ό/g, "ο")
-      .replace(/ύ/g, "υ")
-      .replace(/ώ/g, "ω")
-      .replace(/-/g, " ")
+        .text()
+        .replace(/ά/g, "α")
+        .replace(/έ/g, "ε")
+        .replace(/ή/g, "η")
+        .replace(/ί/g, "ι")
+        .replace(/ό/g, "ο")
+        .replace(/ύ/g, "υ")
+        .replace(/ώ/g, "ω")
+        .replace(/-/g, " ")
       /*.replace(/[^\w\s]/gi, " ")*/
     );
   });
@@ -189,84 +262,73 @@
     var text = $(this).text();
     $(this).text(
       $(this)
-      .text()
-      
-      .replace(/-/g, " ")
+        .text()
+
+        .replace(/-/g, " ")
       /*.replace(/[^\w\s]/gi, " ")*/
     );
   });
-      
-  let zoomLevels = [1, 0.9, 0.8, 0.75];
-		let currentZoomLevel = 0;
-		
-		function zoomIn() {
-			currentZoomLevel = Math.min(currentZoomLevel + 1, zoomLevels.length - 1);
-			setZoom(zoomLevels[currentZoomLevel]);
-		}
-		
-		function zoomOut() {
-			currentZoomLevel = Math.max(currentZoomLevel - 1, 0);
-			setZoom(zoomLevels[currentZoomLevel]);
-		}
-		
-		function resetZoom() {
-			currentZoomLevel = 0;
-			setZoom(zoomLevels[currentZoomLevel]);
-		}
-		
-		function setZoom(zoomLevel) {
-			document.body.style.zoom = zoomLevel;
-		}
-		
-		document.querySelector(".plus").addEventListener("click", zoomIn);
-		document.querySelector(".minus").addEventListener("click", zoomOut);
-		document.querySelector(".reset").addEventListener("click", resetZoom);
 
-    $(document).scroll(function () {
-      var y = $(this).scrollTop();
-      if (y > 20) {
-          $('.totop').fadeIn();
-      } else {
-          $('.totop').fadeOut();
-      }
+  $(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 20) {
+      $('.totop').fadeIn();
+    } else {
+      $('.totop').fadeOut();
+    }
   });
   $('.totop').click(function () {
-      $('html, body').scrollTop(0);
+    $('html, body').scrollTop(0);
   });
-  $(document).ready(function() {
+
+</script>
+<script>
+  
+$(function(){
+  $(".hamp").click(function(){
+    $(".left-side2").slideToggle("slow");
+    $(this).fadeOut("fast");
+    $(".hamp-close").fadeIn("fast");
+  });
+});
+
+$(function(){
+  $(".hamp-close").click(function(){
+    $(".left-side2").slideToggle("slow");
+    $(this).fadeOut("fast");
+    $(".hamp").fadeIn("fast");
+  });
+});
+
+ /* $(document).ready(function() {
     $(".hamp").click(function () {
-        $(".left-side").toggleClass("left-media").show("slideDown");
-        $(".search").toggleClass("search2").css("display", "flex");
+        $(".left-side2").show("slideDown");
+       
         $(this).fadeOut("fast", function() {
             $(".hamp-close").fadeIn("fast");
         });
     });
 
     $(".hamp-close").click(function () {
-        $(".left-side").toggleClass("left-media").css("display", "none");
-        $(".search").toggleClass("search2").css("display", "none");
+      $(".left-side2").hide("slideDown");
+     
         $(this).fadeOut("fast", function() {
             $(".hamp").fadeIn("fast");
         });
     });
-});
+    
+    /*$(".searchb").click(function () {
+      $(".mobile-search").slideToggle("slow").toggleClass("dflex");
+      
+  });
+});*/
 
-
-
-	</script>
-
-
-
-
-
-
-
-
+</script>
 
 <script>
   $(window).on('load', function () {
-   
+
     $('#loader-wrapper').fadeOut('fast');
-  }) 
-  
+  })
+
 </script>

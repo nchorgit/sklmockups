@@ -105,6 +105,20 @@ h1.p-title {
     font-size: 18px;
 }
   }
+  @media screen and (max-width: 546px) {
+    .list-related {
+       
+        gap: 15px;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        zoom: 80%;
+   }
+   
+  }
+  @media screen and (max-width: 480px) {
+    .listv {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
 </style>
 <script>
     $("a.list").click(function () {
