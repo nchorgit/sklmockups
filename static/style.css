@@ -1434,7 +1434,7 @@ a.options2, .plsite2 {
             margin-top: -10;
         }
         h1.title {
-            margin-left: 0;
+            margin:30 0;
         }
     }
 @media screen and (max-width: 864px) {
@@ -1473,7 +1473,7 @@ a.options2, .plsite2 {
         zoom: 90%;
     }
     h1.title {
-        font-size: 24px;
+        font-size: 28px;
     }
   .htext {
     font-size: 24px;
