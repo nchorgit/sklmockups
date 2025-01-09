@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Βαμβάκι on Home</title>
+    <link>http://localhost:1313/categories/%CE%B2%CE%B1%CE%BC%CE%B2%CE%AC%CE%BA%CE%B9/</link>
+    <description>Recent content in Βαμβάκι on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <atom:link href="http://localhost:1313/categories/%CE%B2%CE%B1%CE%BC%CE%B2%CE%AC%CE%BA%CE%B9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sette Βαμβάκι Εμπρόσθια Όψη 100 &amp; 200g</title>
+      <link>http://localhost:1313/mockups/sette/bambaki/sette-bambaki-emprosthia-opsh-100--200g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mockups/sette/bambaki/sette-bambaki-emprosthia-opsh-100--200g/</guid>
+      <description>Εμπρόσθια Όψη</description>
+    </item>
+    <item>
+      <title>Sette Βαμβάκι Πλευρές 100 &amp; 200g</title>
+      <link>http://localhost:1313/mockups/sette/bambaki/sette-bambaki-pleures-100--200g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mockups/sette/bambaki/sette-bambaki-pleures-100--200g/</guid>
+      <description>Πλευρές</description>
+    </item>
+  </channel>
+</rss>

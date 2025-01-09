@@ -10,7 +10,7 @@
 <body>
   {{ partial "header" . }} 
   {{ partial "left" . }} 
-  <div class="search-container">
+  <div class="search-container main">
     <div class="search-results">
       <div class="search-header">
         <p class="spar">
@@ -22,7 +22,7 @@
         </p>
       </div>
     </div>
-    <ul class="search-list">
+    <ul class="search-list listv">
       {{range .Site.RegularPages}}
       <li>
         <a href="{{.Permalink}}" class="smockup">
@@ -100,6 +100,6 @@ if (queryFromURL) {
 
 
 </script>
-
+{{ partial "footer" . }} 
 </body>
 </html>

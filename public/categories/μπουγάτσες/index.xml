@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Μπουγάτσες on Home</title>
+    <link>http://localhost:1313/categories/%CE%BC%CF%80%CE%BF%CF%85%CE%B3%CE%AC%CF%84%CF%83%CE%B5%CF%82/</link>
+    <description>Recent content in Μπουγάτσες on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <atom:link href="http://localhost:1313/categories/%CE%BC%CF%80%CE%BF%CF%85%CE%B3%CE%AC%CF%84%CF%83%CE%B5%CF%82/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Baker Master Μπουγάτσα Άνω Πλευρά</title>
+      <link>http://localhost:1313/mockups/baker-master/baker-master-mpougatsa-front/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mockups/baker-master/baker-master-mpougatsa-front/</guid>
+      <description>Άνω Πλευρά</description>
+    </item>
+    <item>
+      <title>Baker Master Μπουγάτσα Κάτω Πλευρά</title>
+      <link>http://localhost:1313/mockups/baker-master/baker-master-mpougatsa-back/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mockups/baker-master/baker-master-mpougatsa-back/</guid>
+      <description>Κάτω Πλευρά</description>
+    </item>
+  </channel>
+</rss>

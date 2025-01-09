@@ -1,0 +1,7 @@
+{{ range (where .Site.RegularPages "Section" "categories" ) }}
+  {{ if .Params.parent }}
+    ...
+  {{ else }}
+    ...
+  {{ end }}
+{{ end }}
