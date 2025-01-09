@@ -1516,6 +1516,7 @@ a.options2, .plsite2 {
     }
     .left-side2 {
         padding: 30px 20px;
+        zoom: 90%;
     }
     .loader-inner {
         scale: .5;
