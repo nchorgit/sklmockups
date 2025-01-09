@@ -34,6 +34,7 @@
 }
 body {
     position: relative;
+    min-height: 100vh;
   }
 body::after {
     content: '';
@@ -960,12 +961,12 @@ a.downl .picon {
     position: absolute;
     top: 15px;
     right: 15px;
-    width: 40px;
+    width: 30px;
     height: 40px;
     cursor: pointer !important;
     display: flex;
     align-items: center;
-    transform: rotateZ(45deg);
+   
     transition: all .3s;
 }
 

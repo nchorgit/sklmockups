@@ -684,7 +684,17 @@ li.form-line:not(.form-line-column)[data-type=control_fullname] .form-input-wide
 
 </script>
 <script>
-  
+ $(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 20) {
+      $('.totop').fadeIn();
+    } else {
+      $('.totop').fadeOut();
+    }
+  });
+  $('.totop').click(function () {
+    $('html, body').scrollTop(0);
+}); 
 $(function(){
   $(".hamp").click(function(){
     $(".left-side2").slideToggle("slow");

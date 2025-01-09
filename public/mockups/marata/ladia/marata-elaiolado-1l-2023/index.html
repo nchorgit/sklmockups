@@ -289,7 +289,17 @@
 
 </script>
 <script>
-  
+ $(document).scroll(function () {
+    var y = $(this).scrollTop();
+    if (y > 20) {
+      $('.totop').fadeIn();
+    } else {
+      $('.totop').fadeOut();
+    }
+  });
+  $('.totop').click(function () {
+    $('html, body').scrollTop(0);
+}); 
 $(function(){
   $(".hamp").click(function(){
     $(".left-side2").slideToggle("slow");
@@ -404,21 +414,7 @@ $('.main').after('<div class="foot">Copyright 2025</div>');
         </div>
         <div class="pimg2bg">
             <div class="fclose">
-                <div style="
-        width: 40px;
-        height: 4px;
-        background: white;
-        position: absolute;
-        "></div>
-                <div style="
-        width: 4px;
-        height: 40px;
-        background: white;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
-        "></div>
+                <img src="/media/icons/hamp-close.svg" alt="">
             </div>
             <div class="pimg2">
                 <p class="imgcaption">Μαράτα Ελαιόλαδο 1L</p>
