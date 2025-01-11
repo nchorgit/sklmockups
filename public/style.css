@@ -1524,6 +1524,7 @@ border-radius: 3px;
     }
     .top-menu {
         padding: 0 20px;
+        zoom: 90%;
     }
     .main {
         padding: 110px 20px 0px;
