@@ -1454,9 +1454,19 @@ a.options2, .plsite2 {
         max-width: 100%;
         margin-right: 0;
         cursor: pointer;
+        grid-row-start: 3;
+        margin-top: 20px;
+        border-radius: 6px;
+    border: 3px solid #3f3f3f;
        
     }
-   
+    .pimg img {
+border: 0;
+border-radius: 3px;
+    }
+   .post {
+    margin-top: -20px;
+   }
     .loader-inner {
         scale: .7;
     }
@@ -1469,6 +1479,9 @@ a.options2, .plsite2 {
    }
 
 @media screen and (max-width: 480px) {
+    .totop {
+        right: 20px;
+    }
     .post-right {
         
         zoom: 90%;

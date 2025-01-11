@@ -413,21 +413,7 @@ $('.main').after('<div class="foot">Copyright 2025</div>');
         </div>
         <div class="pimg2bg">
             <div class="fclose">
-                <div style="
-        width: 40px;
-        height: 4px;
-        background: white;
-        position: absolute;
-        "></div>
-                <div style="
-        width: 4px;
-        height: 40px;
-        background: white;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
-        "></div>
+                <img src="/media/icons/hamp-close.svg" alt="">
             </div>
             <div class="pimg2">
                 <p class="imgcaption">Γλάρος Χαρτί Υγείας 8 Ρολά</p>
@@ -655,9 +641,23 @@ h1.p-title {
    
     </script>
     <div class="footer">
-    <p style="font-size: 16px; color:#666"><span style="font-family: arial;">©</span> 2025 Ε.Υ. ΣΚΛΑΒΕΝΙΤΗΣ Α.Ε.Ε. <br><b style="color: #888; font-family: 'csans2';font-size: 13px; position: relative; top: 4px;
+    <p class="footp"><span style="font-family: arial;">©</span> 2025 Ε.Υ. ΣΚΛΑΒΕΝΙΤΗΣ Α.Ε.Ε. <br><b style="color: #888; font-family: 'csans2';font-size: 13px; position: relative; top: 4px;
     ">Τομέας Ιδιωτικής Ετικέτας</b>
      </p>
-  </div> 
+  </div>
+  <style>
+    .footp {
+        font-size: 16px; color:#666;
+    }
+
+    @media screen and (max-width: 480px) {
+        .footp {
+        text-align: left;
+        padding: 0 20px;
+
+        
+    }
+    }
+  </style> 
 </body>
 </html>
