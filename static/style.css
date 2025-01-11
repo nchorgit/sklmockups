@@ -1536,5 +1536,9 @@ border-radius: 3px;
     .loader-inner {
         scale: .5;
     }
+    .post {
+        margin-top: -40px;
+    }
+
 }
 
