@@ -770,7 +770,7 @@ a.grid:hover {
     width: 100%;
     height: auto;
     border-radius: 6px;
-    border: 3px solid #3f3f3f;
+    border: 0px solid #3f3f3f;
 }
 
 h1.title {
@@ -1456,14 +1456,13 @@ a.options2, .plsite2 {
         cursor: pointer;
         grid-row-start: 3;
         margin-top: 20px;
-        border-radius: 6px;
-    border: 3px solid #3f3f3f;
+        
        
     }
-    .pimg img {
+    /*.pimg img {
 border: 0;
 border-radius: 3px;
-    }
+    }*/
    .post {
     margin-top: -20px;
    }
