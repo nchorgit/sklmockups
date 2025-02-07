@@ -57,6 +57,17 @@
       /*.replace(/[^\w\s]/gi, " ")*/
     );
   });
+
+     $(".seng").each(function () {
+    var text = $(this).text();
+    $(this).text(
+      $(this)
+      .text()
+      
+      .replace(/-/g, " ")
+      /*.replace(/[^\w\s]/gi, " ")*/
+    );
+  });
  document.addEventListener('DOMContentLoaded', () => {
   const urlParams = new URLSearchParams(window.location.search);
   const query = urlParams.get('q')?.toLowerCase();
