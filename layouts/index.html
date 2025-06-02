@@ -275,7 +275,7 @@
 
         <div class="main-line"></div>
         <div class="main-top">
-            <div class="mtop-left"><img height="32px" src="/media/icons/svg32/comp.svg" alt=""><span><b>Χωρίς Ετικέτα</b></span></div>
+            <div class="mtop-left"><img height="32px" src="/media/icons/svg32/comp.svg" alt=""><span><b>Άλλες Ετικέτες</b></span></div>
      
            </div>
            <div class="main-in orofos">
@@ -290,35 +290,6 @@
                   </a>
                 {{ end }}
             
-                {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Tickit") }}
-                <a class="mockup" href="{{.Permalink}}">
-                  <div class="lilabel">
-                    <p class="env-title">{{.Title}}</p>
-                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
-                  </div>
-                </a>
-              {{ end }}
-            
-            
-            {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Master Light") }}
-                <a class="mockup" href="{{.Permalink}}">
-                  <div class="lilabel">
-                    <p class="env-title">{{.Title}}</p>
-                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
-                  </div>
-                </a>
-              {{ end }}
-            
-            
-            
-              {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Master Energy") }}
-                <a class="mockup" href="{{.Permalink}}">
-                  <div class="lilabel">
-                    <p class="env-title">{{.Title}}</p>
-                    <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
-                  </div>
-                </a>
-              {{ end }}
             
             
             
