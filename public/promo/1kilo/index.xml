@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1kilo on Home</title>
+    <link>http://localhost:1313/promo/1kilo/</link>
+    <description>Recent content in 1kilo on Home</description>
+    <generator>Hugo</generator>
+    <language>el</language>
+    <atom:link href="http://localhost:1313/promo/1kilo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Μαράτα Γιαούρτι Εμπρόσθια Όψη 1kg 2023</title>
+      <link>http://localhost:1313/mockups/marata/giaourtia/marata-giaourti-front-1kg-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mockups/marata/giaourtia/marata-giaourti-front-1kg-2023/</guid>
+      <description>Εμπρόσθια Όψη</description>
+    </item>
+    <item>
+      <title>Μαράτα Γιαούρτι Πλευρές 1kg 2023</title>
+      <link>http://localhost:1313/mockups/marata/giaourtia/marata-giaourti-side-1kg-2023/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mockups/marata/giaourtia/marata-giaourti-side-1kg-2023/</guid>
+      <description>Πλευρές</description>
+    </item>
+  </channel>
+</rss>
