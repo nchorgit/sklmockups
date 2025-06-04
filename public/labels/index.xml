@@ -64,6 +64,13 @@
       <description></description>
     </item>
     <item>
+      <title>Labels/Arion Food</title>
+      <link>http://localhost:1313/labels/arion-food/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/labels/arion-food/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Labels/Meat House</title>
       <link>http://localhost:1313/labels/meat-house/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

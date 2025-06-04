@@ -362,6 +362,8 @@
   </url><url>
     <loc>http://localhost:1313/promo/1kilo/</loc>
   </url><url>
+    <loc>http://localhost:1313/mockups/arion-food/arion-food-meli-950g/</loc>
+  </url><url>
     <loc>http://localhost:1313/authors/</loc>
   </url><url>
     <loc>http://localhost:1313/labels/baker-master/</loc>
@@ -562,6 +564,8 @@
   </url><url>
     <loc>http://localhost:1313/categories/%CE%BC%CE%B1%CF%81%CE%BC%CE%B5%CE%BB%CE%AC%CE%B4%CE%B5%CF%82/</loc>
   </url><url>
+    <loc>http://localhost:1313/categories/%CE%BC%CE%AD%CE%BB%CE%B9/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%84%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CF%8E%CE%BD/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/%CF%81%CF%8D%CE%B6%CE%B9/</loc>
@@ -680,6 +684,8 @@
   </url><url>
     <loc>http://localhost:1313/gencat/</loc>
   </url><url>
+    <loc>http://localhost:1313/gencat/%CE%AC%CE%BB%CE%BB%CE%B5%CF%82-%CE%B5%CF%84%CE%B9%CE%BA%CE%AD%CF%84%CE%B5%CF%82/</loc>
+  </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
     <loc>http://localhost:1313/labels/kitten/</loc>
@@ -758,6 +764,8 @@
   </url><url>
     <loc>http://localhost:1313/labels/</loc>
   </url><url>
+    <loc>http://localhost:1313/labels/arion-food/</loc>
+  </url><url>
     <loc>http://localhost:1313/labels/meat-house/</loc>
   </url><url>
     <loc>http://localhost:1313/labels/%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%B5%CF%84%CE%B9%CE%BA%CE%AD%CF%84%CE%B1/</loc>
@@ -808,9 +816,9 @@
   </url><url>
     <loc>http://localhost:1313/mockups/sette/panes/sette-slip-no4-10-temaxiwn/</loc>
   </url><url>
-    <loc>http://localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml-2024/</loc>
-  </url><url>
     <loc>http://localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml/</loc>
+  </url><url>
+    <loc>http://localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml-2024/</loc>
   </url><url>
     <loc>http://localhost:1313/mockups/sette/afroloutra/sette-afroloutro-500ml/</loc>
   </url><url>
@@ -983,6 +991,8 @@
     <loc>http://localhost:1313/categories/%CE%B1%CE%BB%CE%B5%CF%8D%CF%81%CE%B9/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/%CE%B1%CE%BB%CE%BB%CE%B1%CE%BD%CF%84%CE%B9%CE%BA%CE%AC/</loc>
+  </url><url>
+    <loc>http://localhost:1313/other-labels/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url><url>
@@ -1318,9 +1328,9 @@
   </url><url>
     <loc>http://localhost:1313/categories/%CF%84%CF%81%CE%BF%CF%86%CE%AD%CF%82-%CE%B6%CF%8E%CF%89%CE%BD/</loc>
   </url><url>
-    <loc>http://localhost:1313/food/</loc>
-  </url><url>
     <loc>http://localhost:1313/gencat/%CF%84%CF%81%CF%8C%CF%86%CE%B9%CE%BC%CE%B1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/food/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/%CF%84%CF%83%CE%AC%CE%BD%CF%84%CE%B5%CF%82/</loc>
   </url><url>

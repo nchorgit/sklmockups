@@ -161,14 +161,23 @@ a.mockup:last-child img.fimg:last-child {display: none;}
           <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
         </div>
       </a>
-    {{ end }}{{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Σκλαβενίτης ΜΤ") }}
+    {{ end }}
+    {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Χωρίς Ετικέτα") }}
       <a class="mockup" href="{{.Permalink}}">
-        <img class="fimg" src="/media/icons/sklavenitis-nofood.png">
         <div class="lilabel">
           <p class="env-title">{{.Title}}</p>
           <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
         </div>
       </a>
+    {{ end }}
+
+    {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Arion Food") }}
+    <a class="mockup" href="{{.Permalink}}">
+      <div class="lilabel">
+        <p class="env-title">{{.Title}}</p>
+        <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+      </div>
+    </a>
     {{ end }}
  </div>
 
@@ -198,6 +207,8 @@ $('a:contains("Γλάρος")').prepend('<img class="fimg" src="/media/icons/gla
 $('a:contains("Μαράτα")').prepend('<img class="fimg" src="/media/icons/marata.png">');
 $('a:contains("Πιέστο")').prepend('<img class="fimg" src="/media/icons/piesto.png">');
 $('a:contains("Ρόμβος")').prepend('<img class="fimg" src="/media/icons/romvos.png">');
+$('a:contains("Χωρίς")').prepend('<img class="fimg" src="/media/icons/no-label.png">');
+$('a:contains("arion")').prepend('<img class="fimg" src="/media/icons/arion.png">');
 
 
 
