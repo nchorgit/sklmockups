@@ -31,7 +31,7 @@
     {{ end }}
   </div-->
   <div class="index-labels">
-    {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Άλλες Ετικέτες") }}
+    {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Χωρίς Ετικέτα") }}
       <a class="mockup" href="{{.Permalink}}">
         <div class="lilabel">
           <p class="env-title">{{.Title}}</p>
@@ -65,7 +65,7 @@
 </body>
 <script>
     
-$('a:contains("Άλλες Ετικέτες")').prepend('<img class="fimg" src="/media/icons/no-label.png">');
+$('a:contains("Χωρίς")').prepend('<img class="fimg" src="/media/icons/no-label.png">');
 $('a:contains("arion")').prepend('<img class="fimg" src="/media/icons/arion.png">');
 
 $("a.list").click(function () {
