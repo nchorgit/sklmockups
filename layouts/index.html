@@ -278,7 +278,7 @@
             <div class="mtop-left"><img height="32px" src="/media/icons/svg32/other-labels.svg" alt=""><span><b>Άλλες Ετικέτες</b></span></div>
      
            </div>
-           <div class="main-in orofos">
+           <div class="main-in nolabel">
             <div class="index-labels">
               
                 {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Χωρίς Ετικέτα") }}
@@ -332,7 +332,7 @@ $('a:contains("Ρόμβος")').prepend('<img class="fimg" src="/media/icons/rom
 $('a:contains("trskl1")').prepend('<img class="fimg" src="/media/icons/sklavenitis.png">');
 $('a:contains("mtskl2")').prepend('<img class="fimg" src="/media/icons/sklavenitis-nofood.png">');
 $('a:contains("Χωρίς")').prepend('<img class="fimg" src="/media/icons/no-label.png">');
-$('a:contains("arion")').prepend('<img class="fimg" src="/media/icons/arion.png">');
+$('a:contains("Food")').prepend('<img class="fimg" src="/media/icons/arion.png">');
         $("a.list").click(function () {
            $(".main-in").addClass("listv");
            $(this).addClass("lpointer");
