@@ -1,1 +1,96 @@
+<head> {{ partial "head" . }}
+    <style>
+        a.llink3 {
+            background: black;
+        margin: 0-30px;
+        padding: 15px 26px;
+        border-left: solid 4px orange;
+        }
+    </style>
+</head>
+<body>
+    {{ partial "header" . }} 
+    {{ partial "left" . }}
+    <div class="main">
+        <div class="main-top">
+            <div class="mtop-left"><img height="32px" src="/media/icons/svg32/trofima.svg" alt=""><b>{{.Title}}</b></span></div>
+            <div class="mtop-right">
+                <div class="order" style="display: none;"><span>Ταξινόμηση</span><a class="lorder" href="#"></a></div>
+                <div class="view"><span>Προβολή: </span><a class="list" href="#"><img src="/media/icons/svg32/list.svg" alt=""></a><a class="grid" href="#"><img src="/media/icons/svg32/grid.svg" alt=""></a></div>
+            </div>
+           </div>
+<div class="main-in">
+  <!--div class="index-labels">
+    {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" "in" (slice "Σκλαβενίτης" "Bonora" "Barron") }}
+      <a class="mockup" href="{{.Permalink}}">
+        <div class="lilabel">
+          <p class="env-title">{{.Title}}</p>
+          <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+        </div>
+      </a>
+    {{ end }}
+  </div-->
+  <div class="index-labels">
+    {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Άλλες Ετικέτες") }}
+      <a class="mockup" href="{{.Permalink}}">
+        <div class="lilabel">
+          <p class="env-title">{{.Title}}</p>
+          <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+        </div>
+      </a>
+    {{ end }}
 
+    {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Arion Food") }}
+    <a class="mockup" href="{{.Permalink}}">
+      <div class="lilabel">
+        <p class="env-title">{{.Title}}</p>
+        <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+      </div>
+    </a>
+  {{ end }}
+
+
+
+
+
+  
+  </div>
+      </div>
+
+
+</div >
+
+{{ partial "footer" . }}    
+
+</body>
+<script>
+    
+$('a:contains("Άλλες Ετικέτες")').prepend('<img class="fimg" src="/media/icons/no-label.png">');
+$('a:contains("arion")').prepend('<img class="fimg" src="/media/icons/arion.png">');
+
+$("a.list").click(function () {
+           $(".main-in").addClass("listv");
+           $(this).addClass("lpointer");
+           $('a.grid').removeClass('lpointer');
+   
+       });
+       $("a.grid").click(function () {
+           $(".main-in").removeClass("listv");
+           $(this).addClass("lpointer");
+           $('a.list').removeClass('lpointer');
+   
+       });
+      
+    
+       $('a.grid').addClass('lpointer');
+</script>
+<style>
+  .main-top {
+    margin-top: -5px;
+  }
+  .mtop-left {
+    opacity: 0;
+    pointer-events: none;
+  }
+</style>
+</html>
