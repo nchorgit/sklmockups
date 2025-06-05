@@ -63,5 +63,12 @@
       <guid>http://localhost:1313/mockups/marata/kremes-galaktos/marata-krema-galaktos-sides-500g/</guid>
       <description>Πλευρές</description>
     </item>
+    <item>
+      <title>κρέμα γάλακτος τύπου φάγε 330ml</title>
+      <link>http://localhost:1313/mockups/xoris-etiketa/krema-galaktos-fage-330ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mockups/xoris-etiketa/krema-galaktos-fage-330ml/</guid>
+      <description>Εμπρόσθια &amp; Πλευρές</description>
+    </item>
   </channel>
 </rss>

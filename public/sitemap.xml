@@ -566,11 +566,7 @@
   </url><url>
     <loc>http://localhost:1313/categories/%CE%BB%CE%BF%CF%85%CE%BA%CE%AC%CE%BD%CE%B9%CE%BA%CE%B1-/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/%CE%BC%CE%B1%CF%81%CE%BC%CE%B5%CE%BB%CE%AC%CE%B4%CE%B5%CF%82/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/%CE%BC%CE%AD%CE%BB%CE%B9/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%84%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CF%8E%CE%BD/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/%CF%81%CF%8D%CE%B6%CE%B9/</loc>
   </url><url>
@@ -990,6 +986,8 @@
   </url><url>
     <loc>http://localhost:1313/mockups/tickit/tickit-psalidi-12.5cm/</loc>
   </url><url>
+    <loc>http://localhost:1313/mockups/xoris-etiketa/alati-kallas-400g/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/%CE%B1%CE%BB%CE%B5%CF%8D%CF%81%CE%B9/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/%CE%B1%CE%BB%CE%BB%CE%B1%CE%BD%CF%84%CE%B9%CE%BA%CE%AC/</loc>
@@ -1003,6 +1001,12 @@
     <loc>http://localhost:1313/report/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/%CE%B1%CE%BD%CE%B1%CF%88%CF%85%CE%BA%CF%84%CE%B9%CE%BA%CE%AC/</loc>
+  </url><url>
+    <loc>http://localhost:1313/mockups/xoris-etiketa/anapsiktiko-front-330ml/</loc>
+  </url><url>
+    <loc>http://localhost:1313/mockups/xoris-etiketa/anapsiktiko-4x500ml/</loc>
+  </url><url>
+    <loc>http://localhost:1313/mockups/xoris-etiketa/anapsiktiko-6x330ml/</loc>
   </url><url>
     <loc>http://localhost:1313/mockups/xoris-etiketa/anapsiktiko-per-330ml/</loc>
   </url><url>
@@ -1108,6 +1112,8 @@
   </url><url>
     <loc>http://localhost:1313/categories/%CE%BA%CF%81%CE%AD%CE%B1%CF%82/</loc>
   </url><url>
+    <loc>http://localhost:1313/mockups/xoris-etiketa/krema-galaktos-fage-330ml/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/%CE%BA%CF%81%CE%AD%CE%BC%CE%B5%CF%82-%CE%B3%CE%AC%CE%BB%CE%B1%CE%BA%CF%84%CE%BF%CF%82/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/%CE%BA%CF%81%CE%B5%CE%BC%CE%BF%CF%83%CE%AC%CF%80%CE%BF%CF%85%CE%BD%CE%B1/</loc>
@@ -1146,6 +1152,10 @@
   </url><url>
     <loc>http://localhost:1313/categories/%CE%BC%CE%B1%CF%81%CE%BA%CE%B1%CE%B4%CF%8C%CF%81%CE%BF%CE%B9/</loc>
   </url><url>
+    <loc>http://localhost:1313/mockups/xoris-etiketa/marmelada-dalfour-284g/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/%CE%BC%CE%B1%CF%81%CE%BC%CE%B5%CE%BB%CE%AC%CE%B4%CE%B5%CF%82/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/%CE%BC%CE%B5%CE%AF%CE%B3%CE%BC%CE%B1%CF%84%CE%B1/</loc>
   </url><url>
     <loc>http://localhost:1313/gencat/%CE%BC%CE%B7-%CF%84%CF%81%CF%8C%CF%86%CE%B9%CE%BC%CE%B1/</loc>
@@ -1169,6 +1179,8 @@
     <loc>http://localhost:1313/categories/%CE%BD%CF%84%CE%B5%CE%BC%CE%B1%CE%BA%CE%B9%CE%B3%CE%B9%CE%AC%CE%B6/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/%CE%BE%CE%B7%CF%81%CE%BF%CE%AF-%CE%BA%CE%B1%CF%81%CF%80%CE%BF%CE%AF/</loc>
+  </url><url>
+    <loc>http://localhost:1313/mockups/xoris-etiketa/ksidi-paros-500ml/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/%CE%BF%CE%B9%CE%BD%CE%BF%CF%80%CE%BD%CE%B5%CF%85%CE%BC%CE%B1%CF%84%CF%8E%CE%B4%CE%B7/</loc>
   </url><url>
@@ -1203,6 +1215,8 @@
     <loc>http://localhost:1313/categories/%CF%80%CF%81%CE%B1%CE%BB%CE%AF%CE%BD%CE%B5%CF%82/</loc>
   </url><url>
     <loc>http://localhost:1313/all-mockups/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%84%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CF%8E%CE%BD/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/%CF%81%CE%BF%CE%BB%CE%AC-%CE%BA%CE%B1%CE%B8%CE%B1%CF%81%CE%B9%CF%83%CE%BC%CE%BF%CF%8D/</loc>
   </url><url>

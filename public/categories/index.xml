@@ -57,24 +57,10 @@
       <description></description>
     </item>
     <item>
-      <title>Categories/Μαρμελάδες</title>
-      <link>http://localhost:1313/categories/%CE%BC%CE%B1%CF%81%CE%BC%CE%B5%CE%BB%CE%AC%CE%B4%CE%B5%CF%82/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%CE%BC%CE%B1%CF%81%CE%BC%CE%B5%CE%BB%CE%AC%CE%B4%CE%B5%CF%82/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Categories/Μέλι</title>
       <link>http://localhost:1313/categories/%CE%BC%CE%AD%CE%BB%CE%B9/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/%CE%BC%CE%AD%CE%BB%CE%B9/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Categories/Πρόσθετα Φαγητών</title>
-      <link>http://localhost:1313/categories/%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%84%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CF%8E%CE%BD/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%84%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CF%8E%CE%BD/</guid>
       <description></description>
     </item>
     <item>
@@ -351,6 +337,13 @@
       <description></description>
     </item>
     <item>
+      <title>Μαρμελάδες</title>
+      <link>http://localhost:1313/categories/%CE%BC%CE%B1%CF%81%CE%BC%CE%B5%CE%BB%CE%AC%CE%B4%CE%B5%CF%82/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%CE%BC%CE%B1%CF%81%CE%BC%CE%B5%CE%BB%CE%AC%CE%B4%CE%B5%CF%82/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Μείγματα</title>
       <link>http://localhost:1313/categories/%CE%BC%CE%B5%CE%AF%CE%B3%CE%BC%CE%B1%CF%84%CE%B1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -495,6 +488,13 @@
       <link>http://localhost:1313/categories/%CF%80%CF%81%CE%B1%CE%BB%CE%AF%CE%BD%CE%B5%CF%82/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/%CF%80%CF%81%CE%B1%CE%BB%CE%AF%CE%BD%CE%B5%CF%82/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Πρόσθετα Φαγητών</title>
+      <link>http://localhost:1313/categories/%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%84%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CF%8E%CE%BD/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%84%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CF%8E%CE%BD/</guid>
       <description></description>
     </item>
     <item>

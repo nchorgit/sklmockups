@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories/Πρόσθετα Φαγητών on Home</title>
+    <title>Πρόσθετα Φαγητών on Home</title>
     <link>http://localhost:1313/categories/%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%84%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CF%8E%CE%BD/</link>
-    <description>Recent content in Categories/Πρόσθετα Φαγητών on Home</description>
+    <description>Recent content in Πρόσθετα Φαγητών on Home</description>
     <generator>Hugo</generator>
     <language>el</language>
     <atom:link href="http://localhost:1313/categories/%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%84%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CF%8E%CE%BD/index.xml" rel="self" type="application/rss+xml" />
@@ -12,6 +12,20 @@
       <link>http://localhost:1313/mockups/marata/prostheta-faghtwn/marata-soda-400g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/mockups/marata/prostheta-faghtwn/marata-soda-400g/</guid>
+      <description>Εμπρόσθια &amp; Πλευρές</description>
+    </item>
+    <item>
+      <title>αλάτι τύπου καλλας 400g</title>
+      <link>http://localhost:1313/mockups/xoris-etiketa/alati-kallas-400g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mockups/xoris-etiketa/alati-kallas-400g/</guid>
+      <description>Εμπρόσθια &amp; Πλευρές</description>
+    </item>
+    <item>
+      <title>Ξύδι τύπου πάρος 500ml</title>
+      <link>http://localhost:1313/mockups/xoris-etiketa/ksidi-paros-500ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mockups/xoris-etiketa/ksidi-paros-500ml/</guid>
       <description>Εμπρόσθια &amp; Πλευρές</description>
     </item>
   </channel>
