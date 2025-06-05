@@ -360,6 +360,8 @@
   </url><url>
     <loc>http://localhost:1313/mockups/marata/xymoi/marata-xymos-vitom-sides-1l/</loc>
   </url><url>
+    <loc>http://localhost:1313/mockups/loipes-etiketes/blonder-beer-330ml/</loc>
+  </url><url>
     <loc>http://localhost:1313/promo/1kilo/</loc>
   </url><url>
     <loc>http://localhost:1313/mockups/arion-food/arion-food-meli-950g/</loc>
@@ -548,6 +550,8 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/categories/%CE%B1%CE%BD%CE%B1%CF%88%CF%85%CE%BA%CF%84%CE%B9%CE%BA%CE%AC/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/%CE%B3%CE%AC%CE%BD%CF%84%CE%B9%CE%B1-%CE%B5%CE%BB%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AC/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/%CE%B6%CE%AC%CF%87%CE%B1%CF%81%CE%B7/</loc>
@@ -642,6 +646,8 @@
   </url><url>
     <loc>http://localhost:1313/promo/energy/</loc>
   </url><url>
+    <loc>http://localhost:1313/mockups/loipes-etiketes/filedem-taxini-350ml/</loc>
+  </url><url>
     <loc>http://localhost:1313/labels/fishermans-boat/</loc>
   </url><url>
     <loc>http://localhost:1313/mockups/fisherman/fisherman-tonos-1800g/</loc>
@@ -683,8 +689,6 @@
     <loc>http://localhost:1313/mockups/frogo/eidh-psisimatos/frogo-skevos-d17/</loc>
   </url><url>
     <loc>http://localhost:1313/gencat/</loc>
-  </url><url>
-    <loc>http://localhost:1313/gencat/%CE%AC%CE%BB%CE%BB%CE%B5%CF%82-%CE%B5%CF%84%CE%B9%CE%BA%CE%AD%CF%84%CE%B5%CF%82/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
@@ -768,7 +772,7 @@
   </url><url>
     <loc>http://localhost:1313/labels/meat-house/</loc>
   </url><url>
-    <loc>http://localhost:1313/labels/%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%B5%CF%84%CE%B9%CE%BA%CE%AD%CF%84%CE%B1/</loc>
+    <loc>http://localhost:1313/labels/%CE%BB%CE%BF%CE%B9%CF%80%CE%AD%CF%82-%CE%B5%CF%84%CE%B9%CE%BA%CE%AD%CF%84%CE%B5%CF%82/</loc>
   </url><url>
     <loc>http://localhost:1313/labels/master-energy/</loc>
   </url><url>
@@ -991,6 +995,8 @@
     <loc>http://localhost:1313/categories/%CE%B1%CE%BB%CE%B5%CF%8D%CF%81%CE%B9/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/%CE%B1%CE%BB%CE%BB%CE%B1%CE%BD%CF%84%CE%B9%CE%BA%CE%AC/</loc>
+  </url><url>
+    <loc>http://localhost:1313/gencat/%CE%AC%CE%BB%CE%BB%CE%B5%CF%82-%CE%B5%CF%84%CE%B9%CE%BA%CE%AD%CF%84%CE%B5%CF%82/</loc>
   </url><url>
     <loc>http://localhost:1313/other-labels/</loc>
   </url><url>
@@ -1332,6 +1338,8 @@
   </url><url>
     <loc>http://localhost:1313/food/</loc>
   </url><url>
+    <loc>http://localhost:1313/mockups/xoris-etiketa/tsai-ice-tea-500ml/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/%CF%84%CF%83%CE%AC%CE%BD%CF%84%CE%B5%CF%82/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/%CF%85%CE%B3%CF%81%CE%AC-%CF%80%CE%B9%CE%AC%CF%84%CF%89%CE%BD/</loc>
@@ -1345,6 +1353,8 @@
     <loc>http://localhost:1313/categories/%CF%87%CE%B1%CF%81%CF%84%CE%BF%CF%80%CE%B5%CF%84%CF%83%CE%AD%CF%84%CE%B5%CF%82/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/%CF%87%CF%85%CE%BC%CE%BF%CE%AF/</loc>
+  </url><url>
+    <loc>http://localhost:1313/labels/%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%B5%CF%84%CE%B9%CE%BA%CE%AD%CF%84%CE%B1/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/%CF%88%CE%B1%CE%BB%CE%AF%CE%B4%CE%B9%CE%B1/</loc>
   </url>

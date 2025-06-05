@@ -56,5 +56,12 @@
       <guid>http://localhost:1313/mockups/marata/taxini/marata-taxini-olikis-alesis-300g/</guid>
       <description>Εμπρόσθια &amp; Πλευρές</description>
     </item>
+    <item>
+      <title>Filedem ταχίνι 220g</title>
+      <link>http://localhost:1313/mockups/loipes-etiketes/filedem-taxini-350ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mockups/loipes-etiketes/filedem-taxini-350ml/</guid>
+      <description>Εμπρόσθια &amp; Πλευρές</description>
+    </item>
   </channel>
 </rss>

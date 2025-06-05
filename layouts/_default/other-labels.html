@@ -50,6 +50,15 @@
     </a>
   {{ end }}
 
+  {{ range where ($.Site.GetPage "taxonomyTerm" "labels").Pages "Title" ("Λοιπές Ετικέτες") }}
+                  <a class="mockup" href="{{.Permalink}}">
+                    <div class="lilabel">
+                      <p class="env-title">{{.Title}}</p>
+                      <p class="gnum">{{ len (where .Pages "Section" "!=" "") }}</p>
+                    </div>
+                  </a>
+                {{ end }}
+
 
 
 
@@ -68,6 +77,7 @@
     
 $('a:contains("Χωρίς")').prepend('<img class="fimg" src="/media/icons/no-label.png">');
 $('a:contains("Arion Food")').prepend('<img class="fimg" src="/media/icons/arion.png">');
+$('a:contains("Λοιπές Ετικέτες")').prepend('<img class="fimg" src="/media/icons/loipes.png">');
 
 $("a.list").click(function () {
            $(".main-in").addClass("listv");
