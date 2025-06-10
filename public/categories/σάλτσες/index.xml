@@ -28,5 +28,19 @@
       <guid>http://localhost:1313/mockups/marata/saltses/marata-moustarda-500g/</guid>
       <description>Εμπρόσθια &amp; Πλευρές</description>
     </item>
+    <item>
+      <title>Μαγιονέζα squeezy τύπου hellmann&#39;s 430ml</title>
+      <link>http://localhost:1313/mockups/xoris-etiketa/magioneza-squeezy-430ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mockups/xoris-etiketa/magioneza-squeezy-430ml/</guid>
+      <description>Εμπρόσθια &amp; Πίσω</description>
+    </item>
+    <item>
+      <title>μουστάρδα τύπου brava 430g</title>
+      <link>http://localhost:1313/mockups/xoris-etiketa/moustarda-brava-430g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mockups/xoris-etiketa/moustarda-brava-430g/</guid>
+      <description>Εμπρόσθια &amp; Πλευρές</description>
+    </item>
   </channel>
 </rss>
