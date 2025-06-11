@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Έιδη Μιας Χρήσης on Home</title>
-    <link>http://localhost:1313/categories/%CE%AD%CE%B9%CE%B4%CE%B7-%CE%BC%CE%B9%CE%B1%CF%82-%CF%87%CF%81%CE%AE%CF%83%CE%B7%CF%82/</link>
+    <link>//localhost:1313/categories/%CE%AD%CE%B9%CE%B4%CE%B7-%CE%BC%CE%B9%CE%B1%CF%82-%CF%87%CF%81%CE%AE%CF%83%CE%B7%CF%82/</link>
     <description>Recent content in Έιδη Μιας Χρήσης on Home</description>
     <generator>Hugo</generator>
     <language>el</language>
-    <atom:link href="http://localhost:1313/categories/%CE%AD%CE%B9%CE%B4%CE%B7-%CE%BC%CE%B9%CE%B1%CF%82-%CF%87%CF%81%CE%AE%CF%83%CE%B7%CF%82/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/%CE%AD%CE%B9%CE%B4%CE%B7-%CE%BC%CE%B9%CE%B1%CF%82-%CF%87%CF%81%CE%AE%CF%83%CE%B7%CF%82/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Frogo Μαχαιροπίρουνα Μεγάλα</title>
-      <link>http://localhost:1313/mockups/frogo/maxairopirouna/frogo-maxairopirouna-megala/</link>
+      <link>//localhost:1313/mockups/frogo/maxairopirouna/frogo-maxairopirouna-megala/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/frogo/maxairopirouna/frogo-maxairopirouna-megala/</guid>
+      <guid>//localhost:1313/mockups/frogo/maxairopirouna/frogo-maxairopirouna-megala/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Frogo Μαχαιροπίρουνα Μικρά</title>
-      <link>http://localhost:1313/mockups/frogo/maxairopirouna/frogo-maxairopirouna-mikra/</link>
+      <link>//localhost:1313/mockups/frogo/maxairopirouna/frogo-maxairopirouna-mikra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/frogo/maxairopirouna/frogo-maxairopirouna-mikra/</guid>
+      <guid>//localhost:1313/mockups/frogo/maxairopirouna/frogo-maxairopirouna-mikra/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
   </channel>

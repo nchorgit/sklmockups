@@ -2,107 +2,107 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Baker Master on Home</title>
-    <link>http://localhost:1313/labels/baker-master/</link>
+    <link>//localhost:1313/labels/baker-master/</link>
     <description>Recent content in Baker Master on Home</description>
     <generator>Hugo</generator>
     <language>el</language>
-    <atom:link href="http://localhost:1313/labels/baker-master/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/labels/baker-master/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Baker Master Πιτάκια 450g</title>
-      <link>http://localhost:1313/mockups/baker-master/baker-master-pitakia-450g/</link>
+      <link>//localhost:1313/mockups/baker-master/baker-master-pitakia-450g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/baker-master/baker-master-pitakia-450g/</guid>
+      <guid>//localhost:1313/mockups/baker-master/baker-master-pitakia-450g/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Baker Master Ζύμες</title>
-      <link>http://localhost:1313/mockups/baker-master/baker-master-zymes/</link>
+      <link>//localhost:1313/mockups/baker-master/baker-master-zymes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/baker-master/baker-master-zymes/</guid>
+      <guid>//localhost:1313/mockups/baker-master/baker-master-zymes/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Baker Master Ζύμες Κουτί</title>
-      <link>http://localhost:1313/mockups/baker-master/baker-master-zymes-koyti/</link>
+      <link>//localhost:1313/mockups/baker-master/baker-master-zymes-koyti/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/baker-master/baker-master-zymes-koyti/</guid>
+      <guid>//localhost:1313/mockups/baker-master/baker-master-zymes-koyti/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Baker Master Πίτσα</title>
-      <link>http://localhost:1313/mockups/baker-master/baker-master-pitsa/</link>
+      <link>//localhost:1313/mockups/baker-master/baker-master-pitsa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/baker-master/baker-master-pitsa/</guid>
+      <guid>//localhost:1313/mockups/baker-master/baker-master-pitsa/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Baker Master Στριφτές Πίτες Εμπρόσθια Όψη 850g</title>
-      <link>http://localhost:1313/mockups/baker-master/baker-master-striftes-pites-front-850g/</link>
+      <link>//localhost:1313/mockups/baker-master/baker-master-striftes-pites-front-850g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/baker-master/baker-master-striftes-pites-front-850g/</guid>
+      <guid>//localhost:1313/mockups/baker-master/baker-master-striftes-pites-front-850g/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Baker Master Στριφτές Πίτες Προοπτική Προβολή 850g</title>
-      <link>http://localhost:1313/mockups/baker-master/baker-master-striftes-pites-perspective-850g/</link>
+      <link>//localhost:1313/mockups/baker-master/baker-master-striftes-pites-perspective-850g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/baker-master/baker-master-striftes-pites-perspective-850g/</guid>
+      <guid>//localhost:1313/mockups/baker-master/baker-master-striftes-pites-perspective-850g/</guid>
       <description>Προοπτική Προβολή</description>
     </item>
     <item>
       <title>Baker Master Στριφτές Πίτες Κάτω Πλευρά 850g</title>
-      <link>http://localhost:1313/mockups/baker-master/baker-master-striftes-pites-back-850g/</link>
+      <link>//localhost:1313/mockups/baker-master/baker-master-striftes-pites-back-850g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/baker-master/baker-master-striftes-pites-back-850g/</guid>
+      <guid>//localhost:1313/mockups/baker-master/baker-master-striftes-pites-back-850g/</guid>
       <description>Κάτω Πλευρά</description>
     </item>
     <item>
       <title>Baker Master Πίτες Άνω Πλευρά</title>
-      <link>http://localhost:1313/mockups/baker-master/baker-master-pites-front/</link>
+      <link>//localhost:1313/mockups/baker-master/baker-master-pites-front/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/baker-master/baker-master-pites-front/</guid>
+      <guid>//localhost:1313/mockups/baker-master/baker-master-pites-front/</guid>
       <description>Άνω Πλευρά</description>
     </item>
     <item>
       <title>Baker Master Πίτες Κάτω Πλευρά</title>
-      <link>http://localhost:1313/mockups/baker-master/baker-master-pites-back/</link>
+      <link>//localhost:1313/mockups/baker-master/baker-master-pites-back/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/baker-master/baker-master-pites-back/</guid>
+      <guid>//localhost:1313/mockups/baker-master/baker-master-pites-back/</guid>
       <description>Κάτω Πλευρά</description>
     </item>
     <item>
       <title>Baker Master Γλυκά Άνω Πλευρά</title>
-      <link>http://localhost:1313/mockups/baker-master/baker-master-glyka-front/</link>
+      <link>//localhost:1313/mockups/baker-master/baker-master-glyka-front/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/baker-master/baker-master-glyka-front/</guid>
+      <guid>//localhost:1313/mockups/baker-master/baker-master-glyka-front/</guid>
       <description>Άνω Πλευρά</description>
     </item>
     <item>
       <title>Baker Master Μπουγάτσα Άνω Πλευρά</title>
-      <link>http://localhost:1313/mockups/baker-master/baker-master-mpougatsa-front/</link>
+      <link>//localhost:1313/mockups/baker-master/baker-master-mpougatsa-front/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/baker-master/baker-master-mpougatsa-front/</guid>
+      <guid>//localhost:1313/mockups/baker-master/baker-master-mpougatsa-front/</guid>
       <description>Άνω Πλευρά</description>
     </item>
     <item>
       <title>Baker Master Μπουγάτσα Κάτω Πλευρά</title>
-      <link>http://localhost:1313/mockups/baker-master/baker-master-mpougatsa-back/</link>
+      <link>//localhost:1313/mockups/baker-master/baker-master-mpougatsa-back/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/baker-master/baker-master-mpougatsa-back/</guid>
+      <guid>//localhost:1313/mockups/baker-master/baker-master-mpougatsa-back/</guid>
       <description>Κάτω Πλευρά</description>
     </item>
     <item>
       <title>Baker Master Γλυκά Κάτω Πλευρά</title>
-      <link>http://localhost:1313/mockups/baker-master/baker-master-glyka-back/</link>
+      <link>//localhost:1313/mockups/baker-master/baker-master-glyka-back/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/baker-master/baker-master-glyka-back/</guid>
+      <guid>//localhost:1313/mockups/baker-master/baker-master-glyka-back/</guid>
       <description>Κάτω Πλευρά</description>
     </item>
     <item>
       <title>Baker Master Κρουασανάκια 288g</title>
-      <link>http://localhost:1313/mockups/baker-master/baker-master-krouasanakia-288g/</link>
+      <link>//localhost:1313/mockups/baker-master/baker-master-krouasanakia-288g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/baker-master/baker-master-krouasanakia-288g/</guid>
+      <guid>//localhost:1313/mockups/baker-master/baker-master-krouasanakia-288g/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
   </channel>

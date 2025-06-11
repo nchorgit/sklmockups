@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Μπατονέτες on Home</title>
-    <link>http://localhost:1313/categories/%CE%BC%CF%80%CE%B1%CF%84%CE%BF%CE%BD%CE%AD%CF%84%CE%B5%CF%82/</link>
+    <link>//localhost:1313/categories/%CE%BC%CF%80%CE%B1%CF%84%CE%BF%CE%BD%CE%AD%CF%84%CE%B5%CF%82/</link>
     <description>Recent content in Μπατονέτες on Home</description>
     <generator>Hugo</generator>
     <language>el</language>
-    <atom:link href="http://localhost:1313/categories/%CE%BC%CF%80%CE%B1%CF%84%CE%BF%CE%BD%CE%AD%CF%84%CE%B5%CF%82/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/%CE%BC%CF%80%CE%B1%CF%84%CE%BF%CE%BD%CE%AD%CF%84%CE%B5%CF%82/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sette Μπατονέτες 100 Τεμαχίων</title>
-      <link>http://localhost:1313/mockups/sette/mpatonetes/sette-mpatonetes-100-temaxiwn/</link>
+      <link>//localhost:1313/mockups/sette/mpatonetes/sette-mpatonetes-100-temaxiwn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/sette/mpatonetes/sette-mpatonetes-100-temaxiwn/</guid>
+      <guid>//localhost:1313/mockups/sette/mpatonetes/sette-mpatonetes-100-temaxiwn/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Sette Μπατονέτες 200 Τεμαχίων</title>
-      <link>http://localhost:1313/mockups/sette/mpatonetes/sette-mpatonetes-200-temaxiwn/</link>
+      <link>//localhost:1313/mockups/sette/mpatonetes/sette-mpatonetes-200-temaxiwn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/sette/mpatonetes/sette-mpatonetes-200-temaxiwn/</guid>
+      <guid>//localhost:1313/mockups/sette/mpatonetes/sette-mpatonetes-200-temaxiwn/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Sette Μπατονέτες 300 Τεμαχίων</title>
-      <link>http://localhost:1313/mockups/sette/mpatonetes/sette-mpatonetes-300-temaxiwn/</link>
+      <link>//localhost:1313/mockups/sette/mpatonetes/sette-mpatonetes-300-temaxiwn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/sette/mpatonetes/sette-mpatonetes-300-temaxiwn/</guid>
+      <guid>//localhost:1313/mockups/sette/mpatonetes/sette-mpatonetes-300-temaxiwn/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
   </channel>

@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Μπαταρίες on Home</title>
-    <link>http://localhost:1313/categories/%CE%BC%CF%80%CE%B1%CF%84%CE%B1%CF%81%CE%AF%CE%B5%CF%82/</link>
+    <link>//localhost:1313/categories/%CE%BC%CF%80%CE%B1%CF%84%CE%B1%CF%81%CE%AF%CE%B5%CF%82/</link>
     <description>Recent content in Μπαταρίες on Home</description>
     <generator>Hugo</generator>
     <language>el</language>
-    <atom:link href="http://localhost:1313/categories/%CE%BC%CF%80%CE%B1%CF%84%CE%B1%CF%81%CE%AF%CE%B5%CF%82/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/%CE%BC%CF%80%CE%B1%CF%84%CE%B1%CF%81%CE%AF%CE%B5%CF%82/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Master Energy Μπαταρία Πλακέ V9</title>
-      <link>http://localhost:1313/mockups/master-energy/master-energy-mpataries-v9/</link>
+      <link>//localhost:1313/mockups/master-energy/master-energy-mpataries-v9/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/master-energy/master-energy-mpataries-v9/</guid>
+      <guid>//localhost:1313/mockups/master-energy/master-energy-mpataries-v9/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Master Energy Μπαταρίες AA</title>
-      <link>http://localhost:1313/mockups/master-energy/master-energy-mpataries-aa/</link>
+      <link>//localhost:1313/mockups/master-energy/master-energy-mpataries-aa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/master-energy/master-energy-mpataries-aa/</guid>
+      <guid>//localhost:1313/mockups/master-energy/master-energy-mpataries-aa/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Master Energy Μπαταρίες AAA</title>
-      <link>http://localhost:1313/mockups/master-energy/master-energy-mpataries-aaa/</link>
+      <link>//localhost:1313/mockups/master-energy/master-energy-mpataries-aaa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/master-energy/master-energy-mpataries-aaa/</guid>
+      <guid>//localhost:1313/mockups/master-energy/master-energy-mpataries-aaa/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Master Energy Μπαταρίες C</title>
-      <link>http://localhost:1313/mockups/master-energy/master-energy-mpataries-c/</link>
+      <link>//localhost:1313/mockups/master-energy/master-energy-mpataries-c/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/master-energy/master-energy-mpataries-c/</guid>
+      <guid>//localhost:1313/mockups/master-energy/master-energy-mpataries-c/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Master Energy Μπαταρίες D</title>
-      <link>http://localhost:1313/mockups/master-energy/master-energy-mpataries-d/</link>
+      <link>//localhost:1313/mockups/master-energy/master-energy-mpataries-d/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/master-energy/master-energy-mpataries-d/</guid>
+      <guid>//localhost:1313/mockups/master-energy/master-energy-mpataries-d/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Master Energy Μπαταρίες Πίσω Πλευρά</title>
-      <link>http://localhost:1313/mockups/master-energy/master-energy-mpataries-zback/</link>
+      <link>//localhost:1313/mockups/master-energy/master-energy-mpataries-zback/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/master-energy/master-energy-mpataries-zback/</guid>
+      <guid>//localhost:1313/mockups/master-energy/master-energy-mpataries-zback/</guid>
       <description>Πίσω Πλευρά</description>
     </item>
   </channel>

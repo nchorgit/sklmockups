@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ταχίνι on Home</title>
-    <link>http://localhost:1313/categories/%CF%84%CE%B1%CF%87%CE%AF%CE%BD%CE%B9/</link>
+    <link>//localhost:1313/categories/%CF%84%CE%B1%CF%87%CE%AF%CE%BD%CE%B9/</link>
     <description>Recent content in Ταχίνι on Home</description>
     <generator>Hugo</generator>
     <language>el</language>
-    <atom:link href="http://localhost:1313/categories/%CF%84%CE%B1%CF%87%CE%AF%CE%BD%CE%B9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/%CF%84%CE%B1%CF%87%CE%AF%CE%BD%CE%B9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Μαράτα Ταχίνι 300g</title>
-      <link>http://localhost:1313/mockups/marata/taxini/marata-taxini-300g/</link>
+      <link>//localhost:1313/mockups/marata/taxini/marata-taxini-300g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/marata/taxini/marata-taxini-300g/</guid>
+      <guid>//localhost:1313/mockups/marata/taxini/marata-taxini-300g/</guid>
       <description>Εμπρόσθια &amp; Πλευρές</description>
     </item>
     <item>
       <title>Μαράτα Ταχίνι 350g</title>
-      <link>http://localhost:1313/mockups/marata/taxini/marata-taxini-350g/</link>
+      <link>//localhost:1313/mockups/marata/taxini/marata-taxini-350g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/marata/taxini/marata-taxini-350g/</guid>
+      <guid>//localhost:1313/mockups/marata/taxini/marata-taxini-350g/</guid>
       <description>Εμπρόσθια &amp; Πλευρές</description>
     </item>
     <item>
       <title>Μαράτα Ταχίνι 900g Εμπρόσθια Όψη</title>
-      <link>http://localhost:1313/mockups/marata/taxini/marata-taxini-900g-front/</link>
+      <link>//localhost:1313/mockups/marata/taxini/marata-taxini-900g-front/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/marata/taxini/marata-taxini-900g-front/</guid>
+      <guid>//localhost:1313/mockups/marata/taxini/marata-taxini-900g-front/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Μαράτα Ταχίνι 900g Πλευρές</title>
-      <link>http://localhost:1313/mockups/marata/taxini/marata-taxini-900g-sides/</link>
+      <link>//localhost:1313/mockups/marata/taxini/marata-taxini-900g-sides/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/marata/taxini/marata-taxini-900g-sides/</guid>
+      <guid>//localhost:1313/mockups/marata/taxini/marata-taxini-900g-sides/</guid>
       <description>Πλευρές</description>
     </item>
     <item>
       <title>Μαράτα Ταχίνι Με Κακάο 900g Εμπρόσθια Όψη</title>
-      <link>http://localhost:1313/mockups/marata/taxini/marata-taxini-900g-kakao-front/</link>
+      <link>//localhost:1313/mockups/marata/taxini/marata-taxini-900g-kakao-front/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/marata/taxini/marata-taxini-900g-kakao-front/</guid>
+      <guid>//localhost:1313/mockups/marata/taxini/marata-taxini-900g-kakao-front/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Μαράτα Ταχίνι Με Κακάο 900g Πλευρές</title>
-      <link>http://localhost:1313/mockups/marata/taxini/marata-taxini-900g-kakao-sides/</link>
+      <link>//localhost:1313/mockups/marata/taxini/marata-taxini-900g-kakao-sides/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/marata/taxini/marata-taxini-900g-kakao-sides/</guid>
+      <guid>//localhost:1313/mockups/marata/taxini/marata-taxini-900g-kakao-sides/</guid>
       <description>Πλευρές</description>
     </item>
     <item>
       <title>Μαράτα Ταχίνι Ολικής Άλεσης 300g</title>
-      <link>http://localhost:1313/mockups/marata/taxini/marata-taxini-olikis-alesis-300g/</link>
+      <link>//localhost:1313/mockups/marata/taxini/marata-taxini-olikis-alesis-300g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/marata/taxini/marata-taxini-olikis-alesis-300g/</guid>
+      <guid>//localhost:1313/mockups/marata/taxini/marata-taxini-olikis-alesis-300g/</guid>
       <description>Εμπρόσθια &amp; Πλευρές</description>
     </item>
     <item>
       <title>Filedem ταχίνι 220g</title>
-      <link>http://localhost:1313/mockups/loipes-etiketes/filedem-taxini-350ml/</link>
+      <link>//localhost:1313/mockups/loipes-etiketes/filedem-taxini-350ml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/loipes-etiketes/filedem-taxini-350ml/</guid>
+      <guid>//localhost:1313/mockups/loipes-etiketes/filedem-taxini-350ml/</guid>
       <description>Εμπρόσθια &amp; Πλευρές</description>
     </item>
   </channel>

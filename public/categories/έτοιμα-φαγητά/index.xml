@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Έτοιμα Φαγητά on Home</title>
-    <link>http://localhost:1313/categories/%CE%AD%CF%84%CE%BF%CE%B9%CE%BC%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CE%AC/</link>
+    <link>//localhost:1313/categories/%CE%AD%CF%84%CE%BF%CE%B9%CE%BC%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CE%AC/</link>
     <description>Recent content in Έτοιμα Φαγητά on Home</description>
     <generator>Hugo</generator>
     <language>el</language>
-    <atom:link href="http://localhost:1313/categories/%CE%AD%CF%84%CE%BF%CE%B9%CE%BC%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CE%AC/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/%CE%AD%CF%84%CE%BF%CE%B9%CE%BC%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CE%AC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Σκλαβενίτης Έτοιμα Φαγητά Εμπρόσθια Όψη</title>
-      <link>http://localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-front/</link>
+      <link>//localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-front/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-front/</guid>
+      <guid>//localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-front/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Σκλαβενίτης Έτοιμα Φαγητά Κοινός Περιέκτης</title>
-      <link>http://localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-front-periekths/</link>
+      <link>//localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-front-periekths/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-front-periekths/</guid>
+      <guid>//localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-front-periekths/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Σκλαβενίτης Έτοιμα Φαγητά Μαύρος Περιέκτης</title>
-      <link>http://localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-front-mavros-periekths/</link>
+      <link>//localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-front-mavros-periekths/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-front-mavros-periekths/</guid>
+      <guid>//localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-front-mavros-periekths/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Σκλαβενίτης Έτοιμα Φαγητά Πίσω Πλευρά</title>
-      <link>http://localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-back/</link>
+      <link>//localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-back/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-back/</guid>
+      <guid>//localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-back/</guid>
       <description>Πίσω Πλευρά</description>
     </item>
     <item>
       <title>Σκλαβενίτης Κοτόπουλο Ψημένο Ελληνικό</title>
-      <link>http://localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-kotopoulo-front/</link>
+      <link>//localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-kotopoulo-front/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-kotopoulo-front/</guid>
+      <guid>//localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-kotopoulo-front/</guid>
       <description>Εμπρόσθια Όψη</description>
     </item>
     <item>
       <title>Σκλαβενίτης Σολομός Φιλέτο 280g</title>
-      <link>http://localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-solomos-fileto-280g/</link>
+      <link>//localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-solomos-fileto-280g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-solomos-fileto-280g/</guid>
+      <guid>//localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-solomos-fileto-280g/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Σκλαβενίτης Ψάρι Ψημένο 330g</title>
-      <link>http://localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-psari-psimeno.330g/</link>
+      <link>//localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-psari-psimeno.330g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-psari-psimeno.330g/</guid>
+      <guid>//localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-psari-psimeno.330g/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
   </channel>

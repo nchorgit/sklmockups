@@ -1,4 +1,4 @@
-baseURL = 'https://sklpsdmockups.netlify.app'
+baseURL = "/"
 languageCode = 'el'
 title = 'Home'
 pagination.pagerSize = "21"

@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Πανάκια on Home</title>
-    <link>http://localhost:1313/categories/%CF%80%CE%B1%CE%BD%CE%AC%CE%BA%CE%B9%CE%B1/</link>
+    <link>//localhost:1313/categories/%CF%80%CE%B1%CE%BD%CE%AC%CE%BA%CE%B9%CE%B1/</link>
     <description>Recent content in Πανάκια on Home</description>
     <generator>Hugo</generator>
     <language>el</language>
-    <atom:link href="http://localhost:1313/categories/%CF%80%CE%B1%CE%BD%CE%AC%CE%BA%CE%B9%CE%B1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/%CF%80%CE%B1%CE%BD%CE%AC%CE%BA%CE%B9%CE%B1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kitten Πανάκι Μικροϊνών Για Οθόνες</title>
-      <link>http://localhost:1313/mockups/kitten/panakia/kitten-panaki-gia-othones/</link>
+      <link>//localhost:1313/mockups/kitten/panakia/kitten-panaki-gia-othones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/kitten/panakia/kitten-panaki-gia-othones/</guid>
+      <guid>//localhost:1313/mockups/kitten/panakia/kitten-panaki-gia-othones/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Kitten Πανάκι Μικροϊνών Για Τζαμια</title>
-      <link>http://localhost:1313/mockups/kitten/panakia/kitten-panaki-gia-tzamia/</link>
+      <link>//localhost:1313/mockups/kitten/panakia/kitten-panaki-gia-tzamia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/kitten/panakia/kitten-panaki-gia-tzamia/</guid>
+      <guid>//localhost:1313/mockups/kitten/panakia/kitten-panaki-gia-tzamia/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Kitten Πανάκι Μικροϊνών Μεγάλης Αντοχής</title>
-      <link>http://localhost:1313/mockups/kitten/panakia/kitten-panaki-megalhs-antoxhs/</link>
+      <link>//localhost:1313/mockups/kitten/panakia/kitten-panaki-megalhs-antoxhs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/kitten/panakia/kitten-panaki-megalhs-antoxhs/</guid>
+      <guid>//localhost:1313/mockups/kitten/panakia/kitten-panaki-megalhs-antoxhs/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Kitten Πανάκια Μικροϊνών 3 Τεμαχίων</title>
-      <link>http://localhost:1313/mockups/kitten/panakia/kitten-panakia-3tem/</link>
+      <link>//localhost:1313/mockups/kitten/panakia/kitten-panakia-3tem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mockups/kitten/panakia/kitten-panakia-3tem/</guid>
+      <guid>//localhost:1313/mockups/kitten/panakia/kitten-panakia-3tem/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
   </channel>
