@@ -818,9 +818,9 @@
   </url><url>
     <loc>//localhost:1313/mockups/sette/panes/sette-slip-no4-10-temaxiwn/</loc>
   </url><url>
-    <loc>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml/</loc>
-  </url><url>
     <loc>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml-2024/</loc>
+  </url><url>
+    <loc>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-500ml/</loc>
   </url><url>
@@ -1370,9 +1370,9 @@
   </url><url>
     <loc>//localhost:1313/categories/%CF%84%CF%81%CE%BF%CF%86%CE%AD%CF%82-%CE%B6%CF%8E%CF%89%CE%BD/</loc>
   </url><url>
-    <loc>//localhost:1313/gencat/%CF%84%CF%81%CF%8C%CF%86%CE%B9%CE%BC%CE%B1/</loc>
-  </url><url>
     <loc>//localhost:1313/food/</loc>
+  </url><url>
+    <loc>//localhost:1313/gencat/%CF%84%CF%81%CF%8C%CF%86%CE%B9%CE%BC%CE%B1/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/xoris-etiketa/tsai-ice-tea-500ml/</loc>
   </url><url>
