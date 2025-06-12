@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories/Γάντια Ελαστικά on Home</title>
+    <title>Γάντια Ελαστικά on Home</title>
     <link>//localhost:1313/categories/%CE%B3%CE%AC%CE%BD%CF%84%CE%B9%CE%B1-%CE%B5%CE%BB%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AC/</link>
-    <description>Recent content in Categories/Γάντια Ελαστικά on Home</description>
-    <generator>Hugo</generator>
+    <description>Recent content in Γάντια Ελαστικά on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <atom:link href="//localhost:1313/categories/%CE%B3%CE%AC%CE%BD%CF%84%CE%B9%CE%B1-%CE%B5%CE%BB%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AC/index.xml" rel="self" type="application/rss+xml" />
     <item>

@@ -4,7 +4,7 @@
     <title>Bakery on Home</title>
     <link>//localhost:1313/promo/bakery/</link>
     <description>Recent content in Bakery on Home</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <atom:link href="//localhost:1313/promo/bakery/index.xml" rel="self" type="application/rss+xml" />
     <item>

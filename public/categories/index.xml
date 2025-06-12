@@ -4,86 +4,9 @@
     <title>Categories on Home</title>
     <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on Home</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Categories/Γάντια Ελαστικά</title>
-      <link>//localhost:1313/categories/%CE%B3%CE%AC%CE%BD%CF%84%CE%B9%CE%B1-%CE%B5%CE%BB%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AC/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/%CE%B3%CE%AC%CE%BD%CF%84%CE%B9%CE%B1-%CE%B5%CE%BB%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AC/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Categories/Ελιές</title>
-      <link>//localhost:1313/categories/%CE%B5%CE%BB%CE%B9%CE%AD%CF%82/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/%CE%B5%CE%BB%CE%B9%CE%AD%CF%82/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Categories/Ζάχαρη</title>
-      <link>//localhost:1313/categories/%CE%B6%CE%AC%CF%87%CE%B1%CF%81%CE%B7/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/%CE%B6%CE%AC%CF%87%CE%B1%CF%81%CE%B7/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Categories/Θυμιάματα</title>
-      <link>//localhost:1313/categories/%CE%B8%CF%85%CE%BC%CE%B9%CE%AC%CE%BC%CE%B1%CF%84%CE%B1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/%CE%B8%CF%85%CE%BC%CE%B9%CE%AC%CE%BC%CE%B1%CF%84%CE%B1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Categories/Κακάο</title>
-      <link>//localhost:1313/categories/%CE%BA%CE%B1%CE%BA%CE%AC%CE%BF/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/%CE%BA%CE%B1%CE%BA%CE%AC%CE%BF/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Categories/Κρουασανάκια</title>
-      <link>//localhost:1313/categories/%CE%BA%CF%81%CE%BF%CF%85%CE%B1%CF%83%CE%B1%CE%BD%CE%AC%CE%BA%CE%B9%CE%B1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/%CE%BA%CF%81%CE%BF%CF%85%CE%B1%CF%83%CE%B1%CE%BD%CE%AC%CE%BA%CE%B9%CE%B1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Categories/Λουκάνικα</title>
-      <link>//localhost:1313/categories/%CE%BB%CE%BF%CF%85%CE%BA%CE%AC%CE%BD%CE%B9%CE%BA%CE%B1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/%CE%BB%CE%BF%CF%85%CE%BA%CE%AC%CE%BD%CE%B9%CE%BA%CE%B1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Categories/Λουκάνικα </title>
-      <link>//localhost:1313/categories/%CE%BB%CE%BF%CF%85%CE%BA%CE%AC%CE%BD%CE%B9%CE%BA%CE%B1-/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/%CE%BB%CE%BF%CF%85%CE%BA%CE%AC%CE%BD%CE%B9%CE%BA%CE%B1-/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Categories/Μέλι</title>
-      <link>//localhost:1313/categories/%CE%BC%CE%AD%CE%BB%CE%B9/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/%CE%BC%CE%AD%CE%BB%CE%B9/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Categories/Ρύζι</title>
-      <link>//localhost:1313/categories/%CF%81%CF%8D%CE%B6%CE%B9/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/%CF%81%CF%8D%CE%B6%CE%B9/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Categories/Συσκευασμένα Κρέατα</title>
-      <link>//localhost:1313/categories/%CF%83%CF%85%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CE%BC%CE%AD%CE%BD%CE%B1-%CE%BA%CF%81%CE%AD%CE%B1%CF%84%CE%B1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/%CF%83%CF%85%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CE%BC%CE%AD%CE%BD%CE%B1-%CE%BA%CF%81%CE%AD%CE%B1%CF%84%CE%B1/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Αλεύρι</title>
       <link>//localhost:1313/categories/%CE%B1%CE%BB%CE%B5%CF%8D%CF%81%CE%B9/</link>
@@ -162,6 +85,13 @@
       <description></description>
     </item>
     <item>
+      <title>Γάντια Ελαστικά</title>
+      <link>//localhost:1313/categories/%CE%B3%CE%AC%CE%BD%CF%84%CE%B9%CE%B1-%CE%B5%CE%BB%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AC/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/%CE%B3%CE%AC%CE%BD%CF%84%CE%B9%CE%B1-%CE%B5%CE%BB%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AC/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Γιαούρτια</title>
       <link>//localhost:1313/categories/%CE%B3%CE%B9%CE%B1%CE%BF%CF%8D%CF%81%CF%84%CE%B9%CE%B1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -218,10 +148,24 @@
       <description></description>
     </item>
     <item>
+      <title>Ελιές</title>
+      <link>//localhost:1313/categories/%CE%B5%CE%BB%CE%B9%CE%AD%CF%82/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/%CE%B5%CE%BB%CE%B9%CE%AD%CF%82/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Έτοιμα Φαγητά</title>
       <link>//localhost:1313/categories/%CE%AD%CF%84%CE%BF%CE%B9%CE%BC%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CE%AC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/categories/%CE%AD%CF%84%CE%BF%CE%B9%CE%BC%CE%B1-%CF%86%CE%B1%CE%B3%CE%B7%CF%84%CE%AC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ζάχαρη</title>
+      <link>//localhost:1313/categories/%CE%B6%CE%AC%CF%87%CE%B1%CF%81%CE%B7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/%CE%B6%CE%AC%CF%87%CE%B1%CF%81%CE%B7/</guid>
       <description></description>
     </item>
     <item>
@@ -246,10 +190,24 @@
       <description></description>
     </item>
     <item>
+      <title>Θυμιάματα</title>
+      <link>//localhost:1313/categories/%CE%B8%CF%85%CE%BC%CE%B9%CE%AC%CE%BC%CE%B1%CF%84%CE%B1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/%CE%B8%CF%85%CE%BC%CE%B9%CE%AC%CE%BC%CE%B1%CF%84%CE%B1/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Καθαριστικά</title>
       <link>//localhost:1313/categories/%CE%BA%CE%B1%CE%B8%CE%B1%CF%81%CE%B9%CF%83%CF%84%CE%B9%CE%BA%CE%AC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/categories/%CE%BA%CE%B1%CE%B8%CE%B1%CF%81%CE%B9%CF%83%CF%84%CE%B9%CE%BA%CE%AC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Κακάο</title>
+      <link>//localhost:1313/categories/%CE%BA%CE%B1%CE%BA%CE%AC%CE%BF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/%CE%BA%CE%B1%CE%BA%CE%AC%CE%BF/</guid>
       <description></description>
     </item>
     <item>
@@ -302,6 +260,13 @@
       <description></description>
     </item>
     <item>
+      <title>Κρουασανάκια</title>
+      <link>//localhost:1313/categories/%CE%BA%CF%81%CE%BF%CF%85%CE%B1%CF%83%CE%B1%CE%BD%CE%AC%CE%BA%CE%B9%CE%B1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/%CE%BA%CF%81%CE%BF%CF%85%CE%B1%CF%83%CE%B1%CE%BD%CE%AC%CE%BA%CE%B9%CE%B1/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Λάδια</title>
       <link>//localhost:1313/categories/%CE%BB%CE%AC%CE%B4%CE%B9%CE%B1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -320,6 +285,20 @@
       <link>//localhost:1313/categories/%CE%BB%CE%B1%CF%87%CE%B1%CE%BD%CE%B9%CE%BA%CE%AC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/categories/%CE%BB%CE%B1%CF%87%CE%B1%CE%BD%CE%B9%CE%BA%CE%AC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Λουκάνικα</title>
+      <link>//localhost:1313/categories/%CE%BB%CE%BF%CF%85%CE%BA%CE%AC%CE%BD%CE%B9%CE%BA%CE%B1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/%CE%BB%CE%BF%CF%85%CE%BA%CE%AC%CE%BD%CE%B9%CE%BA%CE%B1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Λουκάνικα </title>
+      <link>//localhost:1313/categories/%CE%BB%CE%BF%CF%85%CE%BA%CE%AC%CE%BD%CE%B9%CE%BA%CE%B1-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/%CE%BB%CE%BF%CF%85%CE%BA%CE%AC%CE%BD%CE%B9%CE%BA%CE%B1-/</guid>
       <description></description>
     </item>
     <item>
@@ -355,6 +334,13 @@
       <link>//localhost:1313/categories/%CE%BC%CE%B5%CE%AF%CE%B3%CE%BC%CE%B1%CF%84%CE%B1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/categories/%CE%BC%CE%B5%CE%AF%CE%B3%CE%BC%CE%B1%CF%84%CE%B1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Μέλι</title>
+      <link>//localhost:1313/categories/%CE%BC%CE%AD%CE%BB%CE%B9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/%CE%BC%CE%AD%CE%BB%CE%B9/</guid>
       <description></description>
     </item>
     <item>
@@ -512,6 +498,13 @@
       <description></description>
     </item>
     <item>
+      <title>Ρύζι</title>
+      <link>//localhost:1313/categories/%CF%81%CF%8D%CE%B6%CE%B9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/%CF%81%CF%8D%CE%B6%CE%B9/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Σακούλες Απορριμμάτων</title>
       <link>//localhost:1313/categories/%CF%83%CE%B1%CE%BA%CE%BF%CF%8D%CE%BB%CE%B5%CF%82-%CE%B1%CF%80%CE%BF%CF%81%CF%81%CE%B9%CE%BC%CE%BC%CE%AC%CF%84%CF%89%CE%BD/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -600,6 +593,13 @@
       <link>//localhost:1313/categories/%CF%83%CF%85%CF%81%CF%81%CE%B1%CF%80%CF%84%CE%B9%CE%BA%CE%AC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/categories/%CF%83%CF%85%CF%81%CF%81%CE%B1%CF%80%CF%84%CE%B9%CE%BA%CE%AC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Συσκευασμένα Κρέατα</title>
+      <link>//localhost:1313/categories/%CF%83%CF%85%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CE%BC%CE%AD%CE%BD%CE%B1-%CE%BA%CF%81%CE%AD%CE%B1%CF%84%CE%B1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/%CF%83%CF%85%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CE%BC%CE%AD%CE%BD%CE%B1-%CE%BA%CF%81%CE%AD%CE%B1%CF%84%CE%B1/</guid>
       <description></description>
     </item>
     <item>

@@ -4,7 +4,7 @@
     <title>1kilo on Home</title>
     <link>//localhost:1313/promo/1kilo/</link>
     <description>Recent content in 1kilo on Home</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <atom:link href="//localhost:1313/promo/1kilo/index.xml" rel="self" type="application/rss+xml" />
     <item>

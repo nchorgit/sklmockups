@@ -4,7 +4,7 @@
     <title>Gencat on Home</title>
     <link>//localhost:1313/gencat/</link>
     <description>Recent content in Gencat on Home</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <atom:link href="//localhost:1313/gencat/index.xml" rel="self" type="application/rss+xml" />
     <item>

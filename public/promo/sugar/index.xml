@@ -4,7 +4,7 @@
     <title>Sugar on Home</title>
     <link>//localhost:1313/promo/sugar/</link>
     <description>Recent content in Sugar on Home</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <atom:link href="//localhost:1313/promo/sugar/index.xml" rel="self" type="application/rss+xml" />
     <item>

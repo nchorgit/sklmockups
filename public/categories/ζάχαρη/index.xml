@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories/Ζάχαρη on Home</title>
+    <title>Ζάχαρη on Home</title>
     <link>//localhost:1313/categories/%CE%B6%CE%AC%CF%87%CE%B1%CF%81%CE%B7/</link>
-    <description>Recent content in Categories/Ζάχαρη on Home</description>
-    <generator>Hugo</generator>
+    <description>Recent content in Ζάχαρη on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <atom:link href="//localhost:1313/categories/%CE%B6%CE%AC%CF%87%CE%B1%CF%81%CE%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>

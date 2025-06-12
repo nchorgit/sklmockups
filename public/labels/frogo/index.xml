@@ -4,7 +4,7 @@
     <title>Frogo on Home</title>
     <link>//localhost:1313/labels/frogo/</link>
     <description>Recent content in Frogo on Home</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <atom:link href="//localhost:1313/labels/frogo/index.xml" rel="self" type="application/rss+xml" />
     <item>

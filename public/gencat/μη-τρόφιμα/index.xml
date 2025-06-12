@@ -4,7 +4,7 @@
     <title>Μη Τρόφιμα on Home</title>
     <link>//localhost:1313/gencat/%CE%BC%CE%B7-%CF%84%CF%81%CF%8C%CF%86%CE%B9%CE%BC%CE%B1/</link>
     <description>Recent content in Μη Τρόφιμα on Home</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>el</language>
     <atom:link href="//localhost:1313/gencat/%CE%BC%CE%B7-%CF%84%CF%81%CF%8C%CF%86%CE%B9%CE%BC%CE%B1/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -800,16 +800,16 @@
     </item>
     <item>
       <title>Sette Αφρόλουτρο 1000ml</title>
-      <link>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml-2024/</link>
+      <link>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml-2024/</guid>
+      <guid>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
       <title>Sette Αφρόλουτρο 1000ml</title>
-      <link>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml/</link>
+      <link>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml-2024/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml/</guid>
+      <guid>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml-2024/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>

@@ -362,6 +362,8 @@
   </url><url>
     <loc>//localhost:1313/promo/1kilo/</loc>
   </url><url>
+    <loc>//localhost:1313/labels/arion-food/</loc>
+  </url><url>
     <loc>//localhost:1313/mockups/arion-food/arion-food-meli-950g/</loc>
   </url><url>
     <loc>//localhost:1313/authors/</loc>
@@ -551,28 +553,6 @@
     <loc>//localhost:1313/mockups/buenas/buenas-omoplath-300g/</loc>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
-  </url><url>
-    <loc>//localhost:1313/categories/%CE%B3%CE%AC%CE%BD%CF%84%CE%B9%CE%B1-%CE%B5%CE%BB%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AC/</loc>
-  </url><url>
-    <loc>//localhost:1313/categories/%CE%B5%CE%BB%CE%B9%CE%AD%CF%82/</loc>
-  </url><url>
-    <loc>//localhost:1313/categories/%CE%B6%CE%AC%CF%87%CE%B1%CF%81%CE%B7/</loc>
-  </url><url>
-    <loc>//localhost:1313/categories/%CE%B8%CF%85%CE%BC%CE%B9%CE%AC%CE%BC%CE%B1%CF%84%CE%B1/</loc>
-  </url><url>
-    <loc>//localhost:1313/categories/%CE%BA%CE%B1%CE%BA%CE%AC%CE%BF/</loc>
-  </url><url>
-    <loc>//localhost:1313/categories/%CE%BA%CF%81%CE%BF%CF%85%CE%B1%CF%83%CE%B1%CE%BD%CE%AC%CE%BA%CE%B9%CE%B1/</loc>
-  </url><url>
-    <loc>//localhost:1313/categories/%CE%BB%CE%BF%CF%85%CE%BA%CE%AC%CE%BD%CE%B9%CE%BA%CE%B1/</loc>
-  </url><url>
-    <loc>//localhost:1313/categories/%CE%BB%CE%BF%CF%85%CE%BA%CE%AC%CE%BD%CE%B9%CE%BA%CE%B1-/</loc>
-  </url><url>
-    <loc>//localhost:1313/categories/%CE%BC%CE%AD%CE%BB%CE%B9/</loc>
-  </url><url>
-    <loc>//localhost:1313/categories/%CF%81%CF%8D%CE%B6%CE%B9/</loc>
-  </url><url>
-    <loc>//localhost:1313/categories/%CF%83%CF%85%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CE%BC%CE%AD%CE%BD%CE%B1-%CE%BA%CF%81%CE%AD%CE%B1%CF%84%CE%B1/</loc>
   </url><url>
     <loc>//localhost:1313/promo/digestive/</loc>
   </url><url>
@@ -766,10 +746,6 @@
   </url><url>
     <loc>//localhost:1313/labels/</loc>
   </url><url>
-    <loc>//localhost:1313/labels/arion-food/</loc>
-  </url><url>
-    <loc>//localhost:1313/labels/meat-house/</loc>
-  </url><url>
     <loc>//localhost:1313/labels/master-energy/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/master-energy/master-energy-mpataries-v9/</loc>
@@ -789,6 +765,8 @@
     <loc>//localhost:1313/mockups/master-light/master-light-lampthres-aview/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/master-light/master-light-lampthres-bview/</loc>
+  </url><url>
+    <loc>//localhost:1313/labels/meat-house/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/meat-house/meat-house-330g-420g/</loc>
   </url><url>
@@ -818,9 +796,9 @@
   </url><url>
     <loc>//localhost:1313/mockups/sette/panes/sette-slip-no4-10-temaxiwn/</loc>
   </url><url>
-    <loc>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml-2024/</loc>
-  </url><url>
     <loc>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml/</loc>
+  </url><url>
+    <loc>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-1000ml-2024/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/sette/afroloutra/sette-afroloutro-500ml/</loc>
   </url><url>
@@ -1040,6 +1018,8 @@
   </url><url>
     <loc>//localhost:1313/categories/%CE%B3%CE%AC%CE%BB%CE%B1%CF%84%CE%B1/</loc>
   </url><url>
+    <loc>//localhost:1313/categories/%CE%B3%CE%AC%CE%BD%CF%84%CE%B9%CE%B1-%CE%B5%CE%BB%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AC/</loc>
+  </url><url>
     <loc>//localhost:1313/categories/%CE%B3%CE%B9%CE%B1%CE%BF%CF%8D%CF%81%CF%84%CE%B9%CE%B1/</loc>
   </url><url>
     <loc>//localhost:1313/categories/%CE%B3%CE%BA%CE%BF%CF%86%CF%81%CE%AD%CF%84%CE%B5%CF%82/</loc>
@@ -1092,6 +1072,8 @@
   </url><url>
     <loc>//localhost:1313/mockups/loipes-etiketes/elaiolado-molon-lave-1l/</loc>
   </url><url>
+    <loc>//localhost:1313/categories/%CE%B5%CE%BB%CE%B9%CE%AD%CF%82/</loc>
+  </url><url>
     <loc>//localhost:1313/mockups/xoris-etiketa/elies-kabassi-150g/</loc>
   </url><url>
     <loc>//localhost:1313/contact/</loc>
@@ -1102,15 +1084,21 @@
   </url><url>
     <loc>//localhost:1313/thanks/</loc>
   </url><url>
+    <loc>//localhost:1313/categories/%CE%B6%CE%AC%CF%87%CE%B1%CF%81%CE%B7/</loc>
+  </url><url>
     <loc>//localhost:1313/categories/%CE%B6%CE%B1%CF%87%CE%B1%CF%81%CE%BF%CF%80%CE%BB%CE%B1%CF%83%CF%84%CE%B5%CE%AF%CE%BF/</loc>
   </url><url>
     <loc>//localhost:1313/categories/%CE%B6%CF%85%CE%BC%CE%B1%CF%81%CE%B9%CE%BA%CE%AC/</loc>
   </url><url>
     <loc>//localhost:1313/categories/%CE%B6%CF%8D%CE%BC%CE%B5%CF%82/</loc>
   </url><url>
+    <loc>//localhost:1313/categories/%CE%B8%CF%85%CE%BC%CE%B9%CE%AC%CE%BC%CE%B1%CF%84%CE%B1/</loc>
+  </url><url>
     <loc>//localhost:1313/categories/%CE%BA%CE%B1%CE%B8%CE%B1%CF%81%CE%B9%CF%83%CF%84%CE%B9%CE%BA%CE%AC/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/xoris-etiketa/katharistiko-typou-ace-2l/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/%CE%BA%CE%B1%CE%BA%CE%AC%CE%BF/</loc>
   </url><url>
     <loc>//localhost:1313/list-categories/</loc>
   </url><url>
@@ -1130,6 +1118,8 @@
   </url><url>
     <loc>//localhost:1313/categories/%CE%BA%CF%81%CE%BF%CF%85%CE%B1%CF%83%CE%AC%CE%BD/</loc>
   </url><url>
+    <loc>//localhost:1313/categories/%CE%BA%CF%81%CE%BF%CF%85%CE%B1%CF%83%CE%B1%CE%BD%CE%AC%CE%BA%CE%B9%CE%B1/</loc>
+  </url><url>
     <loc>//localhost:1313/categories/%CE%BB%CE%AC%CE%B4%CE%B9%CE%B1/</loc>
   </url><url>
     <loc>//localhost:1313/categories/%CE%BB%CE%B1%CE%BC%CF%80%CF%84%CE%AE%CF%81%CE%B5%CF%82/</loc>
@@ -1137,6 +1127,10 @@
     <loc>//localhost:1313/categories/%CE%BB%CE%B1%CF%87%CE%B1%CE%BD%CE%B9%CE%BA%CE%AC/</loc>
   </url><url>
     <loc>//localhost:1313/labels/%CE%BB%CE%BF%CE%B9%CF%80%CE%AD%CF%82-%CE%B5%CF%84%CE%B9%CE%BA%CE%AD%CF%84%CE%B5%CF%82/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/%CE%BB%CE%BF%CF%85%CE%BA%CE%AC%CE%BD%CE%B9%CE%BA%CE%B1/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/%CE%BB%CE%BF%CF%85%CE%BA%CE%AC%CE%BD%CE%B9%CE%BA%CE%B1-/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/xoris-etiketa/magioneza-squeezy-430ml/</loc>
   </url><url>
@@ -1167,6 +1161,8 @@
     <loc>//localhost:1313/categories/%CE%BC%CE%B1%CF%81%CE%BC%CE%B5%CE%BB%CE%AC%CE%B4%CE%B5%CF%82/</loc>
   </url><url>
     <loc>//localhost:1313/categories/%CE%BC%CE%B5%CE%AF%CE%B3%CE%BC%CE%B1%CF%84%CE%B1/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/%CE%BC%CE%AD%CE%BB%CE%B9/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/xoris-etiketa/metalliko-nero-1l/</loc>
   </url><url>
@@ -1249,6 +1245,8 @@
     <loc>//localhost:1313/mockups/romvos/romvos-tsipouro-500ml/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/romvos/romvos-tsipouro-700ml/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/%CF%81%CF%8D%CE%B6%CE%B9/</loc>
   </url><url>
     <loc>//localhost:1313/categories/%CF%83%CE%B1%CE%BA%CE%BF%CF%8D%CE%BB%CE%B5%CF%82-%CE%B1%CF%80%CE%BF%CF%81%CF%81%CE%B9%CE%BC%CE%BC%CE%AC%CF%84%CF%89%CE%BD/</loc>
   </url><url>
@@ -1358,6 +1356,8 @@
   </url><url>
     <loc>//localhost:1313/categories/%CF%83%CF%85%CF%81%CF%81%CE%B1%CF%80%CF%84%CE%B9%CE%BA%CE%AC/</loc>
   </url><url>
+    <loc>//localhost:1313/categories/%CF%83%CF%85%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CE%BC%CE%AD%CE%BD%CE%B1-%CE%BA%CF%81%CE%AD%CE%B1%CF%84%CE%B1/</loc>
+  </url><url>
     <loc>//localhost:1313/categories/%CF%83%CF%86%CE%BF%CF%85%CE%B3%CE%B3%CE%AC%CF%81%CE%B9%CE%B1/</loc>
   </url><url>
     <loc>//localhost:1313/categories/%CF%83%CF%87%CE%BF%CE%BB%CE%B9%CE%BA%CE%AC-%CE%B5%CE%AF%CE%B4%CE%B7/</loc>
@@ -1370,9 +1370,9 @@
   </url><url>
     <loc>//localhost:1313/categories/%CF%84%CF%81%CE%BF%CF%86%CE%AD%CF%82-%CE%B6%CF%8E%CF%89%CE%BD/</loc>
   </url><url>
-    <loc>//localhost:1313/food/</loc>
-  </url><url>
     <loc>//localhost:1313/gencat/%CF%84%CF%81%CF%8C%CF%86%CE%B9%CE%BC%CE%B1/</loc>
+  </url><url>
+    <loc>//localhost:1313/food/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/xoris-etiketa/tsai-ice-tea-500ml/</loc>
   </url><url>
