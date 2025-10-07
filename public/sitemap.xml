@@ -920,6 +920,8 @@
   </url><url>
     <loc>//localhost:1313/mockups/stampa/eidh-grafeiou/stampa-stylo-diarkeias-10tem-mple/</loc>
   </url><url>
+    <loc>//localhost:1313/mockups/stampa/eidh-grafeiou/stampa-stylo-diarkeias-5tem-mple/</loc>
+  </url><url>
     <loc>//localhost:1313/mockups/stampa/eidh-grafeiou/stampa-stylo-diarkeias-50tem/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/stampa/eidh-grafeiou/stampa-stylo-diarkeias-me-klip-4tem-mix/</loc>
@@ -1350,7 +1352,7 @@
   </url><url>
     <loc>//localhost:1313/categories/%CF%83%CF%80%CE%BF%CE%B3%CE%B3%CE%BF%CF%80%CE%B5%CF%84%CF%83%CE%AD%CF%84%CE%B5%CF%82/</loc>
   </url><url>
-    <loc>//localhost:1313/categories/%CF%83%CF%84%CF%85%CE%BB%CF%8C/</loc>
+    <loc>//localhost:1313/categories/%CF%83%CF%84%CE%B9%CE%BB%CF%8C/</loc>
   </url><url>
     <loc>//localhost:1313/categories/%CF%83%CF%85%CE%BB%CE%BB%CE%AD%CE%BA%CF%84%CE%B5%CF%82-%CF%85%CE%B3%CF%81%CE%B1%CF%83%CE%AF%CE%B1%CF%82/</loc>
   </url><url>
