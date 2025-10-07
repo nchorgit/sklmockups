@@ -24,6 +24,14 @@
   </url><url>
     <loc>//localhost:1313/mockups/baker-master/baker-master-pitsa/</loc>
   </url><url>
+    <loc>//localhost:1313/mockups/marata/avga/marata-avga-vl-10x/</loc>
+  </url><url>
+    <loc>//localhost:1313/mockups/marata/avga/marata-avga-vl-6x/</loc>
+  </url><url>
+    <loc>//localhost:1313/mockups/marata/avga/marata-avga-xa-10x/</loc>
+  </url><url>
+    <loc>//localhost:1313/mockups/marata/avga/marata-avga-xa-6x/</loc>
+  </url><url>
     <loc>//localhost:1313/mockups/marata/paksimadia/marata-krhtikh-kritharokouloura-front--back-pge-600g/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/marata/paksimadia/marata-krhtikh-kritharokouloura-sides-pge-600g/</loc>
@@ -1013,6 +1021,8 @@
     <loc>//localhost:1313/categories/%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%BC%CE%B7%CF%87%CE%B1%CE%BD%CE%AD%CF%82/</loc>
   </url><url>
     <loc>//localhost:1313/categories/%CE%B1%CF%81%CF%84%CE%BF%CF%83%CE%BA%CE%B5%CF%85%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/%CE%B1%CF%85%CE%B3%CE%AC/</loc>
   </url><url>
     <loc>//localhost:1313/categories/%CE%B1%CF%86%CE%B5%CF%88%CE%AE%CE%BC%CE%B1%CF%84%CE%B1/</loc>
   </url><url>
