@@ -33,7 +33,50 @@
     </div>
 
     <script>
-$('a:contains("Χαρτοπετσέτες")').prepend('<img class=fimg" src="/media/images/high/glaros-xartopetsetes-33.jpg">');
+
+
+        $("a.list").click(function () {
+           $(".index-labels").addClass("listv");
+           $(this).addClass("lpointer");
+           $('a.grid').removeClass('lpointer');
+   
+       });
+       $("a.grid").click(function () {
+           $(".index-labels").removeClass("listv");
+           $(this).addClass("lpointer");
+           $('a.list').removeClass('lpointer');
+   
+       });
+      
+    
+       $('a.grid').addClass('lpointer');
+    
+   
+   </script>
+   <style>
+    li img.fimg\" {
+    display: none;
+}
+a.llink6 {
+            background: black;
+            margin: 15px -30px;
+            padding: 15px 26px;
+            border-left: solid 4px orange;
+            border-radius: 0;
+            opacity: 1;
+        }
+        .listv img.fimg\" {
+    width: auto;
+    height: 80px;
+    border-radius: 5px;
+    margin: 0 15px 0 0;
+    border: solid 1.5px #333;
+    
+}
+   </style>
+   {{ partial "footer" . }} 
+   <script>
+    $('a:contains("Χαρτοπετσέτες")').prepend('<img class=fimg" src="/media/images/high/glaros-xartopetsetes-33.jpg">');
     $('a:contains("Χαρτομάντιλα")').prepend('<img class=fimg" src="/media/images/high/glaros-xartomantila-100.jpg">');
     $('a:contains("Χαρτί Κουζίνας")').prepend('<img class=fimg" src="/media/images/high/glaros-xarti-kouzinas-1.jpg">');
     $('a:contains("Χαρτί Υγείας")').prepend('<img class=fimg" src="/media/images/high/glaros-xarti-ygeias-8.jpg">');
@@ -165,47 +208,7 @@ $('a:contains("Χαρτοπετσέτες")').prepend('<img class=fimg" src="/me
     $('a:contains("Μιας Χρήσης")').prepend('<img class=fimg" src="/media/images/high/frogo-maxairopirouna-megala.jpg">');
  $('a:contains("Μέλι")').prepend('<img class=fimg" src="/media/images/high/arion-food-meli-950.jpg">');
  $('a:contains("Αναψυκτικά")').prepend('<img class=fimg" src="/media/images/high/sodacan-per-330ml.jpg">');
- $('a:contains("υγά")').prepend('<img class=fimg" src="/media/images/high/marata-avga-xa-6x.jpg>');
- $('a:contains("Ελιές")').prepend('<img class=fimg" src="/media/images/high/marata-avga-xa-6x.jpg>');
-
-        $("a.list").click(function () {
-           $(".index-labels").addClass("listv");
-           $(this).addClass("lpointer");
-           $('a.grid').removeClass('lpointer');
-   
-       });
-       $("a.grid").click(function () {
-           $(".index-labels").removeClass("listv");
-           $(this).addClass("lpointer");
-           $('a.list').removeClass('lpointer');
-   
-       });
-      
-    
-       $('a.grid').addClass('lpointer');
-    
-   
-   </script>
-   <style>
-    li img.fimg\" {
-    display: none;
-}
-a.llink6 {
-            background: black;
-            margin: 15px -30px;
-            padding: 15px 26px;
-            border-left: solid 4px orange;
-            border-radius: 0;
-            opacity: 1;
-        }
-        .listv img.fimg\" {
-    width: auto;
-    height: 80px;
-    border-radius: 5px;
-    margin: 0 15px 0 0;
-    border: solid 1.5px #333;
-    
-}
-   </style>
-   {{ partial "footer" . }} 
+ $('a:contains("Αυγά")').prepend('<img class=fimg" src="/media/images/high/marata-avga-xa-6x.jpg">');
+ $('a:contains("Ελιές")').prepend('<img class=fimg" src="/media/images/high/elies-kabassi-150g.jpg">');
+</script>
 </body>

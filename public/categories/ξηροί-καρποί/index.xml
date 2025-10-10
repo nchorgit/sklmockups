@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ξηροί Καρποί on Home</title>
+    <link>//localhost:1313/categories/%CE%BE%CE%B7%CF%81%CE%BF%CE%AF-%CE%BA%CE%B1%CF%81%CF%80%CE%BF%CE%AF/</link>
+    <description>Recent content in Ξηροί Καρποί on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <atom:link href="//localhost:1313/categories/%CE%BE%CE%B7%CF%81%CE%BF%CE%AF-%CE%BA%CE%B1%CF%81%CF%80%CE%BF%CE%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Σκλαβενίτης Ξηροί Καρποί 150g</title>
+      <link>//localhost:1313/mockups/sklavenitis/ksiroi-karpoi/sklavenitis-ksiroi-karpoi-150g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/sklavenitis/ksiroi-karpoi/sklavenitis-ksiroi-karpoi-150g/</guid>
+      <description>Εμπρόσθια &amp; Πίσω</description>
+    </item>
+    <item>
+      <title>Σκλαβενίτης Ξηροί Καρποί 200g</title>
+      <link>//localhost:1313/mockups/sklavenitis/ksiroi-karpoi/sklavenitis-ksiroi-karpoi-200g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/sklavenitis/ksiroi-karpoi/sklavenitis-ksiroi-karpoi-200g/</guid>
+      <description>Εμπρόσθια &amp; Πίσω</description>
+    </item>
+    <item>
+      <title>Σκλαβενίτης Ξηροί Καρποί 500g</title>
+      <link>//localhost:1313/mockups/sklavenitis/ksiroi-karpoi/sklavenitis-ksiroi-karpoi-500g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/sklavenitis/ksiroi-karpoi/sklavenitis-ksiroi-karpoi-500g/</guid>
+      <description>Εμπρόσθια &amp; Πίσω</description>
+    </item>
+  </channel>
+</rss>

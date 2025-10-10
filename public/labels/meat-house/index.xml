@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meat House on Home</title>
+    <link>//localhost:1313/labels/meat-house/</link>
+    <description>Recent content in Meat House on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <atom:link href="//localhost:1313/labels/meat-house/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meat House Κοτομπουκιές &amp; Σνίτσελ 330g &amp; Κεφτεδάκια 420g</title>
+      <link>//localhost:1313/mockups/meat-house/meat-house-330g-420g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/meat-house/meat-house-330g-420g/</guid>
+      <description>Εμπρόσθια &amp; Πίσω</description>
+    </item>
+  </channel>
+</rss>
