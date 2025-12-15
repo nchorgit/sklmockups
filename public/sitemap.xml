@@ -494,6 +494,12 @@
   </url><url>
     <loc>//localhost:1313/mockups/bonora/mpiskota/bonora-mpiskota-gemista-500g/</loc>
   </url><url>
+    <loc>//localhost:1313/mockups/bonora/mpiskota/bonora-mpiskota-pti-mper-200g/</loc>
+  </url><url>
+    <loc>//localhost:1313/mockups/bonora/mpiskota/bonora-mpiskota-pti-mper-3x200g/</loc>
+  </url><url>
+    <loc>//localhost:1313/mockups/bonora/mpiskota/bonora-mpiskotinia-250g/</loc>
+  </url><url>
     <loc>//localhost:1313/mockups/bonora/pagota/bonora-ksilakia-6tem/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/bonora/pagota/bonora-pagoto-1l-front/</loc>
@@ -525,6 +531,8 @@
     <loc>//localhost:1313/mockups/bonora/kafedes/bonora-stigmiaios-kafes-200g/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/bonora/kafedes/bonora-stigmiaios-kafes-decaf-100g/</loc>
+  </url><url>
+    <loc>//localhost:1313/mockups/bonora/fryganies/bonora-fryganies-320g/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/bonora/pagota/bonora-xonakia-6tem/</loc>
   </url><url>
@@ -1403,6 +1411,8 @@
     <loc>//localhost:1313/categories/%CF%84%CF%83%CE%AC%CE%BD%CF%84%CE%B5%CF%82/</loc>
   </url><url>
     <loc>//localhost:1313/categories/%CF%85%CE%B3%CF%81%CE%AC-%CF%80%CE%B9%CE%AC%CF%84%CF%89%CE%BD/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/%CF%86%CF%81%CF%85%CE%B3%CE%B1%CE%BD%CE%B9%CE%AD%CF%82/</loc>
   </url><url>
     <loc>//localhost:1313/categories/%CF%87%CE%B1%CF%81%CF%84%CE%AF-%CE%BA%CE%BF%CF%85%CE%B6%CE%AF%CE%BD%CE%B1%CF%82/</loc>
   </url><url>

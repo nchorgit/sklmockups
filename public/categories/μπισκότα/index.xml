@@ -28,5 +28,26 @@
       <guid>//localhost:1313/mockups/bonora/mpiskota/bonora-mpiskota-gemista-500g/</guid>
       <description>Εμπρόσθια &amp; Πλευρές</description>
     </item>
+    <item>
+      <title>bonora μπισκότα πτι-μπερ 200g</title>
+      <link>//localhost:1313/mockups/bonora/mpiskota/bonora-mpiskota-pti-mper-200g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/bonora/mpiskota/bonora-mpiskota-pti-mper-200g/</guid>
+      <description>Εμπρόσθια &amp; Πίσω</description>
+    </item>
+    <item>
+      <title>bonora μπισκότα πτι-μπερ 3x200g</title>
+      <link>//localhost:1313/mockups/bonora/mpiskota/bonora-mpiskota-pti-mper-3x200g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/bonora/mpiskota/bonora-mpiskota-pti-mper-3x200g/</guid>
+      <description>Εμπρόσθια &amp; Πίσω</description>
+    </item>
+    <item>
+      <title>bonora μπισκοτίνια 250g</title>
+      <link>//localhost:1313/mockups/bonora/mpiskota/bonora-mpiskotinia-250g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/bonora/mpiskota/bonora-mpiskotinia-250g/</guid>
+      <description>Εμπρόσθια &amp; Πίσω</description>
+    </item>
   </channel>
 </rss>
