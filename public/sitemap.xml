@@ -686,15 +686,17 @@
   </url><url>
     <loc>//localhost:1313/mockups/frogo/syntirish-trofimwn/frogo-sakoules-trofimon-mikres/</loc>
   </url><url>
-    <loc>//localhost:1313/mockups/frogo/eidh-psisimatos/frogo-skevos-d3/</loc>
+    <loc>//localhost:1313/mockups/frogo/eidh-psisimatos/frogo-skevos-rf1090/</loc>
   </url><url>
-    <loc>//localhost:1313/mockups/frogo/eidh-psisimatos/frogo-skevos-d19/</loc>
+    <loc>//localhost:1313/mockups/frogo/eidh-psisimatos/frogo-skevos-r64l/</loc>
   </url><url>
-    <loc>//localhost:1313/mockups/frogo/eidh-psisimatos/frogo-skevos-d14/</loc>
+    <loc>//localhost:1313/mockups/frogo/eidh-psisimatos/frogo-skevos-r43l/</loc>
   </url><url>
-    <loc>//localhost:1313/mockups/frogo/eidh-psisimatos/frogo-skevos-d20/</loc>
+    <loc>//localhost:1313/mockups/frogo/eidh-psisimatos/frogo-skevos-r31g/</loc>
   </url><url>
-    <loc>//localhost:1313/mockups/frogo/eidh-psisimatos/frogo-skevos-d17/</loc>
+    <loc>//localhost:1313/mockups/frogo/eidh-psisimatos/frogo-skevos-r50/</loc>
+  </url><url>
+    <loc>//localhost:1313/mockups/frogo/eidh-psisimatos/frogo-skevos-r2g/</loc>
   </url><url>
     <loc>//localhost:1313/gencat/</loc>
   </url><url>
@@ -746,6 +748,8 @@
   </url><url>
     <loc>//localhost:1313/mockups/kitten/panakia/kitten-panakia-3tem/</loc>
   </url><url>
+    <loc>//localhost:1313/mockups/kitten/panakia/kitten-petseta-katharismou-60-40/</loc>
+  </url><url>
     <loc>//localhost:1313/mockups/kitten/rola-katharismou/kitten-rolo-katharismou-antallaktiko/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/kitten/rola-katharismou/kitten-megalo-rolo-katharismou-antallaktiko/</loc>
@@ -769,6 +773,8 @@
     <loc>//localhost:1313/mockups/kitten/spoggopetsetes/kitten-spoggopetseta-no1/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/kitten/skonoskoupakia/kitten-stegna-panakia-20tem/</loc>
+  </url><url>
+    <loc>//localhost:1313/mockups/kitten/panakia/kitten-sistima-katharismou/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/kitten/sfouggaria/kitten-sfouggari-goma/</loc>
   </url><url>
@@ -809,6 +815,8 @@
     <loc>//localhost:1313/mockups/meat-house/meat-house-330g-420g/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/</loc>
+  </url><url>
+    <loc>//localhost:1313/promo/new/</loc>
   </url><url>
     <loc>//localhost:1313/promo/</loc>
   </url><url>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Mockups on Home</title>
+    <link>//localhost:1313/promo/new-mockups/</link>
+    <description>Recent content in New Mockups on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <atom:link href="//localhost:1313/promo/new-mockups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kitten πετσέτα καθαρισμού 40Χ60cm</title>
+      <link>//localhost:1313/mockups/kitten/panakia/kitten-petseta-katharismou-60-40/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/kitten/panakia/kitten-petseta-katharismou-60-40/</guid>
+      <description>Εμπρόσθια &amp; Πίσω</description>
+    </item>
+    <item>
+      <title>Kitten υγρά Πανάκια 12 Τεμαχίων</title>
+      <link>//localhost:1313/mockups/kitten/panakia/kitten-ygra-panakia-12tem-front/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/kitten/panakia/kitten-ygra-panakia-12tem-front/</guid>
+      <description>Εμπρόσθια Όψη</description>
+    </item>
+    <item>
+      <title>Kitten υγρά Πανάκια 12 Τεμαχίων Πλευρές</title>
+      <link>//localhost:1313/mockups/kitten/panakia/kitten-ygra-panakia-12tem-sides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/kitten/panakia/kitten-ygra-panakia-12tem-sides/</guid>
+      <description>Πλευρές</description>
+    </item>
+  </channel>
+</rss>
