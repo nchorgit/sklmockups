@@ -8,6 +8,20 @@
     <language>el</language>
     <atom:link href="//localhost:1313/categories/%CE%B6%CF%85%CE%BC%CE%B1%CF%81%CE%B9%CE%BA%CE%AC/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Μαράτα ζυμαρικά 500g</title>
+      <link>//localhost:1313/mockups/marata/zimarika/marata-zimarika-500g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/marata/zimarika/marata-zimarika-500g/</guid>
+      <description>Εμπρόσθια &amp; Πίσω</description>
+    </item>
+    <item>
+      <title>Μαράτα ζυμαρικά Ολικής Άλεσης 500g</title>
+      <link>//localhost:1313/mockups/marata/zimarika/marata-zimarika-olikis-500g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/marata/zimarika/marata-zimarika-olikis-500g/</guid>
+      <description>Εμπρόσθια &amp; Πίσω</description>
+    </item>
+    <item>
       <title>Μαράτα Κριθαράκι Ολικής Άλεσης 500g</title>
       <link>//localhost:1313/mockups/marata/zimarika/marata-kritharaki-olikis-alesis-500g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -22,27 +36,6 @@
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
-      <title>Μαράτα Λαζάνια 500g</title>
-      <link>//localhost:1313/mockups/marata/zimarika/marata-lazania-500g/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/mockups/marata/zimarika/marata-lazania-500g/</guid>
-      <description>Εμπρόσθια &amp; Πίσω</description>
-    </item>
-    <item>
-      <title>Μαράτα Λιγκουίνι Ολικής Άλεσης 500g</title>
-      <link>//localhost:1313/mockups/marata/zimarika/marata-ligouini-olikis-alesis-500g/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/mockups/marata/zimarika/marata-ligouini-olikis-alesis-500g/</guid>
-      <description>Εμπρόσθια &amp; Πίσω</description>
-    </item>
-    <item>
-      <title>Μαράτα Μακαρόνια No3 500g</title>
-      <link>//localhost:1313/mockups/marata/zimarika/marata-makaronia-no3-500g/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/mockups/marata/zimarika/marata-makaronia-no3-500g/</guid>
-      <description>Εμπρόσθια &amp; Πίσω</description>
-    </item>
-    <item>
       <title>Μαράτα Μακαρόνια No5 500g</title>
       <link>//localhost:1313/mockups/marata/zimarika/marata-makaronia-no5-500g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -50,14 +43,14 @@
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
-      <title>Μαράτα Παστίτσιο No2 500g</title>
-      <link>//localhost:1313/mockups/marata/zimarika/marata-pastitsio-no2-500g/</link>
+      <title>Μαράτα Παστίτσιο No2 &amp; No3 500g</title>
+      <link>//localhost:1313/mockups/marata/zimarika/marata-makaronia-no2-no3-500g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/mockups/marata/zimarika/marata-pastitsio-no2-500g/</guid>
+      <guid>//localhost:1313/mockups/marata/zimarika/marata-makaronia-no2-no3-500g/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>
-      <title>Μαράτα Πένες Ολικής Άλεσης 500g</title>
+      <title>Μαράτα Πένες &amp; Βίδες Ολικής Άλεσης 500g</title>
       <link>//localhost:1313/mockups/marata/zimarika/marata-penes-olikis-alesis-500g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/mockups/marata/zimarika/marata-penes-olikis-alesis-500g/</guid>
@@ -68,20 +61,6 @@
       <link>//localhost:1313/mockups/marata/zimarika/marata-penes-vides-selino-500g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/mockups/marata/zimarika/marata-penes-vides-selino-500g/</guid>
-      <description>Εμπρόσθια &amp; Πίσω</description>
-    </item>
-    <item>
-      <title>Μαράτα Σπαγγέτι No6, No7 &amp; No10 500g</title>
-      <link>//localhost:1313/mockups/marata/zimarika/marata-spaggeti-no6-no7-no10-500g/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/mockups/marata/zimarika/marata-spaggeti-no6-no7-no10-500g/</guid>
-      <description>Εμπρόσθια &amp; Πίσω</description>
-    </item>
-    <item>
-      <title>Μαράτα Σπαγγέτι No7 Ολικής Άλεσης 500g</title>
-      <link>//localhost:1313/mockups/marata/zimarika/marata-spaggeti-no7-olikis-alesis-500g/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/mockups/marata/zimarika/marata-spaggeti-no7-olikis-alesis-500g/</guid>
       <description>Εμπρόσθια &amp; Πίσω</description>
     </item>
     <item>

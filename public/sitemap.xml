@@ -138,27 +138,21 @@
   </url><url>
     <loc>//localhost:1313/mockups/baker-master/baker-master-pites-front/</loc>
   </url><url>
+    <loc>//localhost:1313/mockups/marata/zimarika/marata-zimarika-500g/</loc>
+  </url><url>
+    <loc>//localhost:1313/mockups/marata/zimarika/marata-zimarika-olikis-500g/</loc>
+  </url><url>
     <loc>//localhost:1313/mockups/marata/zimarika/marata-kritharaki-olikis-alesis-500g/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/marata/zimarika/marata-kritharaki-kofto-koralli-500g/</loc>
   </url><url>
-    <loc>//localhost:1313/mockups/marata/zimarika/marata-lazania-500g/</loc>
-  </url><url>
-    <loc>//localhost:1313/mockups/marata/zimarika/marata-ligouini-olikis-alesis-500g/</loc>
-  </url><url>
-    <loc>//localhost:1313/mockups/marata/zimarika/marata-makaronia-no3-500g/</loc>
-  </url><url>
     <loc>//localhost:1313/mockups/marata/zimarika/marata-makaronia-no5-500g/</loc>
   </url><url>
-    <loc>//localhost:1313/mockups/marata/zimarika/marata-pastitsio-no2-500g/</loc>
+    <loc>//localhost:1313/mockups/marata/zimarika/marata-makaronia-no2-no3-500g/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/marata/zimarika/marata-penes-olikis-alesis-500g/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/marata/zimarika/marata-penes-vides-selino-500g/</loc>
-  </url><url>
-    <loc>//localhost:1313/mockups/marata/zimarika/marata-spaggeti-no6-no7-no10-500g/</loc>
-  </url><url>
-    <loc>//localhost:1313/mockups/marata/zimarika/marata-spaggeti-no7-olikis-alesis-500g/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/marata/zimarika/marata-tortelini-250g/</loc>
   </url><url>
@@ -467,6 +461,10 @@
     <loc>//localhost:1313/mockups/bonora/dimitriaka/bonora-dimitriaka-500g-mockup/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/bonora/dimitriaka/bonora-dimitriaka-dark-chocolate-375g-mockup/</loc>
+  </url><url>
+    <loc>//localhost:1313/mockups/bonora/dimitriaka/bonora-dimitriaka-protein-v1-500g/</loc>
+  </url><url>
+    <loc>//localhost:1313/mockups/bonora/dimitriaka/bonora-dimitriaka-protein-v2-500g/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/bonora/kafedes/bonora-greek-kafes-194g/</loc>
   </url><url>
@@ -816,7 +814,7 @@
   </url><url>
     <loc>//localhost:1313/mockups/</loc>
   </url><url>
-    <loc>//localhost:1313/promo/new/</loc>
+    <loc>//localhost:1313/promo/new-mockups/</loc>
   </url><url>
     <loc>//localhost:1313/promo/</loc>
   </url><url>
