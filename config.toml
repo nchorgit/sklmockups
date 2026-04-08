@@ -1,7 +1,8 @@
 baseURL = "/"
 languageCode = 'el'
 title = 'Home'
-pagination.pagerSize = "21"
+[pagination]
+  pagerSize = 21
 paginatePath = ""
 removePathAccents = false
 assetDir = "static"
