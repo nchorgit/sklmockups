@@ -86,6 +86,8 @@
   </url><url>
     <loc>//localhost:1313/mockups/marata/galata/marata-chocomoo-485ml/</loc>
   </url><url>
+    <loc>//localhost:1313/mockups/marata/epidorpia/marata-pudding-200g/</loc>
+  </url><url>
     <loc>//localhost:1313/mockups/marata/galata/marata-gala-bio-front-1l/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/marata/galata/marata-gala-bio-sides-1l/</loc>
@@ -652,6 +654,8 @@
   </url><url>
     <loc>//localhost:1313/promo/energy/</loc>
   </url><url>
+    <loc>//localhost:1313/promo/epidorpia/</loc>
+  </url><url>
     <loc>//localhost:1313/mockups/loipes-etiketes/filedem-taxini-350ml/</loc>
   </url><url>
     <loc>//localhost:1313/labels/fishermans-boat/</loc>
@@ -817,6 +821,8 @@
     <loc>//localhost:1313/promo/new-mockups/</loc>
   </url><url>
     <loc>//localhost:1313/promo/</loc>
+  </url><url>
+    <loc>//localhost:1313/promo/protein/</loc>
   </url><url>
     <loc>//localhost:1313/publication_types/</loc>
   </url><url>
@@ -1123,6 +1129,8 @@
     <loc>//localhost:1313/categories/%CE%B5%CE%BB%CE%B9%CE%AD%CF%82/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/xoris-etiketa/elies-kabassi-150g/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/%CE%B5%CF%80%CE%B9%CE%B4%CF%8C%CF%81%CF%80%CE%B9%CE%B1/</loc>
   </url><url>
     <loc>//localhost:1313/contact/</loc>
   </url><url>

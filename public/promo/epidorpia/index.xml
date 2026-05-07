@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Epidorpia on Home</title>
+    <link>//localhost:1313/promo/epidorpia/</link>
+    <description>Recent content in Epidorpia on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>el</language>
+    <atom:link href="//localhost:1313/promo/epidorpia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Μαράτα Pudding με 20g πρωτεΐνης 200g</title>
+      <link>//localhost:1313/mockups/marata/epidorpia/marata-pudding-200g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/marata/epidorpia/marata-pudding-200g/</guid>
+      <description>Εμπρόσθια &amp; Πλευρές</description>
+    </item>
+    <item>
+      <title>Μαράτα Γιαούρτι 2X200g Εμπρόσθια Όψη</title>
+      <link>//localhost:1313/mockups/marata/giaourtia/marata-giaourti-2x200g-front/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/marata/giaourtia/marata-giaourti-2x200g-front/</guid>
+      <description>Εμπρόσθια Όψη</description>
+    </item>
+    <item>
+      <title>Μαράτα Γιαούρτι 2X200g Προοπτική Προβολή</title>
+      <link>//localhost:1313/mockups/marata/giaourtia/marata-giaourti-2x200g-perspective/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/marata/giaourtia/marata-giaourti-2x200g-perspective/</guid>
+      <description>Προοπτική Προβολή</description>
+    </item>
+  </channel>
+</rss>
