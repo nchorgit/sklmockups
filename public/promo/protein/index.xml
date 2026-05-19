@@ -8,6 +8,13 @@
     <language>el</language>
     <atom:link href="//localhost:1313/promo/protein/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Μαράτα Pudding με 20g πρωτεΐνης 200g</title>
+      <link>//localhost:1313/mockups/marata/epidorpia/marata-pudding-200g/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/mockups/marata/epidorpia/marata-pudding-200g/</guid>
+      <description>Εμπρόσθια &amp; Πλευρές</description>
+    </item>
+    <item>
       <title>bonora δημητριακά protein version 1 500g</title>
       <link>//localhost:1313/mockups/bonora/dimitriaka/bonora-dimitriaka-protein-v1-500g/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
