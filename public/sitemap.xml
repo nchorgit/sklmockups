@@ -496,6 +496,8 @@
   </url><url>
     <loc>//localhost:1313/mockups/bonora/mpiskota/bonora-mpiskota-digestive-200g/</loc>
   </url><url>
+    <loc>//localhost:1313/mockups/bonora/mpiskota/bonora-mpiskota-vromis-195g/</loc>
+  </url><url>
     <loc>//localhost:1313/mockups/bonora/mpiskota/bonora-mpiskota-vromis-265g/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/bonora/mpiskota/bonora-mpiskota-gemista-500g/</loc>
@@ -1148,8 +1150,6 @@
   </url><url>
     <loc>//localhost:1313/categories/%CE%B6%CF%8D%CE%BC%CE%B5%CF%82/</loc>
   </url><url>
-    <loc>//localhost:1313/categories/%CE%B8%CF%85%CE%BC%CE%B9%CE%AC%CE%BC%CE%B1%CF%84%CE%B1/</loc>
-  </url><url>
     <loc>//localhost:1313/categories/%CE%BA%CE%B1%CE%B8%CE%B1%CF%81%CE%B9%CF%83%CF%84%CE%B9%CE%BA%CE%AC/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/xoris-etiketa/katharistiko-typou-ace-2l/</loc>
@@ -1330,8 +1330,6 @@
   </url><url>
     <loc>//localhost:1313/mockups/sklavenitis/etoima-faghta/sklavenitis-etoima-faghta-back/</loc>
   </url><url>
-    <loc>//localhost:1313/mockups/sklavenitis/thimiamata/sklavenitis-thimiamata/</loc>
-  </url><url>
     <loc>//localhost:1313/mockups/sklavenitis/kreata/sklavenitis-keftedakia/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/sklavenitis/kreata/sklavenitis-kimas-mosxou/</loc>
@@ -1351,8 +1349,6 @@
     <loc>//localhost:1313/mockups/sklavenitis/mpaxarika/sklavenitis-mpaxarika-size-1/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/sklavenitis/mpaxarika/sklavenitis-mpaxarika-size-2/</loc>
-  </url><url>
-    <loc>//localhost:1313/mockups/sklavenitis/mpaxarika/sklavenitis-mpaxarika-size-3/</loc>
   </url><url>
     <loc>//localhost:1313/mockups/sklavenitis/kreata/sklavenitis-mpifteki-politiko/</loc>
   </url><url>
